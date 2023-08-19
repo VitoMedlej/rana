@@ -33,10 +33,10 @@ const Preloader3 = ({res}:{res:any}) => {
             width:'100%',
             maxWidth:'lg',
             // maxWidth: 'lg',
-            minHeight:'450px',
-            maxHeight:{xs:'550px',sm:'80vh'},
+            minHeight:'500px',
+            maxHeight:{xs:'600px',sm:'90vh',md:'700px'},
             margin: '0 auto',
-            height : {xs:'100%',sm:'500px',md:'600px'},
+            height : {xs:'100%',sm:'550px',md:'650px'},
              
             display: {
                 xs: 'flex'
@@ -50,7 +50,7 @@ const Preloader3 = ({res}:{res:any}) => {
                 spaceBetween={0}
                 loop={true}
                 autoplay={{
-                delay: 2000,
+                delay: 3000,
                 disableOnInteraction: true
             }}
                 modules={[Autoplay]}

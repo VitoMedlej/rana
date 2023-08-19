@@ -35,7 +35,7 @@ export default function TemporaryDrawer({cates}:{cates:string[] | undefined}) {
 
   const Lista = () => (
     <Box
-      sx={{ minWidth:'250px', width:  {xs:'100%',sm:'300px',md:'400px'},py:1 }}
+      sx={{zIndex:123456789, minWidth:'250px', width:  {xs:'100%',sm:'300px',md:'400px'},py:1 }}
       role="presentation"
       // onClick={toggleDrawer( false)}
       // onKeyDown={toggleDrawer( false)}
