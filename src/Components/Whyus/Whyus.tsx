@@ -31,16 +31,17 @@ const Whyus = () => {
             <Title sx={{color:'white',textAlign:'center'}}>
                 Why Us
             </Title>
-            <Box sx={{width:'100%',justifyContent:'space-between'}} className="flex wrap ">
+            <Box
+             sx={{width:'100%',justifyContent:{xs:'center',sm:'space-between'},flexDirection:{xs:'column',sm:'row'}}} className="flex wrap center auto items-center ">
 
             {
                 reasons.map(i=>{
                     return <Box key={i.title} className='flex center col' sx={{minWidth:'100px',width:{xs:'48%',sm:'32%'},mt:6,flex:1,alignItems:'center'}}>
                             <i.icon fontSize={'3em'} color='white' />
-                        <Typography sx={{fontSize:'1.5em',fontWeight:600,color:'white'}}>
+                        <Typography sx={{textAlign:'center',fontSize:'1.5em',fontWeight:600,color:'white'}}>
                             {i.title}
                         </Typography>
-                        <Typography sx={{fontSize:'.8em',color:'white'}}>
+                        <Typography sx={{textAlign:'center',fontSize:'.8em',color:'white'}}>
                         {i.desc}
 
                         </Typography>
