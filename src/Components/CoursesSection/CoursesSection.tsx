@@ -11,6 +11,7 @@ import { useRouter } from 'next/navigation'
 const courses = [
   {
     img : `https://ucarecdn.com/dbca4ad9-45cb-4f16-83ec-8cb7f8b4a7b0/357500049_762990498939611_1463081558139298326_n.webp`
+    
   },
   {
     img :`https://ucarecdn.com/314f202d-9f04-4828-90d1-794c1201e041/346518887_6290293551036763_3530198153954500771_n.webp"`

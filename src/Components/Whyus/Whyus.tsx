@@ -41,10 +41,10 @@ const Whyus = () => {
                         <Typography sx={{textAlign:'center',fontSize:'1.5em',fontWeight:600,color:'white'}}>
                             {i.title}
                         </Typography>
-                        <Typography sx={{textAlign:'center',fontSize:'.8em',color:'white'}}>
+                        {/* <Typography sx={{textAlign:'center',fontSize:'.8em',color:'white'}}>
                         {i.desc}
 
-                        </Typography>
+                        </Typography> */}
                     </Box>
                 })
             }

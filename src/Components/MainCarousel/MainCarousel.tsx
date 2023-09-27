@@ -68,7 +68,7 @@ const Preloader3 = ({res}:{res:any}) => {
                                 height: '100%',
                             width:'100%'
                         }}>
-                            <Box sx={{top:0,right:0,width:'100%',zIndex:1123,height:'100%',background:'black',opacity:.43}} className="absolute">
+                            <Box sx={{top:0,right:0,width:'100%',zIndex:1123,height:'100%',background:'black',opacity:.55}} className="absolute">
 
                             </Box>
                             <Box sx={{

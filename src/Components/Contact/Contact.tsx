@@ -1,6 +1,6 @@
 "use client"
 
-import { Box, TextField, Typography } from '@mui/material'
+import { Box, MenuItem, Select, TextField, Typography } from '@mui/material'
 import React, { useRef, useState } from 'react'
 import Title from '../Title'
 import {AiFillAudio} from 'react-icons/ai'
@@ -13,6 +13,9 @@ const Contact = () => {
         setEmail] = useState('')
         const [Phone, setPhone] = useState('')
   const [FirstName, setFirstName] = useState('')
+  const [CourseName, setCourse] = useState('Course Name 1')
+
+  
   const [Message, setMessage] = useState('')
     const sendMessage = async(e : any) => {
   
@@ -99,9 +102,7 @@ Have any questions?
           }} className='flex space-between wrap'>
              
               <TextField 
-              
               value={FirstName}
-
               onChange={(e)=>setFirstName(e?.target?.value)} 
               name={'FullName'} sx={{"& .MuiInputBase-input": {
                 backgroundColor: "white"
@@ -114,6 +115,18 @@ Have any questions?
                     backgroundColor: "white"
                   },
                 width:'99%',py:1}} type='email' placeholder='Email'/>
+                <Select
+                value={CourseName}
+                name={'Course-name'} onChange={(e)=>setCourse(e?.target?.value)} variant='outlined' sx={{
+                  "& .MuiInputBase-input": {
+                      backgroundColor: "white"
+                    },
+                  width:'99%',py:1}} type='email' placeholder='Email'
+                >
+                <MenuItem value={'Course Name 1'}>Course Name1</MenuItem>
+                <MenuItem value={'namer'}>Course Name 2</MenuItem>
+                <MenuItem value={'namer'}>Course Name 3</MenuItem>
+                </Select>
               <TextField name={'Phone'} 
               value={Phone}
 

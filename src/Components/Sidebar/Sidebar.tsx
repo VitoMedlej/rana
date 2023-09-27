@@ -47,9 +47,9 @@ export default function TemporaryDrawer({cates}:{cates:string[] | undefined}) {
       
       >
         <Box>
-          <Typography sx={{fontWeight:300}}>
+          {/* <Typography sx={{fontWeight:300}}>
             Side Bar
-          </Typography>
+          </Typography> */}
         </Box>
     <Divider light></Divider>
 

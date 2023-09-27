@@ -5,7 +5,7 @@ import '@/Styles/Footer.css'
 import { useRouter } from 'next/navigation';
 // import SMicons from './SMicons';
 // // import Logo from '../../assets/icons/logo';
-
+import {CiFacebook,CiInstagram,CiLinkedin} from 'react-icons/ci'
 
 const Footer = () => 
 {
@@ -36,7 +36,19 @@ const Footer = () =>
           <Typography component='p' sx={{ fontWeight:700,fontSize: '1.2em' ,color:'white' }}  className='footer-p  '>
           Join us at CivilenGuide and embark on a journey of engineering excellence. Whether you&apos;re seeking top-tier engineering services, professional training, or a community of driven individuals, we&apos;re here to guide you. With our authorized certified instructors, cutting-edge software skills enhancement, and a thriving network of 1200+ students, we&apos;re committed to shaping the future of civil engineering in Lebanon and beyond.
           </Typography>
-          {/* <SMicons/> */}
+          <Box className='flex' sx={{mt:1}}>
+          <Box className='cursor pointer'  sx={{width:'50px'}}>
+              <CiFacebook fill='white !important' color='white'></CiFacebook>
+            </Box>
+            <Box className='cursor pointer' sx={{width:'50px'}}>
+              <CiInstagram></CiInstagram>
+            </Box>
+            <Box className='cursor pointer' sx={{width:'50px'}}>
+              <CiLinkedin></CiLinkedin>
+            </Box>
+            
+            
+          </Box>
 
           {/* <ul className="site-footer__social-networks">
           <li><a href="https://www.facebook.com/profile.php?id=100063581229923" rel="noreferrer" target='_blank'><i className="icon-facebook"></i></a></li>

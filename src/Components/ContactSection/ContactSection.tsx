@@ -1,6 +1,6 @@
 "use client"
 
-import { Box, Grid, TextField, Typography } from '@mui/material'
+import { Box, Grid, MenuItem, Select, TextField, Typography } from '@mui/material'
 import React, { useRef, useState } from 'react'
 import Btn from '../Btn/Btn';
 
@@ -12,6 +12,8 @@ const ContactSection = () => {
         setEmail] = useState('')
         const [Phone, setPhone] = useState('')
   const [FirstName, setFirstName] = useState('')
+  const [CourseName, setCourse] = useState('Course Name 1')
+
   const [Message, setMessage] = useState('')
     const sendMessage = async(e : any) => {
   
@@ -44,7 +46,7 @@ const ContactSection = () => {
       if (res?.status && form?.current) {
         form?.current?.reset()
         setFirstName('')
-      setPhone('')
+        setPhone('')
           setMessage('')
   }
   };
@@ -102,6 +104,8 @@ const ContactSection = () => {
                     backgroundColor: "white"
                   }, margin :'0 auto',
                 width:{xs:'95%',sm:'99%'},py:1}} type='email' placeholder='Email'/>
+
+                
               <TextField name={'Phone'} 
               value={Phone}
 
@@ -111,6 +115,19 @@ const ContactSection = () => {
                     backgroundColor: "white"
                   }, margin :'0 auto',
                 width:{xs:'95%',sm:'99%'},py:1}} placeholder='Phone Number'/>
+             
+             <Select
+                value={CourseName}
+                name={'Course-name'} onChange={(e)=>setCourse(e?.target?.value)} variant='outlined' sx={{
+                  "& .MuiInputBase-input": {
+                      backgroundColor: "white"
+                    },
+                  width:'99%',py:1}} type='email' placeholder='Email'
+                >
+                <MenuItem value={'Course Name 1'}>Course Name1</MenuItem>
+                <MenuItem value={'namer'}>Course Name 2</MenuItem>
+                <MenuItem value={'namer'}>Course Name 3</MenuItem>
+                </Select>
               <TextField 
               value={Message}
               onChange={(e)=>setMessage(e?.target?.value)} 
