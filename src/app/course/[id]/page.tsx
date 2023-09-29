@@ -1,16 +1,25 @@
 "use client"
 import Btn from '@/Components/Btn/Btn'
 import ContentList from '@/Components/ContentList/ContentList'
+import { courses } from '@/Components/CoursesSection/CoursesSection'
 import Title from '@/Components/Title'
 import { Box, Divider, Grid, Typography } from '@mui/material'
+import { useParams, useRouter } from 'next/navigation'
 import React from 'react'
 
 const Index = () => {
+  const router = useRouter() 
+  const {id} = useParams()
+  console.log('id: ', id);
+  console.log('router: ', router);
+  const course = courses.find(i=>Number(i.id) === Number(id))
+  console.log('course: ', course);
+  if (!course) return <Box>Course Not Found</Box>
   return (
     <Grid maxWidth={'xl'} container sx={{my:12}}>
     
         <Grid item xs={12} sm={8}>
-            <Title>SOLIDWORKS - Practical Approach</Title>
+            <Title>{course.name}</Title>
              
             <ContentList/>
                 
