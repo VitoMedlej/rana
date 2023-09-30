@@ -21,7 +21,7 @@ const Index = () => {
         <Grid item xs={12} sm={8}>
             <Title>{course.name}</Title>
              
-            <ContentList/>
+            <ContentList summaryContent={course.summaryContent ? course.summaryContent : ['']}/>
                 
             
         </Grid>
@@ -34,7 +34,7 @@ const Index = () => {
               <Box sx={{height:'250px'}}>
                 <img
                 style={{borderRadius:0}}
-                src="https://ucarecdn.com/b722c40b-8fd5-490f-9f26-21b25ebd27f5/361578304_832298595216125_7174396604028158067_n.webp"
+                src={`${course.img}`}
                 
                 alt="" className="img contain" />
               </Box>
@@ -43,24 +43,30 @@ const Index = () => {
 
                 <strong>Prices:</strong>
               </Typography>
-              <Typography sx={{color:'black'}}>
+              {/* <Typography sx={{color:'black'}}>
 
-                  1 Person: $60
+                  1 Person: ${course.price}
                 </Typography>
                 <Typography sx={{color:'black'}}>
                   1-5 Persons: $50
                 </Typography>
                 <Typography sx={{color:'black'}}>
                   5 & above Persons: $40
+                </Typography> */}
+              <Typography sx={{color:'black'}}>
+
+                {
+                  course?.coursePrice['1 person']
+                }
                 </Typography>
                 <Divider sx={{my:1}} light></Divider>
-                <Box >
-
+                <Box>
                       <Typography sx={{color:'black'}}>
-
                 <strong>Duration:</strong>
                 {' '}
-                7.5hrs (5 sessions)
+              {course.duration}  
+          
+              
               </Typography>
                 </Box>
                  <Divider sx={{my:1}} light></Divider>
@@ -70,16 +76,16 @@ const Index = () => {
 
                 <strong>Software ver. pref.:</strong>
                 {' '}
-                2017 +
+               {course.softwareVersionPreference}
               </Typography>
                 </Box>
                 <Btn sx={{mt:2}}>
                   Buy NOW
                 </Btn>
               </Box>
-              <Box>
+              {/* <Box>
 
-              </Box>
+              </Box> */}
             </Box>
           </Grid>
     </Grid>

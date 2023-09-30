@@ -15,10 +15,8 @@ import Title from '../Title';
 
 
 
-const content = [
-    `Full building analysis  Wind study  Seismic simulations`,`Full design and result extraction ` ,`Rebar for all elements ` ,`Displacement and deflections  Foundation design  `,`All type of slabs analysis (1 way /2 ways/ Waffle Slab/ Hourdis, etc.) ` ,`Structural element detailing`,  `Drawings extraction using Sconcrete`
-]
-export default function BasicList() {
+
+export default function BasicList({summaryContent}:{summaryContent:string[]}) {
   return (
     <Box sx={{ mt:4,mx:1,  maxWidth: '900px', bgcolor: 'background.paper' }}>
    <Typography className='clr' sx={{mx:1,fontWeight:'600',pb:1,fontSize:'.98em'}}>
@@ -28,7 +26,7 @@ export default function BasicList() {
         <List>
 
         {
-            content.map((item,index)=>{
+            summaryContent.map((item,index)=>{
 
             
      return     <ListItem key={item} >
