@@ -40,7 +40,7 @@ export default function BasicList({summaryContent}:{summaryContent:string[]}) {
     }
         </List>
       </Paper>
-    <Box sx={{my:8}}>
+    {/* <Box sx={{my:8}}>
 
       <Title >
         About This Course
@@ -48,7 +48,7 @@ export default function BasicList({summaryContent}:{summaryContent:string[]}) {
       <Typography sx={{mx:1}}>
       Embark on an immersive journey through our Essentials of Interior Design Workshop and unlock the secrets to creating captivating and functional spaces. This comprehensive workshop covers all aspects of interior design, from space planning and furniture arrangement to color psychology and lighting techniques.
       </Typography>
-    </Box>
+    </Box> */}
 
     </Box>
   );

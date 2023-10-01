@@ -108,8 +108,8 @@ const CoursesSection = () => {
           onClick={()=>router.push(`/course/${i}`)}
             
             sx={{mt:1,fontSize:'1.32em',fontWeight:600}}>{i.name} </Typography>
-            <Typography sx={{fontSize:'.8em',py:.35}}>{i.duration}hrs</Typography>
-            <Typography sx={{fontWeight:600,fontSize:'1.1em'}}>${i.coursePrice['1 person']}</Typography>
+            <Typography sx={{fontSize:'.8em',py:.35}}>{i.duration}</Typography>
+            <Typography sx={{fontWeight:600,fontSize:'1.1em'}}>{i.coursePrice['1 person']}</Typography>
         </Box>
 </Box>})}
 <Box sx={{width:'100%'}} className="flex">
