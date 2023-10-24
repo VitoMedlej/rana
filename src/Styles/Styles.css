@@ -29,18 +29,6 @@ body {
      object-fit: cover;
 }
 
-.MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline {
-  border: none;
-}
-
-.MuiOutlinedInput-notchedOutline, .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
-  border: none;
-}
-
-.MuiOutlinedInput-notchedOutline .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
-  border: none;
-}
-
 .flex {
   display: flex;
 }

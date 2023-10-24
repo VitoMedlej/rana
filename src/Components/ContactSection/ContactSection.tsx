@@ -55,26 +55,27 @@ const ContactSection = () => {
       boxShadow: `rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px`,
       
       maxWidth:{xs:'98%',lg:'1000px'},transform:{xs:'translateY(-5%)',sm:'translateY(-8%)',md:'translateY(-15%)'},zIndex:1234}} className='auto relative'>
-        <Grid className='bg' sx={{
+        <Grid className='' sx={{
           borderTopLeftRadius:'20px',
+          background:'white',
           borderTopRightRadius:{xs:'20px',md:0}}} item xs={12} md={8} >
             <Box
                 sx={{
+
                     display: 'flex',
                     flexDirection: 'column',
                     justifyContent: 'center',
-                    color:'white',
                     py:3,
                     px:1,
                 }}
             >
                 <Typography component='h2' sx={{
                     
-                    color:'white',fontSize:'1.85em',pt:4,textAlign:'center',fontWeight:600}}>
-                    Sign up today and get %20 off
+                   fontSize:'1.85em',pt:4,textAlign:'center',fontWeight:600}}>
+                 Join the CivilEnGuide Community
                 </Typography>
-                <Typography component='h2' sx={{color:'white',mb:2,textAlign:'center',fontSize:'1.1em',fontWeight:400}}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <Typography className='center auto' component='h2' sx={{mb:2,maxWidth:'500px',textAlign:'center',fontSize:'1.1em',fontWeight:200}}>
+                Ready to shape the future of engineering? Submit your details and let’s get started!
                 </Typography>
 
                 <Box ref={form} onSubmit={(e)=>sendMessage(e)} component='form' sx={{gap:1,
@@ -90,16 +91,14 @@ const ContactSection = () => {
               value={FirstName}
 
               onChange={(e)=>setFirstName(e?.target?.value)} 
-              name={'FullName'} sx={{"& .MuiInputBase-input": {
-                backgroundColor: "white",
-              },
+              name={'FullName'} sx={{
               margin :'0 auto'
               
-              ,width:{xs:'95%',sm:'99%'},py:1}} variant='filled' placeholder='First Name'/>
+              ,width:{xs:'95%',sm:'99%'},py:1}} variant='outlined' placeholder='First Name'/>
          
              
              
-              <TextField name={'Email'} onChange={(e)=>setEmail(e?.target?.value)} variant='filled' sx={{
+              <TextField name={'Email'} onChange={(e)=>setEmail(e?.target?.value)} variant='outlined' sx={{
                 "& .MuiInputBase-input": {
                     backgroundColor: "white"
                   }, margin :'0 auto',
@@ -110,7 +109,7 @@ const ContactSection = () => {
               value={Phone}
 
               onChange={(e)=>setPhone(e?.target?.value)} 
-              variant='filled' sx={{
+              variant='outlined' sx={{
                 "& .MuiInputBase-input": {
                     backgroundColor: "white"
                   }, margin :'0 auto',
@@ -119,10 +118,8 @@ const ContactSection = () => {
              <Select
                 value={CourseName}
                 name={'Course-name'} onChange={(e)=>setCourse(e?.target?.value)} variant='outlined' sx={{
-                  "& .MuiInputBase-input": {
-                      backgroundColor: "white"
-                    },
-                  width:'99%',py:1}} type='email' placeholder='Email'
+                  margin :'0 auto',
+                    width:{xs:'95%',sm:'99%'},py:1}} type='email' placeholder='Email'
                 >
                 <MenuItem value={'Course Name 1'}>Course Name1</MenuItem>
                 <MenuItem value={'namer'}>Course Name 2</MenuItem>
@@ -132,14 +129,14 @@ const ContactSection = () => {
               value={Message}
               onChange={(e)=>setMessage(e?.target?.value)} 
               
-              name={'Message'}  variant='filled' sx={{
+              name={'Message'}  variant='outlined' sx={{
                 "& .MuiInputBase-input": {
                     backgroundColor: "white"
                   }, margin :'0 auto',
                 width:{xs:'95%',sm:'99%'},py:1}} placeholder='Message'/>
               <Btn
    submit
- sx={{background:'transparent',margin:'1em auto',border:'1px solid',width:{xs:'95%',sm:'99%'},mt:2,color:'white'}}>
+ sx={{margin:'1em auto',border:'1px solid',width:{xs:'95%',sm:'99%'},mt:2}}>
                 <Typography>
                     Send Message
                 </Typography>
@@ -166,7 +163,7 @@ const ContactSection = () => {
                     About Us
                 </Typography>
                 <Typography sx={{textAlign:'center',px:1,}}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus culpa maxime pariatur porro in atque!
+                    We combine innovation, precision, and creativity to deliver solutions that meet and exceed your expectations. Join our community of 1200+ students and clients and shape the future of civil engineering with us.
                 </Typography>
             </Box>
         </Grid>

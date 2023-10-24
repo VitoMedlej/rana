@@ -4,7 +4,7 @@ import React from 'react'
 
 const Title = ({children,sx}:{sx?:any,children:any}) => {
   return (
-    <Typography sx={{my:1,fontSize:{xs:'2em',sm:'2.5em'},fontWeight:600,px:1,...sx}}>{children}</Typography>
+    <Typography sx={{my:1,fontSize:{xs:'1.7em',sm:'1.8em'},fontWeight:400,px:1,...sx}}>{children}</Typography>
   )
 }
 

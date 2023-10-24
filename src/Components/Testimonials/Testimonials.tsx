@@ -28,26 +28,21 @@ const Testimonial = () => {
     const tests = [
         {
             title : `I just love it! -`,
-            reviewer:`“(Zekra Advertising Specialist)`,
-            description : `We’re a local business and most of our clients are 
-            Lebanese. What I love about
-             the site is that it supports both arabic and english at the same time.`
+            reviewer:`“(Georges Farah)`,
+            description : `I enrolled in CivilEnGuide's architectural course, and it was an absolute game-changer for my career. The instructors were not only knowledgeable but also incredibly supportive. The hands-on training and industry insights were invaluable. Thanks to CivilEnGuide, I've seen a significant improvement in my skills, and I now have the confidence to tackle complex design projects.`
         },
         {
             title :`I knew I made the right choice - `,
-            reviewer:`”(Yehya, Co-Founder of Teentops)`,
-            description : `I was so impressed with the shop they built for me - it was so easy 
-            to use! And when they built my 
-            Android app, I knew I made the right choice. No regrets at all.
+            reviewer:`”(Mohamad Baydoun
+                )`,
+            description : `I can't express how pleased I am with the corporate engineering training we received from CivilEnGuide. The customized program for our team was spot on, and it immediately had a positive impact on our projects. The trainers were experts in their fields, and their practical approach made all the difference. We're grateful for the partnership with CivilEnGuide and the enhancement it brought to our team's capabilities.
             `
         },
         
         {
             title :`They made it work perfectly - `,
-            reviewer:`”(Powerhouse’s Owner)`,
-            description : `OnBeirut really came through for me. I was worried that my huge inventory 
-            would be too much for the site to handle, 
-            but they made it work perfectly. I’m so grateful for them.`
+            reviewer:`”(Maya Semaan)`,
+            description : `CivilEnGuide's engineering courses have been a turning point in my career. The comprehensive curriculum, coupled with the support and mentorship, helped me gain a deeper understanding of the industry. What's remarkable is the emphasis on real-world applications. I now feel well-prepared to excel in the engineering field, and I'm grateful for the career opportunities that have opened up thanks to CivilEnGuide.`
         }
        
     ]
@@ -55,7 +50,7 @@ const Testimonial = () => {
     <Box className=' flex wrap  ' sx={{width:'100%',height:'100%'}}>
  <Box className='flex col'  sx={{flex:1,width:'100%',pt:'6em'}}>
        <Title>
-        WHAT OUR CLIENTS SAY
+        Feedbacks
        </Title>
             </Box>
        <Box
@@ -82,7 +77,7 @@ const Testimonial = () => {
             }}
                 // navigation={true}
                 spaceBetween={10}
-                slidesPerView={2}
+                slidesPerView={1}
                 breakpoints={
  {// when window width is >= 320px
  320: {
@@ -91,14 +86,19 @@ const Testimonial = () => {
   },
   // when window width is >= 480px
   480: {
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 20
   },
   // when window width is >= 640px
   640: {
+    slidesPerView: 2,
+    spaceBetween: 20
+  },
+  840: {
     slidesPerView: 3,
     spaceBetween: 20
-  }}
+  }
+}
 
                 }
                 // modules={[ Autoplay, Pagination]}

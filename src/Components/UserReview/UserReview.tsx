@@ -30,10 +30,11 @@ const UserReview = ({title,reviewer,description}:{title:string,reviewer:string,d
             // className='clr'
                 sx={{
                     // color:'#f8f8f8',
-                fontWeight: 500,
+                fontWeight: 300,
+                
                     maxWidth:'500px',
                 pt: 1,
-                fontSize: 17
+                fontSize: 14
             }}
                 component={'p'}>{description}</Typography>
                  <Typography

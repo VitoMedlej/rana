@@ -79,13 +79,13 @@ const Preloader3 = ({res}:{res:any}) => {
                                 zIndex:123456,
                                 position:'absolute'}}>
                                 <Typography sx={{color:'white',fontSize:{xs:'1.95em',sm:'2.5em',md:'3em'},fontWeight:600}}>
-                                TAKE CONTROL OF YOUR AEC BUSINESS!
+                                Engineering Excellence for the Future
                                 </Typography>
                                 <Typography sx={{color:'white',fontSize:{xs:'.75em',sm:'.9em'},mt:1,maxWidth:'500px'}}>
-                                ENGINEER&apos;S SOFT SKILLS ACCELERATOR is a 20-hour practical training program. It will enhance your professional.
+                               Whether you need design engineering services, certified courses, or corporate training, CivilEnGuide is your trusted partner in engineering excellence. 
                                 </Typography>
-                                <Btn  sx={{mt:3,width:'220px'}}>
-                                    button
+                                <Btn onClick={()=>router.push('/about')} sx={{mt:3,width:'220px'}}>
+                                Learn More
                                 </Btn>
                             </Box>
                             <img

@@ -36,19 +36,7 @@ const Footer = () =>
           <Typography component='p' sx={{ fontWeight:700,fontSize: '1.2em' ,color:'white' }}  className='footer-p  '>
           Join us at CivilenGuide and embark on a journey of engineering excellence. Whether you&apos;re seeking top-tier engineering services, professional training, or a community of driven individuals, we&apos;re here to guide you. With our authorized certified instructors, cutting-edge software skills enhancement, and a thriving network of 1200+ students, we&apos;re committed to shaping the future of civil engineering in Lebanon and beyond.
           </Typography>
-          <Box className='flex' sx={{mt:1}}>
-          <Box className='cursor pointer'  sx={{width:'50px'}}>
-              <CiFacebook fill='white !important' color='white'></CiFacebook>
-            </Box>
-            <Box className='cursor pointer' sx={{width:'50px'}}>
-              <CiInstagram></CiInstagram>
-            </Box>
-            <Box className='cursor pointer' sx={{width:'50px'}}>
-              <CiLinkedin></CiLinkedin>
-            </Box>
-            
-            
-          </Box>
+        
 
           {/* <ul className="site-footer__social-networks">
           <li><a href="https://www.facebook.com/profile.php?id=100063581229923" rel="noreferrer" target='_blank'><i className="icon-facebook"></i></a></li>
@@ -93,6 +81,20 @@ const Footer = () =>
 
             <li><a href="https://www.instagram.com/civilenguide/" target="_blank" rel="noreferrer" >civilenguide Instagram</a></li>
             <li><a href={'https://wa.me/76561580'} rel="noreferrer" target='_blank' >{` +961 76561580 `}</a></li>
+            
+      <Box className='flex' sx={{fill:'white',mt:1}}>
+          <Box className='cursor pointer white'  sx={{width:'50px'}}>
+              <CiFacebook fontSize='2em' fill='white !important' color='white'></CiFacebook>
+            </Box>
+            <Box fontSize='2em' className='cursor pointer' sx={{width:'50px'}}>
+              <CiInstagram></CiInstagram>
+            </Box>
+            <Box fontSize='2em' className='cursor pointer' sx={{width:'50px'}}>
+              <CiLinkedin></CiLinkedin>
+            </Box>
+            
+            
+          </Box>
           </ul>
         </div>
       </div>
