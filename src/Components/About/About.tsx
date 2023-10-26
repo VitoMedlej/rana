@@ -23,7 +23,7 @@ const About = () => {
       
                                    
                                 <Btn 
-                                onClick={()=>router.push('/about')}
+                                onClick={()=>router.push('/about-us')}
                                 className='bg white borderColor' sx={{mt:3,mb:{xs:6,sm:0}}}>
                               Discover Our Story
                                 </Btn>

@@ -2,6 +2,7 @@
 import Btn from '@/Components/Btn/Btn'
 import Title from '@/Components/Title'
 import { Box, Grid, Typography } from '@mui/material'
+import { useRouter } from 'next/navigation'
 import React from 'react'
 import {AiFillContacts} from 'react-icons/ai';
 
@@ -32,6 +33,8 @@ const reasons= [
 ]
 
 const Index = () => {
+    const router = useRouter()
+
   return (
     <Box sx={{pb:8}}>
     <Box sx={{minHeight:'500px'}}>
@@ -59,13 +62,15 @@ const Index = () => {
                                 margin :'0 auto',
                                 position:'absolute'}}>
                              <Typography sx={{textAlign:'center',color:'white',fontSize:{xs:'1.95em',sm:'2.5em',md:'3em'},fontWeight:600}}>
-                                TAKE CONTROL OF YOUR AEC BUSINESS!
+                             Redefining Excellence in Engineering and Architecture
                                 </Typography>
                                 <Typography sx={{color:'white',textAlign:'center',fontSize:{xs:'.75em',sm:'.9em'},mt:1,maxWidth:'500px'}}>
-                                ENGINEER&apos;S SOFT SKILLS ACCELERATOR is a 20-hour practical training program. It will enhance your professional.
+                                Whether you are looking for design engineering, certified courses, or corporate training, CivilEnGuide has the right solution for you.
                                 </Typography>
-                                <Btn sx={{mt:3,width:'220px'}}>
-                                    button
+                                <Btn
+                                onClick={()=>router.push('/about-us')}
+                                sx={{mt:3,width:'220px'}}>
+                                Contact Us Now
                                 </Btn>
                             </Box>
                             <Box sx={{height:'500px',width:'100%'}}>
@@ -129,26 +134,30 @@ const Index = () => {
         <Grid sx={{mt:{sm:16}}} className='flex bg white center items-center' item xs={12} sm={6}>
             <Box sx={{px:1,py:8}}>
             <Title sx={{color:'white'}}>
-            BROWESE OUR LATEST COURSES
+            Why Choose CivilEnGuide for Your Engineering and Architecture Needs
                 </Title>
                 <Typography sx={{color:'white',mx:1,mt:1}}>
-                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore laudantium iusto excepturi! Recusandae sunt reprehenderit autem suscipit, repellat quibusdam eligendi sed quod. Velit, quam sit!
+                CivilEnGuide is more than just a company. We are a community of professionals who share a vision to redefine excellence in engineering and architecture in Lebanon and the Middle East.
                 </Typography>
                 <Typography sx={{color:'white',mx:1,mt:1}}>
-                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore laudantium iusto excepturi! Recusandae sunt reprehenderit autem suscipit, repellat quibusdam eligendi sed quod. Velit, quam sit!
+                We have a proven track record of success, serving over 1200 customers and partnering with more than 15 companies since 2016.
                 </Typography>
-                <Btn v2  sx={{color:'white',mx:1,my:3}}>
-                    REGISTER NOW
+               
+                <Btn
+                                onClick={()=>router.push('/')}
+                
+                v2  sx={{color:'white',mx:1,my:3}}>
+                Get a Free Quote
                 </Btn>
             </Box>
         </Grid>
     </Grid>
     <Box className='center ' sx={{mt:16}}>
                 <Title sx={{textAlign:'center'}}>
-                BROWESE OUR LATEST COURSES
+                Experience Innovation with CivilEnGuide
                 </Title>
-                <Typography className='auto' sx={{color:'black',maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati debitis incidunt doloremque. Dignissimos, laboriosam odit? Hic sunt, architecto distinctio beatae minus impedit sit eligendi animi sapiente eum provident quia magni alias saepe ut! Quis officiis dolorem ipsa consectetur! Saepe quisquam quod quibusdam amet dolorem ipsum explicabo incidunt inventore nesciunt voluptates!
+                <Typography className='auto' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
+                We believe in turning ideas into reality. Since our inception in 2016, we have been committed to redefining excellence in engineering and architecture across Lebanon and the Middle East. We have successfully served over 1200 customers and partnered with more than 15 companies, offering a range of services from design engineering to certified courses and corporate training. Our team of professionals is dedicated to ensuring quality and client satisfaction.
                 </Typography>
     </Box>
     </Box>

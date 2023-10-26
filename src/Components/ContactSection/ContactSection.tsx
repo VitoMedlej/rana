@@ -51,7 +51,7 @@ const ContactSection = () => {
   }
   };
   return (
-    <Grid container sx={{
+    <Grid id='register' container sx={{
       boxShadow: `rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px`,
       
       maxWidth:{xs:'98%',lg:'1000px'},transform:{xs:'translateY(-5%)',sm:'translateY(-8%)',md:'translateY(-15%)'},zIndex:1234}} className='auto relative'>

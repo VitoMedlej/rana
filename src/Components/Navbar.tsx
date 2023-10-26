@@ -115,7 +115,9 @@ export default function Navbar() {
  
 
                    
- <Btn v2 sx={{mr:2}}>
+ <Btn 
+ onClick={()=>router.push('/#register')}
+ v2 sx={{mr:2}}>
                             Register
                         </Btn>
 
