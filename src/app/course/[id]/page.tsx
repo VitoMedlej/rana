@@ -5,15 +5,24 @@ import { courses } from '@/Components/CoursesSection/CoursesSection'
 import Title from '@/Components/Title'
 import { Box, Divider, Grid, Typography } from '@mui/material'
 import { useParams, useRouter } from 'next/navigation'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Index = () => {
   const router = useRouter() 
+  const [course,setCourse] = useState<any>(null)
   const {id} = useParams()
-  console.log('id: ', id);
-  console.log('router: ', router);
-  const course = courses.find(i=>Number(i.id) === Number(id))
-  console.log('course: ', course);
+  const selector = () => {
+    const crs = courses.find(i=>Number(i.id) === Number(id))
+    if (crs) {
+      setCourse(crs)
+    }
+  }
+  useEffect(() => {
+    
+    selector()
+  }, [id])
+  
+
   if (!course) return <Box>Course Not Found</Box>
   return (
     <Grid maxWidth={'xl'} container sx={{my:12}}>

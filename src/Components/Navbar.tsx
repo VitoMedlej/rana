@@ -4,12 +4,10 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
-import { useEffect, useState} from 'react';
 import Link from 'next/link';
-import {Badge, Divider, Typography} from '@mui/material';
 import {useRouter} from 'next/navigation';
 import {IoBagOutline ,IoMenuOutline} from 'react-icons/io5'
-import { useCartContext, useDrawerContext } from '@/context/Context';
+import { useDrawerContext } from '@/context/Context';
 import NavBottom from './Sidebar/NavBottom';
 import Btn from './Btn/Btn';
 
