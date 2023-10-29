@@ -13,7 +13,7 @@ export const courses = [
   {
     images : [''],
     img : `https://ucarecdn.com/972c6818-0439-4174-8f05-da60ca4c0acb/WhatsAppImage20230928at114028_72874c6a.jpg`
-    ,id:1,
+    ,id:`FK0941MCDMFFNF`,
     name: "Etabs-Safe-Sconcrete: (Live & Recorded)",
     duration: "7.5 hours (5 sessions)",
     softwareVersionPreference: "2017 +",
@@ -65,9 +65,124 @@ export const courses = [
       "Load cases and Combinations/Structural elements design"
   ],
   img : `https://ucarecdn.com/f21026d4-299c-4d86-b070-a4bbc64ce0ff/WhatsAppImage20230928at114343_ba8ed910.jpg`
-  ,id:2,
+  ,id:'KMFK24NK512CKF',
 },
 {
+  name: "3D-MAX: (Live & Recorded)",
+  duration: "7.5 hours (15 sessions)",
+  softwareVersionPreference: "2016 +",
+  coursePrice: {
+      "1 person": "$40",
+    
+  },
+  summaryContent: [
+    
+    
+       {
+        title: "Introduction to 3ds Max",
+        content: [
+          "Overview of the 3ds Max interface",
+          "Navigating the workspace and setting up preferences"
+        ]
+      },
+      {
+        title: "Modeling",
+        content: [
+          "Creating 3D models using various techniques, including polygon modeling, spline modeling, and parametric modeling",
+          "Applying modifiers to modify and refine models",
+          "Working with basic 3D shapes and primitives"
+        ]
+      },
+      {
+        title: "Texturing and Materials",
+        content: [
+          "Applying textures and materials to 3D objects",
+          "Using UV mapping for precise texture placement",
+          "Creating custom materials and shaders"
+        ]
+      },
+    {
+        title: "Lighting",
+        content: [
+          "Understanding different types of lights, such as standard, photometric, and daylight systems",
+          "Setting up realistic lighting scenarios for interior and exterior scenes",
+          "Adjusting light parameters for desired effects"
+        ]
+      },
+     {
+        title: "Rendering",
+        content: [
+          "Configuring rendering settings for high-quality output",
+          "Rendering still images and animations",
+          "Post-processing rendered images for enhanced quality"
+        ]
+      },
+       {
+        title: "Animation",
+        content: [
+          "Creating keyframe animations for objects and cameras",
+          "Utilizing the timeline and curve editor for precise animation control",
+          "Working with character rigging and animation"
+        ]
+      },
+       {
+        title: "Particle Systems and Dynamics",
+        content: [
+          "Simulating realistic effects like smoke, fire, and water using particle systems",
+          "Setting up dynamic simulations for objects in motion"
+        ]
+      }
+      ,
+      
+         {
+            title: "Architectural Visualization (Optional)",
+            content: [
+              "Creating realistic architectural scenes, including interiors and exteriors.",
+              "Using real-world scale and units for accurate architectural modeling."
+            ]
+     
+        },
+        {
+            title: "Environment Creation",
+            content: [
+              "Building 3D environments and landscapes.",
+              "Incorporating vegetation, terrains, and ecosystems."
+            ]
+          
+        },
+      {
+            title: "Character Modeling and Animation (Optional)",
+            content: [
+              "Modeling and rigging characters for animation.",
+              "Creating character animations for games and film."
+            ]
+          
+        },
+   {
+            title: "Scripting and Automation (Optional)",
+            content: [
+              "Introduction to MAXScript for custom tool creation and automation."
+            ]
+          
+        },
+      {
+            title: "Project Work",
+            content: [
+              "Applying 3ds Max skills to real-world projects.",
+              "Creating 3D scenes, animations, and models from concept to completion."
+            ]
+          
+        }
+      
+    
+ 
+    
+  ],
+  img : `https://ucarecdn.com/2d9065d6-30ce-40cc-a36c-9ae90d7a025b/57eea15220194ac18a26b18f3000be4b.jfif`
+  ,id:'515o2kpofIRL24fcD',
+}
+ ,
+ {
   name: "AutoCAD: (Live & Recorded)",
   duration: "6-8 hours (4-5 sessions)",
   softwareVersionPreference: "2017 +",
@@ -78,9 +193,8 @@ export const courses = [
   },
   summaryContent: ["Structural & Architectural (2D & 3D)"],
   img : `https://ucarecdn.com/8a601023-9f5f-4a90-8a84-2c5952c7f42c/WhatsAppImage20230928at114028_c9d48acf.jpg`
-  ,id:3,
+  ,id:'420infiovn1240FNIOdzza',
 }
- 
   
   
 ]

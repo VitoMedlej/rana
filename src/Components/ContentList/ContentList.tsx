@@ -6,14 +6,16 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton'
 import { Paper, Typography } from '@mui/material';
-import Title from '../Title';
 
 
 
 
 
 
-export default function BasicList({summaryContent}:{summaryContent:string[]}) {
+export default function BasicList({summaryContent}:{summaryContent:string[] |  {
+  title: string;
+  content: string[];
+}[]}) {
   return (
     <Box sx={{ mt:4,mx:1,  maxWidth: '900px', bgcolor: 'background.paper' }}>
    <Typography className='clr' sx={{mx:1,fontWeight:'600',pb:1,fontSize:'.98em'}}>
@@ -26,11 +28,28 @@ export default function BasicList({summaryContent}:{summaryContent:string[]}) {
             summaryContent.map((item,index)=>{
 
             
-     return     <ListItem key={item} >
+     return     <ListItem key={typeof item === 'string' ? item: item?.title} >
             <ListItemButton>
-              <Typography sx={{fontWeight:'400'}} >
-              0{index + 1}- {' '} {' '}<strong>{item}</strong>
+            { typeof item === 'string' ? <Typography sx={{fontWeight:'400'}} >
+             <strong>{item }</strong>
+    
+            
               </Typography>
+              :
+
+              <Box  >
+             <Typography sx={{fontWeight:'400'}}>
+
+             <strong>{ item?.title    }</strong>
+             </Typography>
+              
+              {item?.content.map((i,idx)=>{return  <Typography key={i} sx={{fontWeight:'300',fontSize:'.8em'}}>
+              {idx + 1}- {' '} {' '} 
+{`${i}`}
+              </Typography> })}
+            
+              </Box>
+            }
             </ListItemButton>
           </ListItem>
         })

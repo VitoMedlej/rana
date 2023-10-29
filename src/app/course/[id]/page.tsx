@@ -12,7 +12,7 @@ const Index = () => {
   const [course,setCourse] = useState<any>(null)
   const {id} = useParams()
   const selector = () => {
-    const crs = courses.find(i=>Number(i.id) === Number(id))
+    const crs = courses.find(i=>String(i.id) === String(id))
     if (crs) {
       setCourse(crs)
     }
