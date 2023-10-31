@@ -68,7 +68,7 @@ const Index = () => {
                                 Whether you are looking for design engineering, certified courses, or corporate training, CivilEnGuide has the right solution for you.
                                 </Typography>
                                 <Btn
-                                onClick={()=>router.push('/about-us')}
+                                onClick={()=>router.push('/')}
                                 sx={{mt:3,width:'220px'}}>
                                 Contact Us Now
                                 </Btn>
@@ -93,7 +93,9 @@ const Index = () => {
                 <Title>
                     Our Specialties 
                 </Title>
-                <Btn sx={{mx:2}}>
+                <Btn 
+                   onClick={()=>router.push('/')}
+                sx={{mx:2}}>
                     Register Now
                 </Btn>
             </Box>

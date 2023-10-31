@@ -228,7 +228,9 @@ const CoursesSection = () => {
 </Box>})}
 <Box sx={{width:'100%'}} className="flex">
 
-<Btn sx={{mb:8,mt:4,mx:'auto'}} className='flex '>
+<Btn 
+onClick={()=>router.push('/courses')}
+sx={{mb:8,mt:4,mx:'auto'}} className='flex '>
   View All
 </Btn>
 </Box>

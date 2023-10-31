@@ -47,7 +47,7 @@ const Testimonial = () => {
        
     ]
   return (
-    <Box className=' flex wrap  ' sx={{width:'100%',height:'100%'}}>
+    <Box id='testimonials' className=' flex wrap  ' sx={{width:'100%',height:'100%'}}>
  <Box className='flex col'  sx={{flex:1,width:'100%',pt:'6em'}}>
        <Title>
         Feedbacks

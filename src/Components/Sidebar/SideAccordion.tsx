@@ -1,6 +1,5 @@
 "use client";
 import * as React from 'react';
-import {MdExpandMore, MdFastfood} from 'react-icons/md'
 import { Box , AccordionDetails , AccordionSummary , Accordion ,Typography, ListItem, ListItemButton, ListItemIcon, ListItemText, List, Divider } from '@mui/material';
 import { useRouter } from 'next/navigation';
 
@@ -9,8 +8,6 @@ import { useRouter } from 'next/navigation';
 
 export const categories = [
 'Courses',
-'Testimonials',
-'Why Us',
 'About Us'
 ];
 

@@ -41,6 +41,22 @@ const NavBottom = () => {
                    Home
                     </Typography>
                 </Link>
+                <Link  style={{color:'black'}}
+                
+                className=' decor-none black uppercase'  href={`#why-us`}>
+                    <Typography  component='p' sx={{width:'max-content',
+                    fontWeight:500,fontSize:{xs:'.75em',sm:'.885em'}}}>
+                   Why Us
+                    </Typography>
+                </Link>
+                <Link  style={{color:'black'}}
+                
+                className=' decor-none black uppercase'  href={`#testimonials`}>
+                    <Typography  component='p' sx={{width:'max-content',
+                    fontWeight:500,fontSize:{xs:'.75em',sm:'.885em'}}}>
+                  Testimonials
+                    </Typography>
+                </Link>
             {categories.slice(0,6).map(i => {
                 return <Link  style={{color:'black'}}
                 
