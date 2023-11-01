@@ -1,11 +1,11 @@
 "use client"
 import Btn from '@/Components/Btn/Btn'
 import ContentList from '@/Components/ContentList/ContentList'
-import { courses } from '@/Components/CoursesSection/CoursesSection'
 import Title from '@/Components/Title'
 import { Box, Divider, Grid, Typography } from '@mui/material'
 import { useParams, useRouter } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
+import courses from '../../../../courses.json'
 
 const Index = () => {
   const router = useRouter() 
@@ -18,8 +18,10 @@ const Index = () => {
     }
   }
   useEffect(() => {
-    
-    selector()
+    if (courses){
+
+      selector()
+    }
   }, [id])
   
 
