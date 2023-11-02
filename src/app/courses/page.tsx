@@ -5,7 +5,7 @@ import React from 'react'
 const Index = () => {
   return (
     <>
-    <CoursesSection/>
+    <CoursesSection limit={100}/>
     
     </>
   )

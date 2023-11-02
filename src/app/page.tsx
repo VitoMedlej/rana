@@ -13,7 +13,7 @@ const Home = () => {
     <>
     <MainCarousel res={null}/>
     <ContactSection/>
-    <CoursesSection/>
+  <CoursesSection limit={6}/>
     <About/>
     <Whyus/>
     <Testimonials/>

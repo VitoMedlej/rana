@@ -9,8 +9,9 @@ import courses from '../../../courses.json'
 
 
 
-const CoursesSection = () => {
+const CoursesSection = ({limit}:{limit:number}) => {
   const router= useRouter()
+
   return (
     <>
     <Title sx={{py:8}}>
@@ -18,7 +19,7 @@ const CoursesSection = () => {
     </Title>
 <Box className='flex wrap'>
 
-{courses && courses.map(i=>{   
+{courses && courses.slice(0,Number(limit)).map(i=>{   
   return <Box
   onClick={()=>router.push(`/course/${i.id}?title=${i.name}`)}
   key={i.img} sx={{my:2,mx:1,width:{xs:'98%',sm:'49%',md:'32%'}}}>

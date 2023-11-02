@@ -27,6 +27,102 @@
       ]
     },
     {
+      "images": [""],
+      "img": "https://ucarecdn.com/b58484c0-4ea8-4730-973c-d62da3b92174/8cf936dca7af4811af72636635f0cfb51.jfif",
+      "id": "2o4kPFfnbDMFFNF",
+      "name": "Solidworks: (Recorded)",
+      "duration": "7.5 hours (5 sessions)",
+      "softwareVersionPreference": "2017 +",
+      "coursePrice": {
+        "1 person": "$40",
+        "3-5 persons": "$40",
+        "5 & plus": "$40"
+      },
+      "summaryContent": [
+        "2D lesson lecture",
+        "Exercises",
+        "3D lesson lecture",
+        "3D exercises E&C",
+        "3D exercises Rev",
+        "Loft & Swept",
+        "Bolts and screws",
+        "Materials",
+        "Sheet metal",
+        "Assemblies mate",
+        "Samples assemblies",
+        "Samples assemblies",
+        "Animation",
+        "Animation Exercises"
+      ]
+    },
+    {
+      "images": [""],
+      "img": "https://ucarecdn.com/d20c219a-f9fb-4786-8bb8-260e7ac7b37c/maxresdefault.jpg",
+      "id": "MFM421KOP214NMDS",
+      "name": "Excel Fundamentals: (Recorded)",
+      "duration": "6 hours (36 videos)",
+      "softwareVersionPreference": "N/A",
+      "coursePrice": {
+        "1 person": "$40",
+        "3-5 persons": "$40",
+        "5 & plus": "$40"
+      },
+      "courseContent": [
+        "Table creation",
+        "Data validation",
+        "Conditional formatting",
+        "Calculation Launch",
+        "Logical Functions",
+        "Statistical Functions",
+        "Mathematical Functions",
+        "Special Paste",
+        "Chart Creation",
+        "Sparkline Chart",
+        "Print",
+        "Comments and Sheet Protection",
+        "V-LOOKUP & H-LOOKUP Functions",
+        "Index and Match Functions",
+        "Filtering and Sorting",
+        "Matrix Calculation",
+        "Equation System with Several Variables",
+        "SUM-IF, COUNT & COUNT-IF Functions",
+        "Goal Seek and Solver",
+        "Data Table",
+        "Scenario Manager",
+        "Pivot Table",
+        "Format and ActiveX Controls",
+        "Macros"
+      ]
+    }
+,     
+    {
+      "images": [""],
+      "img": "https://ucarecdn.com/8a18e862-4a6a-40f2-869a-be48358f64bb/f067d8068c434e5d92a5a1ef4a8a795b.jfif",
+      "id": "ijIHUIFU821",
+      "name": "Plaxis: (Live & Recorded)",
+      "duration": "7.5 hours (5 sessions)",
+      "softwareVersionPreference": "2017 +",
+      "coursePrice": {
+        "1 person": "$80",
+        "3-5 persons": "$60",
+        "5 & plus": "$50"
+      },
+      "summaryContent": [
+        "Introduction to Plaxis",
+        "Modes",
+        "Inputs and Outputs Analysis",
+        "Settlements of footings on Sands and different Soils (Rigid footings)",
+        "Excavation Procedures",
+        "Load combinations, Input (Eurocode and ACI)",
+        "Anchors",
+        "Piles Design, modeling, and verification",
+        "Slope Stability",
+        "Retaining walls design",
+        "Road Embankment",
+        "Many other Geotechnical features"
+      ]
+    },
+    {
       "name": "Revit Architecture and Structural: (Live & Recorded)",
       "duration": "11 hours (7 sessions)",
       "softwareVersionPreference": "2018 +",
@@ -65,6 +161,8 @@
       "coursePrice": {
         "1 person": "$40"
       },
+      "img": "https://ucarecdn.com/2d9065d6-30ce-40cc-a36c-9ae90d7a025b/57eea15220194ac18a26b18f3000be4b.jfif",
+      "id": "515o2kpofIRL24fcD",
       "summaryContent": [
         {
           "title": "Introduction to 3ds Max",
@@ -154,9 +252,8 @@
             "Creating 3D scenes, animations, and models from concept to completion."
           ]
         }
-      ],
-      "img": "https://ucarecdn.com/2d9065d6-30ce-40cc-a36c-9ae90d7a025b/57eea15220194ac18a26b18f3000be4b.jfif",
-      "id": "515o2kpofIRL24fcD"
+      ]
+     
     },
     {
       "name": "AutoCAD: (Live & Recorded)",
@@ -172,5 +269,168 @@
       ],
       "img": "https://ucarecdn.com/8a601023-9f5f-4a90-8a84-2c5952c7f42c/WhatsAppImage20230928at114028_c9d48acf.jpg",
       "id": "420infiovn1240FNIOdzza"
+    },
+    {
+      "name": "PT-ADAPT: (Recorded)",
+      "duration": "7.5 hours (5 sessions)",
+      "softwareVersionPreference": "N/A",
+      "coursePrice": {
+        "1 person": "$40"
+      },
+     
+      
+     
+      "img": "https://ucarecdn.com/7695dbcd-3e89-4bc2-adf3-0567d4ea5521/97abc9a3af884f64b7e33778f04b5566.jfif",
+      "id": "bvpasl0qwKIdl",
+      "summaryContent": [
+        {
+          "title": "Post tension Basic and Advanced Slab detailed design using the ACI Code (Two slabs examples)",
+          "content": [
+            "Pre-dimensioning",
+            "Applied loads inspection",
+            "Importing from AutoCad to Adapt Builder",
+            "Defining",
+            "Design section analysis",
+            "Tendon and strands analysis",
+            "Load balancing analysis",
+            "Stress analysis",
+            "Reinforcement calculation",
+            "Full result inspection and checking",
+            "Full result, shop drawing and report extraction",
+            "Economic optimization (using multiple solutions)"
+          ]
+        },
+        {
+          "title": "Post tension Beam and Step Beam design using the ACI Code (Two beams examples)",
+          "content": [
+            "Pre-dimensioning",
+            "Applied loads inspection",
+            "Direct modeling on Adapt Builder",
+            "Defining",
+            "Design section analysis",
+            "Tendon and strands analysis",
+            "Load balancing analysis",
+            "Stress analysis",
+            "Reinforcement calculation",
+            "Full result inspection and checking",
+            "Full result, shop drawing and report extraction",
+            "Economic optimization (using multiple solutions)"
+          ]
+        }
+      ]
+    },
+    
+      {
+        "name": "PT-ADAPT: (Recorded)",
+        "duration": "7.5 hours (5 sessions)",
+        "softwareVersionPreference": "N/A",
+        "coursePrice": {
+          "1 person": "$40"
+        },
+       
+        
+       
+        "img": "https://ucarecdn.com/080dbc58-a18e-430b-ab9a-9d0a42ddf078/02a6ed05dec848988ec1bab1dc697ee6.jfif",
+        "id": "bvpasl0qwKIdl",
+        "summaryContent": [
+          {
+            "title": "Etabs, Safe, S-Concrete, CsiCol and S-Line introduction & Overview",
+            "content": [
+              "Fifteen story and one basement building design using ACI 318-14 & UBC 97 Codes:",
+              "1) Pre-dimensioning:",
+              "• Columns (using detailed excel sheet and AutoCad)",
+              "• Beams using code tables (hidden & drop)",
+              "• Slabs using code tables (solid, flat, waffle type 1 & 2 and ribbed slabs)",
+              "• Foundations (isolated, combined, strip and raft foundations)",
+              "• Determining loads on the stairs, slabs and beams using the code and detailed excel sheet",
+              "• Determining loads on basement walls according to the soil layers and water table level using detailed excel sheet and the code",
+              "• Determining all the static & dynamic seismic coefficients, wind coefficients and codes lateral limits using detailed & explained PowerPoint and Autocad"
+            ]
+          },
+          {
+            "title": "Etabs, Safe, S-Concrete, CsiCol and S-Line introduction & Overview",
+            "content": [
+              "Fifteen story and one basement building design using ACI 318-14 & UBC 97 Codes:",
+              "1) Pre-dimensioning:",
+              "• Columns (using detailed excel sheet and AutoCad)",
+              "• Beams using code tables (hidden & drop)",
+              "• Slabs using code tables (solid, flat, waffle type 1 & 2 and ribbed slabs)",
+              "• Foundations (isolated, combined, strip and raft foundations)",
+              "• Determining loads on the stairs, slabs and beams using the code and detailed excel sheet",
+              "• Determining loads on basement walls according to the soil layers and water table level using detailed excel sheet and the code",
+              "• Determining all the static & dynamic seismic coefficients, wind coefficients and codes lateral limits using detailed & explained PowerPoint and Autocad",
+              "2) Importing from AutoCad to Etabs",
+              "3) Modeling, defining & assigning on Etabs:",
+              "• Defining the materials and sections",
+              "• Modeling basement walls, shear walls & slabs (shell modeling)",
+              "• Modeling columns & beams (frame modeling)",
+              "• Modeling the stairs",
+              "• Defining joints restraints for the foundations",
+              "• Frame and Shell meshing",
+              "• Assigning the Stiffness modifiers for frames and shells",
+              "• Defining the load patterns (dead, live, wind x & y direction, seismic x & y direction, soil pressures and surcharge)",
+              "• Defining the dynamic function & load cases (spectrum x & y direction)",
+              "• Defining diaphragms for seismic study",
+              "• Defining Pier labels to study the walls",
+              "• Defining the model cases",
+              "• Defining loads on shells and frames",
+              "• Checking the model in case of errors before the run"
+            ]
+          },
+          {
+            "title": "Results and Analysis",
+            "content": [
+              "a) Stability check:",
+              "• Base shear reactions check",
+              "• Center of mass and rigidity for torsional check (using detailed excel sheet)",
+              "• Checking the story response plot for story displacement & drift check",
+              "b) Columns design and check using multiple methods:",
+              "• Manual method using Etabs reports",
+              "• Importing columns from Etabs to S-Concrete",
+              "• Using detailed excel sheet",
+              "• Importing columns from Etabs to CsiCol",
+              "c) Beams design and check using multiple methods:",
+              "• Manual method using Etabs reports",
+              "• Importing from Etabs to Safe",
+              "• Importing from Etabs to S-Concrete",
+              "• Using detailed excel sheet",
+              "• Calculating manually the loads on beams to check the beams on S-Line"
+            ]
+          },
+          {
+            "title": "Results and Analysis",
+            "content": [
+              "a) Stability check:",
+              "• Base shear reactions check",
+              "• Center of mass and rigidity for torsional check (using detailed excel sheet)",
+              "• Checking the story response plot for story displacement & drift check",
+              "b) Columns design and check using multiple methods:",
+              "• Manual method using Etabs reports",
+              "• Importing columns from Etabs to S-Concrete",
+              "• Using detailed excel sheet",
+              "• Importing columns from Etabs to CsiCol",
+              "c) Beams design and check using multiple methods:",
+              "• Manual method using Etabs reports",
+              "• Importing from Etabs to Safe",
+              "• Importing from Etabs to S-Concrete",
+              "• Using detailed excel sheet",
+              "• Calculating manually the loads on beams to check the beams on S-Line",
+              "d) Stair design and check using Etabs, Safe, and detailed excel sheet",
+              "e) Basement and Shear walls design using multiple methods:",
+              "• Manual method using Etabs reports",
+              "• Using detailed excel sheet",
+              "f) Slab design and check by importing from Etabs to Safe",
+              "g) Punching detailed check for slab using Safe",
+              "h) Foundation design by importing from Etabs to Safe (designing multiple foundation types to determine the optimal and economical type)",
+              "i) Shop drawings and reports extraction from all the softwares",
+              "Additional videos:",
+              "1) P-delta analysis",
+              "2) Transfer beams design",
+              "3) Moment release for secondary beams and section designer for shell and frames"
+           
+            ]
+          }
+        ]
     }
+
   ]
