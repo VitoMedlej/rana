@@ -1,3 +1,4 @@
+"use client"
 import CoursesSection from '@/Components/CoursesSection/CoursesSection'
 import React from 'react'
 

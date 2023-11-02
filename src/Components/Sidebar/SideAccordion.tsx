@@ -40,6 +40,26 @@ export default function BasicAccordion({toggleDrawer} : any) {
           </ListItem>
 
 
+          <ListItem 
+          onClick={()=>{
+            toggleDrawer(false)
+            router.push(`/courses`)
+           }}
+           disablePadding>
+            <ListItemButton sx={{py:1 ,  fontWeight:'600 !important',}}>
+           
+              <ListItemText
+              sx={{
+                color:'black',
+                fontWeight:'600 !important',
+                textTransform: 'capitalize'
+              }}
+            >
+                    <Typography sx={{fontWeight:600}}>Our Courses</Typography>
+              </ListItemText>
+                    <Divider></Divider>
+            </ListItemButton>
+          </ListItem>
 
           <ListItem 
           onClick={()=>{

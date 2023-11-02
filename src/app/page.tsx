@@ -1,4 +1,4 @@
-
+"use client"
 import ContactSection from '@/Components/ContactSection/ContactSection'
 import CoursesSection from '@/Components/CoursesSection/CoursesSection'
 import MainCarousel from '@/Components/MainCarousel/MainCarousel'

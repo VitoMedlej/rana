@@ -12,9 +12,16 @@ const Index = () => {
   const [course,setCourse] = useState<any>(null)
   const {id} = useParams()
   const selector = () => {
-    const crs = courses.find(i=>String(i.id) === String(id))
-    if (crs) {
-      setCourse(crs)
+    try {
+
+      const crs = courses?.find(i=>String(i.id) === String(id))
+      if (crs) {
+        setCourse(crs)
+      }
+    }
+    catch(e) {
+      console.log('e: ', e);
+      
     }
   }
   useEffect(() => {
@@ -25,7 +32,7 @@ const Index = () => {
   }, [id])
   
 
-  if (!course) return <Box>Course Not Found</Box>
+  if (!course || !courses) return <Box>Course Not Found</Box>
   return (
     <Grid maxWidth={'xl'} container sx={{my:12}}>
     
