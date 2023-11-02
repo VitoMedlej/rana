@@ -41,9 +41,9 @@ const Index = ({ params }: { params: any | { slug: any } }) => {
     <Grid maxWidth={'xl'} container sx={{my:12}}>
     
         <Grid item xs={12} sm={8}>
-            <Title>{course.name}</Title>
+            <Title>{course?.name}</Title>
              
-            <ContentList summaryContent={course.summaryContent ? course.summaryContent : ['']}/>
+            <ContentList summaryContent={course?.summaryContent ? course?.summaryContent : ['']}/>
                 
             
         </Grid>
@@ -56,7 +56,7 @@ const Index = ({ params }: { params: any | { slug: any } }) => {
               <Box sx={{height:'250px'}}>
                 <img
                 style={{borderRadius:0}}
-                src={`${course.img}`}
+                src={`${course?.img}`}
                 
                 alt="" className="img contain" />
               </Box>
@@ -86,7 +86,7 @@ const Index = ({ params }: { params: any | { slug: any } }) => {
                       <Typography sx={{color:'black'}}>
                 <strong>Duration:</strong>
                 {' '}
-              {course.duration}  
+              {course?.duration}  
           
               
               </Typography>
@@ -98,7 +98,7 @@ const Index = ({ params }: { params: any | { slug: any } }) => {
 
                 <strong>Software ver. pref.:</strong>
                 {' '}
-               {course.softwareVersionPreference}
+               {course?.softwareVersionPreference}
               </Typography>
                 </Box>
                 <Btn sx={{mt:2}}>
