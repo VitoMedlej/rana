@@ -13,7 +13,7 @@ const Index = () => {
   const {id} = useParams()
   const selector = () => {
     try {
-
+      
       const crs = courses?.find(i=>String(i.id) === String(id))
       if (crs) {
         setCourse(crs)
@@ -25,7 +25,7 @@ const Index = () => {
     }
   }
   useEffect(() => {
-    if (courses){
+    if (courses && id){
 
       selector()
     }
