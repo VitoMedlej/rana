@@ -8,7 +8,7 @@ import React, { useEffect, useState } from 'react'
 import courses from '../../../../courses.json'
 
 const Index = ({ params }: { params: any | { slug: any } }) => {
-  try {
+  
 
  
   console.log('params: ', params?.id);
@@ -37,6 +37,7 @@ const Index = ({ params }: { params: any | { slug: any } }) => {
   
 
   if (!course || !courses) return <Box>Course Not Found</Box>
+  try {
   return (
     <Grid maxWidth={'xl'} container sx={{my:12}}>
     
