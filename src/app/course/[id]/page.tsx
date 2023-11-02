@@ -214,7 +214,7 @@ const Page = () => {
     }
   }, [])
   
-
+  if(!id||!courses||!course)return<h1>error</h1>
   return (
     <Grid maxWidth={'xl'} container sx={{my:12}}>
     {
