@@ -7,14 +7,18 @@ import { useParams, useRouter } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 import courses from '../../../../courses.json'
 
-const Index = () => {
+const Index = ({ params }: { params: any | { slug: any } }) => {
+  try {
+
+ 
+  console.log('params: ', params?.id);
   const router = useRouter() 
   const [course,setCourse] = useState<any>(null)
-  const {id} = useParams()
+
   const selector = () => {
     try {
       
-      const crs = courses?.find(i=>String(i.id) === String(id))
+      const crs = courses?.find(i=>String(i.id) === String(params?.id))
       if (crs) {
         setCourse(crs)
       }
@@ -25,11 +29,11 @@ const Index = () => {
     }
   }
   useEffect(() => {
-    if (courses && id){
+    if (courses && params?.id){
 
       selector()
     }
-  }, [id])
+  }, [params?.id])
   
 
   if (!course || !courses) return <Box>Course Not Found</Box>
@@ -108,6 +112,11 @@ const Index = () => {
           </Grid>
     </Grid>
   )
+}
+catch (e){
+  console.log('e: allll', e);
+
+}
 }
 
 export default Index
