@@ -185,10 +185,10 @@ const courses = [
     id: "420infiovn1240FNIOdzza"
   }
 ]
-const Index = () => {
+const Page = () => {
   
   
-  console.log('courses: ', courses);
+  console.log('courses: ', courses?.length);
  const {id} = useParams()
   const router = useRouter() 
   const [course,setCourse] = useState<any>(null)
@@ -196,8 +196,8 @@ const Index = () => {
 
   const selector = () => {
     try {
-      
-      const crs = courses?.find(i=>String(i.id) === String(id))
+      if (!courses || !id) return
+      const crs = courses?.find(i=>`${i?.id}` == `${id}`)
       if (crs) {
         setCourse(crs)
       }
@@ -217,7 +217,9 @@ const Index = () => {
 
   return (
     <Grid maxWidth={'xl'} container sx={{my:12}}>
-    
+    {
+      course && 
+    <>
         <Grid item xs={12} sm={8}>
             <Title>{course?.name}</Title>
              
@@ -288,10 +290,13 @@ const Index = () => {
               </Box> */}
             </Box>
           </Grid>
+    </>
+          
+          }
     </Grid>
   )
 
 
 }
 
-export default Index
+export default Page
