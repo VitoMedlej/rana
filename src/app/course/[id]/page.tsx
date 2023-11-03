@@ -3,9 +3,7 @@ import React from 'react'
 
 const Page = async () => {
   return (
-    <>
-    <Preloader1/>
-    </>
+    <><Preloader1></Preloader1></>
   )
 }
 
