@@ -11,6 +11,8 @@ import courses from '../../../courses.json'
 
 const CoursesSection = ({limit}:{limit:number}) => {
   const router= useRouter()
+  const crs = courses?.map(i=> i.name )
+  console.log('crs: ', crs);
 
   return (
     <>

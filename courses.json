@@ -265,9 +265,82 @@
         "5 & plus": "$40"
       },
       "summaryContent": [
-        "Structural & Architectural (2D & 3D)"
-      ],
-      "img": "https://ucarecdn.com/8a601023-9f5f-4a90-8a84-2c5952c7f42c/WhatsAppImage20230928at114028_c9d48acf.jpg",
+   
+            {
+              "title": "Introduction to AutoCAD",
+              "content": [
+                "Understanding the AutoCAD interface.",
+                "Navigating the workspace.",
+                "Basic drawing and editing commands."
+              ]
+            },
+            {
+              "title": "2D Drafting",
+              "content": [
+                "Creating and editing 2D geometric shapes.",
+                "Adding dimensions and annotations.",
+                "Working with layers and line types.",
+                "Using blocks and external references."
+              ]
+            },
+            {
+              "title": "Architectural Drawing",
+              "content": [
+                "Drawing floor plans, elevations, and sections.",
+                "Adding doors, windows, and furniture.",
+                "Applying dimensioning standards for architecture."
+              ]
+            },
+            {
+              "title": "Structural Design",
+              "content": [
+                "Creating structural components, like beams, columns, and walls.",
+                "Developing structural plans and details.",
+                "Applying load and analysis tools for structural engineering."
+              ]
+            },
+            {
+              "title": "3D Modeling",
+              "content": [
+                "Introducing 3D workspace in AutoCAD.",
+                "Extruding, revolving, and sweeping 2D shapes into 3D objects.",
+                "Working with meshes and surfaces."
+              ]
+            },
+            {
+              "title": "Architectural 3D Modeling",
+              "content": [
+                "Designing 3D architectural models.",
+                "Adding textures, materials, and lighting for realistic visualizations.",
+                "Exploring parametric design features."
+              ]
+            },
+            {
+              "title": "Collaboration and Printing",
+              "content": [
+                "Using layouts and viewports.",
+                "Preparing drawings for printing and plotting.",
+                "Sharing and collaborating on AutoCAD projects."
+              ]
+            },
+            {
+              "title": "Advanced Topics (Optional)",
+              "content": [
+                "Customizing AutoCAD with scripts and macros.",
+                "Incorporating AutoLISP for automation.",
+                "Integrating AutoCAD with other software (e.g., Revit)."
+              ]
+            },
+            {
+              "title": "Project Work",
+              "content": [
+                "Applying AutoCAD skills to real-world projects.",
+                "Solving design and drafting challenges.",
+                "Developing a portfolio of completed drawings."
+              ]
+            }
+          ],
+      "img": "https://ucarecdn.com/da5efc4e-c74a-41cd-8a71-2ee603ecada9/66a91bcd2d3244aab0da6f9744476f9f.jfif",
       "id": "420infiovn1240FNIOdzza"
     },
     {
@@ -331,7 +404,7 @@
         
        
         "img": "https://ucarecdn.com/080dbc58-a18e-430b-ab9a-9d0a42ddf078/02a6ed05dec848988ec1bab1dc697ee6.jfif",
-        "id": "bvpasl0qwKIdl",
+        "id": "124fVFvpasl0qwKIdl",
         "summaryContent": [
           {
             "title": "Etabs, Safe, S-Concrete, CsiCol and S-Line introduction & Overview",
@@ -431,6 +504,305 @@
             ]
           }
         ]
+    },
+    {
+      "name": "Robot Structural (Recorded)",
+      "duration": "7.5 hours (5 sessions)",
+      "softwareVersionPreference": "2017",
+      "coursePrice": {
+        "1 person": "$80",
+        "3-5 persons": "$60",
+        "5 & plus": "$50"
+      },
+     
+      
+     
+      "img": "https://ucarecdn.com/108c7cd1-29f0-4799-9645-21153c5298e2/4990fc7aad1640bfaac1ebcf34204e2f.jfif",
+      "id": "124fVFvpasl0qwKIdl",
+      "summaryContent": [
+    
+            {
+              "title": "Introduction to Structural Analysis",
+              "content": [
+                "Understanding the fundamentals of structural analysis.",
+                "Overview of the Autodesk Robot Structural Analysis software interface."
+              ]
+            },
+            {
+              "title": "Modeling Structural Systems",
+              "content": [
+                "Creating and defining structural elements such as beams, columns, slabs, and walls.",
+                "Applying boundary conditions and supports."
+              ]
+            },
+            {
+              "title": "Loading and Analysis",
+              "content": [
+                "Defining loads, including dead loads, live loads, wind loads, and seismic loads.",
+                "Running structural analysis to determine stresses, deflections, and other performance indicators."
+              ]
+            },
+            {
+              "title": "Design Codes and Standards",
+              "content": [
+                "Introduction to international design codes and standards.",
+                "Configuring the software to comply with specific code requirements."
+              ]
+            },
+            {
+              "title": "Steel and Concrete Design",
+              "content": [
+                "Designing steel and concrete structures.",
+                "Optimizing member sizes and configurations.",
+                "Reviewing and verifying designs against code requirements."
+              ]
+            },
+            {
+              "title": "Dynamic Analysis",
+              "content": [
+                "Analyzing structures for dynamic response and stability.",
+                "Evaluating vibrations and resonance effects."
+              ]
+            },
+            {
+              "title": "Nonlinear Analysis (Optional)",
+              "content": [
+                "Understanding nonlinear behavior in structures.",
+                "Analyzing structures under extreme conditions and loads."
+              ]
+            },
+            {
+              "title": "Project Work and Case Studies",
+              "content": [
+                "Applying Autodesk Robot Structural Analysis to real-world engineering projects.",
+                "Solving complex structural design and analysis challenges."
+              ]
+            },
+            {
+              "title": "Reporting and Documentation",
+              "content": [
+                "Generating detailed structural analysis reports and documentation.",
+                "Presenting results and findings effectively to stakeholders."
+              ]
+            }
+    
+      ]
+    },
+    {
+      "name": "Primavera P6: (Live & Recorded)",
+      "duration": "7.5 hours (5 sessions)",
+      "softwareVersionPreference": "2016 +",
+      "coursePrice": {
+        "1 person": "$60",
+        "3-5 persons": "$50 ",
+        "5 & plus": "$40"
+      },
+     
+      
+     
+      "img": "https://ucarecdn.com/a95589c2-f99d-4fd2-b8bd-f05da76da82a/598f443c26ca4743a86d7c608dcb4f4a.jfif",
+      "id": "JIJ2149FMVLHUn21fzcm",
+      "summaryContent": [
+     
+            {
+              "title": "Introduction to Primavera",
+              "content": [
+                "Overview of Primavera P6",
+                "Discuss the relationship between Primavera and Project Management"
+              ]
+            },
+            {
+              "title": "Data, Navigation & Layouts",
+              "content": [
+                "Create an EPS and OBS",
+                "Opening and creating a project",
+                "Navigate through windows",
+                "Opening and exiting custom layouts"
+              ]
+            },
+            {
+              "title": "Adding Activities",
+              "content": [
+                "Compare Activity and Project details",
+                "Add activities",
+                "Add a notebook topic to an activity",
+                "Add steps to an activity",
+                "Assign activity codes to activities"
+              ]
+            },
+            {
+              "title": "Relationships",
+              "content": [
+                "Logic diagram",
+                "Create relationships in the activity",
+                "Network",
+                "Comparing various relationship types and lags"
+              ]
+            },
+            {
+              "title": "Scheduling",
+              "content": [
+                "Perform a forward and backward pass",
+                "Float and Impacts",
+                "Identify loops and open ends",
+                "Calculate a schedule",
+                "Various scheduling options"
+              ]
+            },
+            {
+              "title": "Formatting Schedule Data",
+              "content": [
+                "Group activities",
+                "Sort activities",
+                "Apply and create filters",
+                "Explore UDF (User Defined Fields)"
+              ]
+            },
+            {
+              "title": "Adding Resources",
+              "content": [
+                "Various types of Resources",
+                "Assigning Resources to Activities",
+                "Leveling Resources",
+                "Analyzing Over-Allocated Resources"
+              ]
+            },
+            {
+              "title": "Baseline",
+              "content": [
+                "Maintaining Baselines",
+                "Assigning Baselines"
+              ]
+            },
+            {
+              "title": "Updating the Project",
+              "content": [
+                "Viewing S-curves",
+                "Viewing Progress Cash Flow"
+              ]
+            },
+            {
+              "title": "Print Options",
+              "content": [
+                "Printing the Gantt Chart",
+                "Various printing options"
+              ]
+            },
+            {
+              "title": "Primavera Visualizer",
+              "content": [
+                "Comparing schedules using P6 Visualizer",
+                "Creating P6 generated and custom Reports"
+              ]
+            },
+            {
+              "title": "Import / Export",
+              "content": [
+                "Exporting the project",
+                "Exporting data to Excel",
+                "Exporting the .plf file"
+              ]
+            }
+          ]
+        
+      
+    },
+    {
+      "name": "Photoshop: (Recorded)",
+      "duration": "4 hours (10 sessions)",
+      "softwareVersionPreference": "2018",
+      "coursePrice": {
+        "1 person": "$30"
+      },
+     
+      
+     
+      "img": "https://ucarecdn.com/69551104-f03b-4aeb-a05b-f94d7bea7752/c722d7c50bc04d34a3857c1274462bfa.jfif",
+      "id": "FJ124MC004129MLASF",
+      "summaryContent": [{
+        "title": "Introduction to Photoshop",
+        "content": [
+          "Overview of the Photoshop interface and tools.",
+          "Navigating the workspace and setting up preferences."
+        ]
+      },
+      {
+        "title": "Basic Image Editing",
+        "content": [
+          "Importing and opening images.",
+          "Cropping, resizing, and rotating images.",
+          "Adjusting brightness, contrast, and color levels."
+        ]
+      },
+      {
+        "title": "Selection and Masking",
+        "content": [
+          "Using selection tools to isolate parts of an image.",
+          "Creating and refining masks for precise editing."
+        ]
+      },
+      {
+        "title": "Layers and Layer Styles",
+        "content": [
+          "Understanding the concept of layers.",
+          "Applying layer styles, blending modes, and opacity adjustments.",
+          "Working with layer masks and adjustment layers."
+        ]
+      },
+      {
+        "title": "Retouching and Restoration",
+        "content": [
+          "Removing blemishes, wrinkles, and imperfections.",
+          "Restoring old or damaged photos.",
+          "Clone stamp, healing brush, and content-aware fill techniques."
+        ]
+      },
+      {
+        "title": "Text and Typography",
+        "content": [
+          "Adding text layers and working with fonts.",
+          "Applying text effects and styles.",
+          "Creating text-based graphics and posters."
+        ]
+      },
+      {
+        "title": "Filters and Effects",
+        "content": [
+          "Applying artistic and special effects.",
+          "Using filter gallery and smart filters.",
+          "Creating custom filter presets."
+        ]
+      },
+      {
+        "title": "Photo Manipulation and Compositing",
+        "content": [
+          "Combining multiple images to create composites.",
+          "Adjusting lighting and colors to achieve a cohesive look.",
+          "Blending modes and techniques for seamless integrations."
+        ]
+      },
+      {
+        "title": "Color Correction and Grading",
+        "content": [
+          "Color correction using adjustment layers.",
+          "Applying color grading for a desired mood or style."
+        ]
+      },
+      {
+        "title": "Design and Graphic Creation",
+        "content": [
+          "Designing graphics for web, print, and social media.",
+          "Using shapes, patterns, and custom brushes.",
+          "Creating logos and visual assets."
+        ]
+      },
+      {
+        "title": "Workflow and Export",
+        "content": [
+          "Organizing files using layers, groups, and folders.",
+          "Preparing images for print and web.",
+          "Understanding different file formats and their best uses."
+        ]
+      }]
     }
-
   ]

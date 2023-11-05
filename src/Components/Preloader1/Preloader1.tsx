@@ -192,7 +192,7 @@ const Page = () => {
  const {id} : any= useParams()
   const router = useRouter() 
   const [course,setCourse] = useState<any>(null)
-
+ 
 
   const selector = () => {
     try {
@@ -255,6 +255,21 @@ const Page = () => {
                 <Typography sx={{color:'black'}}>
                   5 & above Persons: $40
                 </Typography> */}
+               {course.coursePrice['1 person'] && (
+        <Typography sx={{ color: 'black' }}>
+          {`1 person: ${course.coursePrice['1 person']}`}
+        </Typography>
+      )}
+      {course.coursePrice['3-5 persons'] && (
+        <Typography sx={{ color: 'black' }}>
+          {`1-5 Persons: ${course.coursePrice['3-5 persons']}`}
+        </Typography>
+      )}
+      {course.coursePrice['5 & plus'] && (
+        <Typography sx={{ color: 'black' }}>
+          {`5 & above Persons: ${course.coursePrice['5 & plus']}`}
+        </Typography>
+      )}
               <Typography sx={{color:'black'}}>
 
                 {

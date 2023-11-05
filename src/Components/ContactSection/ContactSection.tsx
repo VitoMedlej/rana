@@ -121,9 +121,13 @@ const ContactSection = () => {
                   margin :'0 auto',
                     width:{xs:'95%',sm:'99%'},py:1}} type='email' placeholder='Email'
                 >
-                <MenuItem value={'Course Name 1'}>Course Name1</MenuItem>
-                <MenuItem value={'namer'}>Course Name 2</MenuItem>
-                <MenuItem value={'namer'}>Course Name 3</MenuItem>
+                  {
+                    ['Etabs-Safe-Sconcrete: (Live & Recorded)', 'Solidworks: (Recorded)', 'Excel Fundamentals: (Recorded)', 'Plaxis: (Live & Recorded)', 'Revit Architecture and Structural: (Live & Recorded)', '3D-MAX: (Live & Recorded)', 'AutoCAD: (Live & Recorded)',  'PT-ADAPT: (Recorded)', 'Robot Structural (Recorded)', 'Primavera P6: (Live & Recorded)', 'Photoshop: (Recorded)'].map(i=>{
+                      return <MenuItem key={i} value={`${i}`}>{i}</MenuItem>
+                    })
+                  }
+
+
                 </Select>
               <TextField 
               value={Message}
