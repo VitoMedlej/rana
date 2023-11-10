@@ -100,7 +100,7 @@ const Index = () => {
                 </Btn>
             </Box>
         </Grid>
-        <Grid sx={{mx:1}} xs={12} sm={8}>
+        {/* <Grid sx={{mx:1}} xs={12} sm={8}>
             <Box>
             <Box sx={{justifyContent:'space-between'}} className="flex wrap">
 
@@ -120,8 +120,8 @@ const Index = () => {
             }
             </Box>
             </Box>
-        </Grid>
-        <Grid sx={{mt:16}} xs={12} sm={6}>
+        </Grid> */}
+        {/* <Grid sx={{mt:16}} xs={12} sm={6}>
         <Box sx={{height:'500px'}}>
 
 <img
@@ -132,7 +132,7 @@ const Index = () => {
     src={`https://i.pinimg.com/736x/4f/56/18/4f56186e8cd088a219d4c50e2ab198af.jpg`}
     alt="Main Carousel Image"/>
 </Box>
-        </Grid>
+        </Grid> */}
         <Grid sx={{mt:{sm:16}}} className='flex bg white center items-center' item xs={12} sm={6}>
             <Box sx={{px:1,py:8}}>
             <Title sx={{color:'white'}}>
