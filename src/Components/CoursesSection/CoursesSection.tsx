@@ -17,7 +17,7 @@ const CoursesSection = ({limit}:{limit:number}) => {
   return (
     <>
     <Title sx={{py:8}}>
-            BROWESE OUR LATEST COURSES
+            BROWSE OUR LATEST COURSES
     </Title>
 <Box className='flex wrap'>
 
