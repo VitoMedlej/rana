@@ -11,12 +11,12 @@ import Testimonials from '@/Components/Testimonials/Testimonials'
 const Home = () => {
   return (
     <>
-    <MainCarousel res={null}/>
-    <ContactSection/>
+  {/* <MainCarousel res={null}/> */}
+    {/* <ContactSection/>
   <CoursesSection limit={6}/>
     <About/>
     <Whyus/>
-    <Testimonials/>
+    <Testimonials/> */}
     {/* <Contact/> */}
     </>
   )

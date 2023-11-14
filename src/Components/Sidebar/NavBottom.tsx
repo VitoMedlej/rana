@@ -11,17 +11,20 @@ const NavBottom = () => {
 
   return (
     <Box
-        className=' wrap  space-evenly'
+        className=' wrap   end'
         sx={{
-            flex:1,
+            justifyContent:'flex-end'
+            ,flex:1,
             position:'relative',
         // width: '100%',
         mx: 0,
         display : {xs:'none',md:'flex'}
     }}>
         <Container
-            className='flex   '
+            className='flex   end'
             sx={{
+            justifyContent:'flex-end'
+,
                 gap:{xs:2.5,sm:2.75,md:3},
             maxWidth: 'lg',
             overflow:'hidden',
@@ -33,41 +36,31 @@ const NavBottom = () => {
                     Sale
                     </Typography>
                 </Link> */}
-                <Link  style={{color:'black'}}
+                <Link  style={{color:'#1865f2 !important'}}
                 
-                className=' decor-none black uppercase'  href={`/`}>
+                className=' decor-none #1865f2 !important uppercase'  href={`/`}>
                     <Typography  component='p' sx={{width:'max-content',
                     fontWeight:500,fontSize:{xs:'.75em',sm:'.885em'}}}>
                    Home
                     </Typography>
                 </Link>
-                <Link  style={{color:'black'}}
+                <Link  style={{color:'#1865f2 !important'}}
                 
-                className=' decor-none black uppercase'  href={`#why-us`}>
+                className=' decor-none #1865f2 !important uppercase'  href={`#why-us`}>
                     <Typography  component='p' sx={{width:'max-content',
                     fontWeight:500,fontSize:{xs:'.75em',sm:'.885em'}}}>
-                   Why Us
+                   Services
                     </Typography>
                 </Link>
-                <Link  style={{color:'black'}}
+                <Link  style={{color:'#1865f2 !important'}}
                 
-                className=' decor-none black uppercase'  href={`#testimonials`}>
+                className=' decor-none #1865f2 !important uppercase'  href={`#testimonials`}>
                     <Typography  component='p' sx={{width:'max-content',
                     fontWeight:500,fontSize:{xs:'.75em',sm:'.885em'}}}>
-                  Testimonials
+                  Reach Us
                     </Typography>
                 </Link>
-            {categories.slice(0,6).map(i => {
-                return <Link  style={{color:'black'}}
-                
-                className=' decor-none black uppercase' key={i} href={`/${i.toLocaleLowerCase().replace(/ /g, '-')}`}>
-                    <Typography  component='p' sx={{width:'max-content',
-                    fontWeight:500,fontSize:{xs:'.75em',sm:'.885em'}}}>
-                    {i}
-                    </Typography>
-                </Link>
-                // return  <MenuHover key={i} category={i} subcategories={['test','test2']}/>
-            })}
+           
         </Container>
         {/* <MenuHover category='HOVER HERE' subcategories={['test','test2']}/> */}
     </Box>

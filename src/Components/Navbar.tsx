@@ -10,6 +10,10 @@ import {IoBagOutline ,IoMenuOutline} from 'react-icons/io5'
 import { useDrawerContext } from '@/context/Context';
 import NavBottom from './Sidebar/NavBottom';
 import Btn from './Btn/Btn';
+import SearchModal from './Sidebar/searchModal';
+import { useState } from 'react';
+import SearchInput from './Sidebar/SearchInput';
+import { Typography } from '@mui/material';
 
 
 
@@ -18,7 +22,7 @@ import Btn from './Btn/Btn';
 
 export default function Navbar() {
     const {open, setOpen} = useDrawerContext();
-
+    const [openModal,setOpenModal] = useState(false)
 
 
     const router = useRouter()
@@ -60,19 +64,32 @@ export default function Navbar() {
             boxShadow:'1px 1px 3px #00000017',
                     width:'100%',
                     justifyCotntent:'space-between !important',
-                    maxWidth:'xl',
+                    maxWidth:'lg',
             position:'relative',
 
                 px:'0 !important',
                 flexWrap: 'wrap'
             }}> 
+            <Box sx={{
+                    justifyCotntent:'space-between  !important',
+
+            }} className="flex items-center align-center">
+
+            <SearchInput/>
                 
-
+                <Link  style={{color:'#1865f2 !important'}}
+                
+                className='gap gap1 decor-none black uppercase'  href={`/`}>
+                    <Typography  component='p' sx={{width:'max-content',
+                    fontWeight:500,fontSize:{xs:'.75em',sm:'.885em'}}}>
+                   Courses
+                    </Typography>
+                </Link>
+            </Box>
                
-            
-
+            {/* <SearchModal openModal={openModal} setOpenModal={setOpenModal} /> */}
                
-                <Link className='flex center  aling-center ' style={{ justifyContent:'flex-start !important'}}  href='/' color='inherit'>
+                <Link className='flex center absolute   aling-center ' style={{ justifyContent:'flex-start !important'}}  href='/' color='inherit'>
 
 <Box
     sx={{
@@ -80,19 +97,33 @@ export default function Navbar() {
     mx: {
         sm: '1em'
     },
-   
+    height : '60px',
     width:{xs:'90px',sm: '100px'}
 }}>
     <img
-        className='img'
-        src={`https://ucarecdn.com/662aba9b-005a-4bb8-a4a1-c939111c8898/275633496_1156231295147805_2239147006843652299_n.jpg`}
+        className='img cover'
+        src={`https://pps.whatsapp.net/v/t61.24694-24/395029516_3182848785354113_8126807764435523565_n.jpg?ccb=11-4&oh=01_AdR_csxoLCW4KqBi0Cn_pujUGUS3L3s_ILNg7zRy1gp8fA&oe=6560B819&_nc_sid=e6ed6c&_nc_cat=104`}
         alt="gifts.and.more_lb Lebanon logo"/>
 </Box>
 </Link>
+<IconButton
+                            onClick={() => setOpen(!open)}
+                            edge="start"
+                            aria-label="menu"
+                            sx={{
+                                justifyContent:'flex-end',
+                                display:{xs:'flex',md:'none'},
+                            margin:0,
+                            color: 'black',
+                         
+                        }}>
+                            <IoMenuOutline color='black'/>
+                  
 
+                        </IconButton> 
     <NavBottom/>
 
-                <Box
+                {/* <Box
                     sx={{
                     px:1,
                     flex: 1,
@@ -139,7 +170,7 @@ export default function Navbar() {
                     </Box>
 
                 </Box>
-          
+           */}
              
             </Toolbar>
         </AppBar>
