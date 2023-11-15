@@ -58,7 +58,7 @@ export default function Navbar() {
     className='center  flex w100  auto'
 
                 sx={{
-                    
+                    py:1,
                     // border : `1px solid #00000012`,
                 background:'white',
             boxShadow:'1px 1px 3px #00000017',
@@ -81,7 +81,7 @@ export default function Navbar() {
                 
                 className='gap gap1 decor-none black uppercase'  href={`/`}>
                     <Typography  component='p' sx={{width:'max-content',
-                    fontWeight:500,fontSize:{xs:'.75em',sm:'.885em'}}}>
+                    fontWeight:700,ml:1,fontSize:{xs:'.75em',sm:'.885em'}}}>
                    Courses
                     </Typography>
                 </Link>
@@ -111,6 +111,7 @@ export default function Navbar() {
                             edge="start"
                             aria-label="menu"
                             sx={{
+                                flex:1,
                                 justifyContent:'flex-end',
                                 display:{xs:'flex',md:'none'},
                             margin:0,

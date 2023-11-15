@@ -4,22 +4,22 @@ import React from 'react'
 
 let style1 = {
     color: 'white !important',
-    background: '  #720400',
-    border:'1px solid  #720400',
-    borderRadius:'0 !important',
+    background: '#1865f2',
+    border:'1px solid  #1865f2',
+    borderRadius:'4px !important',
 
     
     ':hover': {
-        background: ' #720400',
+        background: ' #1865f2',
         color:'white !important',
-    border:'1px solid  #720400'
+    border:'1px solid  #1865f2'
 
     },
     display: 'flex',
 
-    py: 1.22,
-    px: 2.52,
-    fontSize: '12px'
+    py: 1.12,
+    px: 5.52,
+    fontSize: '13px'
 }
 let style2 = {
     color: 'black',

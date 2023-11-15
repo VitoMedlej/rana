@@ -2,11 +2,15 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Lato", sans-serif !important;
 }
 
-*, h1, h2, h3, h4, h5, h6, p, button, input, select, textarea, a {
-  font-family: "Montserrat", sans-serif !important;
+h1 {
+  font-family: "Source Serif 4", monospace !important;
+}
+
+*, h2, h3, h4, h5, h6, p, button, input, select, textarea, a {
+  font-family: "Lato", sans-serif !important;
 }
 
 .w100 {
@@ -22,6 +26,10 @@ body {
 .img .contain {
   -o-object-fit: contain !important;
      object-fit: contain !important;
+}
+
+.gap2 {
+  gap: 0.5em;
 }
 
 .cover {
@@ -70,7 +78,7 @@ body {
 }
 
 .bg {
-  background: #720400 !important;
+  background: #21242C !important;
 }
 
 .white {
@@ -119,7 +127,7 @@ button[disabled] {
 }
 
 .clr {
-  color: #720400 !important;
+  color: #21242C !important;
 }
 
 .auto {
