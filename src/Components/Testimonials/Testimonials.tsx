@@ -29,20 +29,20 @@ const Testimonial = () => {
         {
             title : `I just love it! -`,
             reviewer:`“(Georges Farah)`,
-            description : `I enrolled in CivilEnGuide's architectural course, and it was an absolute game-changer for my career. The instructors were not only knowledgeable but also incredibly supportive. The hands-on training and industry insights were invaluable. Thanks to CivilEnGuide, I've seen a significant improvement in my skills, and I now have the confidence to tackle complex design projects.`
+            description : `I enrolled in onBeirut's architectural course, and it was an absolute game-changer for my career. The instructors were not only knowledgeable but also incredibly supportive. The hands-on training and industry insights were invaluable. Thanks to onBeirut, I've seen a significant improvement in my skills, and I now have the confidence to tackle complex design projects.`
         },
         {
             title :`I knew I made the right choice - `,
             reviewer:`”(Mohamad Baydoun
                 )`,
-            description : `I can't express how pleased I am with the corporate engineering training we received from CivilEnGuide. The customized program for our team was spot on, and it immediately had a positive impact on our projects. The trainers were experts in their fields, and their practical approach made all the difference. We're grateful for the partnership with CivilEnGuide and the enhancement it brought to our team's capabilities.
+            description : `I can't express how pleased I am with the corporate engineering training we received from onBeirut. The customized program for our team was spot on, and it immediately had a positive impact on our projects. The trainers were experts in their fields, and their practical approach made all the difference. We're grateful for the partnership with onBeirut and the enhancement it brought to our team's capabilities.
             `
         },
         
         {
             title :`They made it work perfectly - `,
             reviewer:`”(Maya Semaan)`,
-            description : `CivilEnGuide's engineering courses have been a turning point in my career. The comprehensive curriculum, coupled with the support and mentorship, helped me gain a deeper understanding of the industry. What's remarkable is the emphasis on real-world applications. I now feel well-prepared to excel in the engineering field, and I'm grateful for the career opportunities that have opened up thanks to CivilEnGuide.`
+            description : `onBeirut's engineering courses have been a turning point in my career. The comprehensive curriculum, coupled with the support and mentorship, helped me gain a deeper understanding of the industry. What's remarkable is the emphasis on real-world applications. I now feel well-prepared to excel in the engineering field, and I'm grateful for the career opportunities that have opened up thanks to onBeirut.`
         }
        
     ]

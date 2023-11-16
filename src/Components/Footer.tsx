@@ -85,20 +85,20 @@ const Footer = () =>
             
             {/* <li><a href="https://www.facebook.com/profile.php?id=100076163602459/" target="_blank" rel="noreferrer" >Facebook</a></li> */}
 
-            <li><a href="https://www.instagram.com/civilenguide/" target="_blank" rel="noreferrer" >civilenguide Instagram</a></li>
+            <li><a href="https://www.instagram.com/onBeirut/" target="_blank" rel="noreferrer" >onBeirut Instagram</a></li>
             <li><a href={'https://wa.me/79192959'} rel="noreferrer" target='_blank' >{` +961 79192959 `}</a></li>
             
       <Box className='flex white' sx={{fill:'white',mt:1}}>
 
           <Box className='cursor pointer white'  sx={{width:'50px'}}>
-         <a href=' https://www.facebook.com/CivilEnGuide' style={{color:'white',fill:'white'}} className='white' target='_blank' rel='noopener' >
+         <a href=' https://www.facebook.com/onBeirut' style={{color:'white',fill:'white'}} className='white' target='_blank' rel='noopener' >
             
               <CiFacebook fontSize='2em' fill='white !important' color='white'></CiFacebook>
          </a>
            
             </Box>
             <Box fontSize='2em' className='cursor pointer' sx={{width:'50px'}}>
-         <a href='https://www.instagram.com/civilenguide/' style={{color:'white',fill:'white'}} className='white' target='_blank' rel='noopener' >
+         <a href='https://www.instagram.com/onBeirut/' style={{color:'white',fill:'white'}} className='white' target='_blank' rel='noopener' >
               <CiInstagram></CiInstagram>
          </a>
         

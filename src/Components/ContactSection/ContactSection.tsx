@@ -72,7 +72,7 @@ const ContactSection = () => {
                 <Typography component='h2' sx={{
                     
                    fontSize:'1.85em',pt:4,textAlign:'center',fontWeight:600}}>
-                 Join the CivilEnGuide Community
+                 Join the onBeirut Community
                 </Typography>
                 <Typography className='center auto' component='h2' sx={{mb:2,maxWidth:'500px',textAlign:'center',fontSize:'1.1em',fontWeight:200}}>
                 Ready to shape the future of engineering? Submit your details and let’s get started!
