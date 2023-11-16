@@ -7,13 +7,14 @@ import IconButton from '@mui/material/IconButton';
 import Link from 'next/link';
 import {useRouter} from 'next/navigation';
 import {IoBagOutline ,IoMenuOutline} from 'react-icons/io5'
-import { useDrawerContext } from '@/context/Context';
+import { useDrawerContext, useLangContext } from '@/context/Context';
 import NavBottom from './Sidebar/NavBottom';
 import Btn from './Btn/Btn';
 import SearchModal from './Sidebar/searchModal';
 import { useState } from 'react';
 import SearchInput from './Sidebar/SearchInput';
 import { Typography } from '@mui/material';
+import useLanguage from '@/Hooks/UseLanguage';
 
 
 
@@ -23,7 +24,7 @@ import { Typography } from '@mui/material';
 export default function Navbar() {
     const {open, setOpen} = useDrawerContext();
     const [openModal,setOpenModal] = useState(false)
-
+    const {text} = useLanguage()
 
     const router = useRouter()
 
@@ -82,6 +83,9 @@ export default function Navbar() {
                 className='gap gap1 decor-none black uppercase'  href={`/`}>
                     <Typography  component='p' sx={{width:'max-content',
                     fontWeight:700,ml:1,fontSize:{xs:'.75em',sm:'.885em'}}}>
+                   {/* {
+                    text('Courses','كورس')
+                   } */}
                    Courses
                     </Typography>
                 </Link>
