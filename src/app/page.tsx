@@ -20,8 +20,8 @@ const Home = () => {
       <Box>
         <Typography component="h1" className='clr' sx={{fontWeight:600,maxWidth:'300px',fontSize:'2em'}}>
         For every student,
-every classroom.
-Real results.
+        every classroom.
+        Real results.
         </Typography>
         <Typography  className='' sx={{py:2,color:'#4b4e55',maxWidth:'600px'}}>
 
@@ -38,11 +38,13 @@ Real results.
         </Box>
       </Box>
     </Container>
-  {/* <MainCarousel res={null}/> */}
-    {/* <ContactSection/>
+
+    <CoursesSection limit={0} />
+    <Whyus/>
+    {/* <MainCarousel res={null}/> */}
+    {/*
   <CoursesSection limit={6}/>
     <About/>
-    <Whyus/>
     <Testimonials/> */}
     {/* <Contact/> */}
     </>
