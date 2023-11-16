@@ -19,6 +19,7 @@ let style1 = {
 
     py: 1.12,
     px: 5.52,
+    fontWeight:600,
     fontSize: '13px'
 }
 let style2 = {
@@ -26,6 +27,7 @@ let style2 = {
   
     display: 'flex',
     fontWeight:'700',
+
     bordeRadius:25,
     my:1,
     py: 1.22,

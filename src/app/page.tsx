@@ -41,10 +41,10 @@ const Home = () => {
 
     <CoursesSection limit={0} />
     <Whyus/>
+    <About/>
     {/* <MainCarousel res={null}/> */}
     {/*
   <CoursesSection limit={6}/>
-    <About/>
     <Testimonials/> */}
     {/* <Contact/> */}
     </>

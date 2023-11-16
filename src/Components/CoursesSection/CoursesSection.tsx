@@ -18,7 +18,7 @@ const CoursesSection = ({limit}:{limit:number}) => {
   return (
     <>
 
-<Container sx={{maxWidth:'md',background:'#f5f5f5',mt:12,py:4,borderRadius:'3px'}} className='flex wrap'>
+<Container sx={{maxWidth:'md',background:'#f5f5f5',my:{xs:12,md:14},py:4,borderRadius:'3px'}} className='flex wrap'>
       {[1,2,3].map(i=> <Box key={i} className='flex gap gap2 ' sx={{borderBottom:'1px solid #6a6969',pb:3,mx:1,my:3,width:{xs:'95%',sm:'45%'}}}>
         <Box sx={{height:'50px'}}>
           <img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/math.png-444b34-128c.png" alt="" className="img rounded" />
