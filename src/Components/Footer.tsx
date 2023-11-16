@@ -11,12 +11,12 @@ const Footer = () =>
 {
   const router= useRouter()
   return (
-  <Box component='footer' className="site-footer  relative bgfooter" sx={{backgroundRepeat:'no-repeat',
+  <Box component='footer' className="site-footer  relative " sx={{backgroundRepeat:'no-repeat',
  backgroundPosition: {xs:'center !important',md:'center !important'},
-  backgroundImage: {xs:"url('https://www.iput.au/wp-content/uploads/2018/06/team25.jpg')",sm:"url('https://www.aims.edu/sites/default/files/styles/23_9__1472x576/public/construction-manag_for-web.jpg?itok=vR_hS1K1')" },
+    background:'#0b2149 !important',
   backgroundSize:{xs:'cover !important',md:'cover !important'}
   
-  ,marginTop:'3em',color:'black',background:'white'}}>
+  ,marginTop:'3em',color:'black'}}>
     <Box sx={{display:'flex',width:'100%',position:'absolute',height:'100%',background:'black',opacity:.5,top:0,right:0}}>
 
     </Box>
@@ -25,12 +25,12 @@ const Footer = () =>
       <div className="site-footer__top  relative">
         <div className="site-footer__description relative">
           <div className='logos cursor relative'>
-
+           
             <Link href="/">
               {/* <a><h1 className="site-logo"><Logo />E-Shop</h1></a> */}
               {/* https://res.cloudinary.com/dwxm8f25f/image/upload/v1675357773/logo_ghli5e.jpg */}
               {/* https://res.cloudinary.com/dwxm8f25f/image/upload/v1675713948/logo_sktnut_1_jwy2hk.png */}
-            <img className='img ' src='https://ucarecdn.com/e176955a-18a0-4859-8b12-1b1f597fa6d4/275633496_1156231295147805_2239147006843652299_nPhotoRoompngPhotoRoom.png' alt="Footer Logo" />
+            <img className='img ' src='https://pps.whatsapp.net/v/t61.24694-24/395029516_3182848785354113_8126807764435523565_n.jpg?ccb=11-4&oh=01_AdR_csxoLCW4KqBi0Cn_pujUGUS3L3s_ILNg7zRy1gp8fA&oe=6560B819&_nc_sid=e6ed6c&_nc_cat=104' alt="Footer Logo" />
             </Link>
           </div>
           <Typography component='p' sx={{ fontWeight:700,fontSize: '1.2em' ,color:'white' }}  className='footer-p  '>

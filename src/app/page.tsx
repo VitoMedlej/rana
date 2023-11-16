@@ -8,6 +8,7 @@ import Whyus from '@/Components/Whyus/Whyus'
 import Testimonials from '@/Components/Testimonials/Testimonials'
 import { Box, Container, Typography } from '@mui/material'
 import Btn from '@/Components/Btn/Btn'
+import Contact from '@/Components/Contact/Contact'
 // import Contact from '@/Components/Contact/Contact'
 
 const Home = () => {
@@ -46,7 +47,7 @@ const Home = () => {
     {/*
   <CoursesSection limit={6}/>
     <Testimonials/> */}
-    {/* <Contact/> */}
+    <Contact/>
     </>
   )
 }

@@ -56,7 +56,7 @@ const Contact = () => {
     <Box id='contact' className='flex between col '>
         <Box sx={{mb:4,justifyContent:{xs:'center',sm:'justify-between'}}} className="flex wrap  ">
 
-        {[1,2,3].map(i=>{
+        {/* {[1,2,3].map(i=>{
             return <Box key={i} sx={{mt:1,width:{xs:'99%',sm:'32%'}}} className='flex row center  items-center'>
             <Box sx={{mx:.5}}>
                     <AiFillAudio  fontSize='2em'/>
@@ -69,7 +69,7 @@ Have any questions?
                     +961 76561580
                 </Typography>
             </Box>
-        </Box>})}
+        </Box>})} */}
         </Box>
 
 
@@ -84,14 +84,13 @@ Have any questions?
                     px:1,
                 }}
             >
-                <Typography className='clr' component='h2' sx={{
+                <Typography  className='clr' component='h1' sx={{
                     
-                   fontSize:'1.85em',textAlign:'center',fontWeight:600}}>
-                    Sign up today and get %20 off
+                   fontSize:'3em',textAlign:'center',fontWeight:600}}>
+                   Join Khan Academy today
+
                 </Typography>
-                <Typography className='black' component='h2' sx={{mb:2,textAlign:'center',fontSize:'1em',fontWeight:400}}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                </Typography>
+           
 
                 <Box ref={form} onSubmit={(e)=>sendMessage(e)} component='form' sx={{gap:1,
           py:2.5,
