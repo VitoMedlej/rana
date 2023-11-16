@@ -7,13 +7,14 @@ import Btn from '../Btn/Btn'
 import { useRouter } from 'next/navigation'
 import courses from '../../../courses.json'
 import Link from 'next/link'
+import useLanguage from '@/Hooks/UseLanguage'
 
 
 
 const CoursesSection = ({limit}:{limit:number}) => {
   const router= useRouter()
   const crs = courses?.map(i=> i.name )
-  console.log('crs: ', crs);
+  const {text} = useLanguage()
 
   return (
     <>
@@ -25,7 +26,9 @@ const CoursesSection = ({limit}:{limit:number}) => {
         </Box>
         <Box sx={{mx:1}}>
             <Typography className='clr' sx={{pb:1,fontWeight:600,fontSize:'1.2em'}}>
-              Math: My Course Name Goes - Here
+            {
+  text('Math: My Course Name Goes - Here', 'الرياضيات: اسم دورتي يذهب هنا')
+}
             </Typography>
             <Link href='/' className='decor-none' style={{color:' #1865f2'}}> 
             <Typography sx={{fontWeight:500}}>

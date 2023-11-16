@@ -9,9 +9,12 @@ import Testimonials from '@/Components/Testimonials/Testimonials'
 import { Box, Container, Typography } from '@mui/material'
 import Btn from '@/Components/Btn/Btn'
 import Contact from '@/Components/Contact/Contact'
+import useLanguage from '@/Hooks/UseLanguage'
 // import Contact from '@/Components/Contact/Contact'
 
 const Home = () => {
+  const {text} = useLanguage()
+
   return (
     <>
     <Container sx={{my:5,mx:'auto',maxWidth:'lg'}} className='flex wrap space-evenly justify-evenly items-center'>
@@ -20,21 +23,25 @@ const Home = () => {
       </Box>
       <Box>
         <Typography component="h1" className='clr' sx={{fontWeight:600,maxWidth:'300px',fontSize:'2em'}}>
-        For every student,
-        every classroom.
-        Real results.
+       { text('For every student, every classroom. Real results.', 'لكل طالب، في كل فصل دراسي. نتائج حقيقية.')}
         </Typography>
         <Typography  className='' sx={{py:2,color:'#4b4e55',maxWidth:'600px'}}>
 
-        We’re a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.
+        {
+  text('We’re a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.', 'نحن منظمة غير ربحية برسالة توفير تعليم مجاني ومتميز على مستوى العالم لأي شخص في أي مكان.')
+}
         </Typography>
         <Box className="flex gap gap2">
 
         <Btn>
-          Learners
+        {
+  text('Learners', 'المتعلمون')
+}
         </Btn>
         <Btn>
-          Courses
+        {
+  text('Courses', 'الدورات')
+}
         </Btn>
         </Box>
       </Box>

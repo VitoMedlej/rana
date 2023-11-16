@@ -5,6 +5,7 @@ import React, { useRef, useState } from 'react'
 import Title from '../Title'
 import {AiFillAudio} from 'react-icons/ai'
 import Btn from '../Btn/Btn'
+import useLanguage from '@/Hooks/UseLanguage'
 const Contact = () => {
     const form :any = useRef();
     const [status,
@@ -52,6 +53,8 @@ const Contact = () => {
           setMessage('')
   }
   };
+  const {text} = useLanguage()
+
   return (
     <Box id='contact' className='flex between col '>
         <Box sx={{mb:4,justifyContent:{xs:'center',sm:'justify-between'}}} className="flex wrap  ">
@@ -66,7 +69,7 @@ const Contact = () => {
 Have any questions?
                 </Typography>
                 <Typography className='clr'>
-                    +961 76561580
+                    +961 
                 </Typography>
             </Box>
         </Box>})} */}
@@ -87,7 +90,9 @@ Have any questions?
                 <Typography  className='clr' component='h1' sx={{
                     
                    fontSize:'3em',textAlign:'center',fontWeight:600}}>
-                   Join Khan Academy today
+                 {
+  text('Join Khan Academy today', 'انضم إلى Khan Academy اليوم')
+}
 
                 </Typography>
            

@@ -25,7 +25,7 @@ export default function Navbar() {
     const {open, setOpen} = useDrawerContext();
     const [openModal,setOpenModal] = useState(false)
     const {text} = useLanguage()
-
+    const {lang,setLang} = useLangContext()
     const router = useRouter()
 
 
@@ -78,17 +78,21 @@ export default function Navbar() {
 
             <SearchInput/>
                 
-                <Link  style={{color:'#1865f2 !important'}}
                 
-                className='gap gap1 decor-none black uppercase'  href={`/`}>
-                    <Typography  component='p' sx={{width:'max-content',
+                
+                    <Typography 
+                    
+                className='gap gap1 cursor pointer decor-none black uppercase'  
+                  onClick={() => setLang(lang === 'en' ? 'ar' : 'en')}
+                    component='p' sx={{width:'max-content',
+                    
+                    color:'#1865f2 !important',
                     fontWeight:700,ml:1,fontSize:{xs:'.75em',sm:'.885em'}}}>
-                   {/* {
-                    text('Courses','كورس')
-                   } */}
-                   Courses
+                   
+                   {
+                    text('العربية','English')
+                   }
                     </Typography>
-                </Link>
             </Box>
                
             {/* <SearchModal openModal={openModal} setOpenModal={setOpenModal} /> */}

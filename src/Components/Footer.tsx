@@ -6,9 +6,12 @@ import { useRouter } from 'next/navigation';
 // import SMicons from './SMicons';
 // // import Logo from '../../assets/icons/logo';
 import {CiFacebook,CiInstagram,CiLinkedin} from 'react-icons/ci'
+import useLanguage from '@/Hooks/UseLanguage';
 
 const Footer = () => 
 {
+  const {text} = useLanguage()
+
   const router= useRouter()
   return (
   <Box component='footer' className="site-footer  relative " sx={{backgroundRepeat:'no-repeat',
@@ -34,7 +37,10 @@ const Footer = () =>
             </Link>
           </div>
           <Typography component='p' sx={{ fontWeight:700,fontSize: '1.2em' ,color:'white' }}  className='footer-p  '>
-          Join us at CivilenGuide and embark on a journey of engineering excellence. Whether you&apos;re seeking top-tier engineering services, professional training, or a community of driven individuals, we&apos;re here to guide you. With our authorized certified instructors, cutting-edge software skills enhancement, and a thriving network of 1200+ students, we&apos;re committed to shaping the future of civil engineering in Lebanon and beyond.
+{
+  text('The International Academy for Translation and Training in Lebanon is a renowned institution dedicated to providing high-quality education in the field of translation. Established with a commitment to excellence, the academy serves as a hub for individuals aspiring to build successful careers in the dynamic world of language translation.', 'الأكاديمية الدولية للترجمة والتدريب في لبنان هي مؤسسة مشهورة ملتزمة بتقديم تعليم عالي الجودة في مجال الترجمة. تأسست بالتزام بالتميز، تعتبر الأكاديمية محورًا للأفراد الطموحين الذين يسعون لبناء مهن ناجحة في عالم الترجمة اللغوية الدينامي.')
+}
+```
           </Typography>
         
 
@@ -80,7 +86,7 @@ const Footer = () =>
             {/* <li><a href="https://www.facebook.com/profile.php?id=100076163602459/" target="_blank" rel="noreferrer" >Facebook</a></li> */}
 
             <li><a href="https://www.instagram.com/civilenguide/" target="_blank" rel="noreferrer" >civilenguide Instagram</a></li>
-            <li><a href={'https://wa.me/76561580'} rel="noreferrer" target='_blank' >{` +961 76561580 `}</a></li>
+            <li><a href={'https://wa.me/79192959'} rel="noreferrer" target='_blank' >{` +961 79192959 `}</a></li>
             
       <Box className='flex white' sx={{fill:'white',mt:1}}>
 

@@ -35,8 +35,8 @@ export default function RootLayout({children} : {
                     {/* <ScrollToTop/> */}
 
                      {children}
-                </ContextWrapper>
                 <Footer/>
+                </ContextWrapper>
             </body>
         </html>
     )
