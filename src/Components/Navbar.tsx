@@ -62,7 +62,7 @@ export default function Navbar() {
                     py:1,
                     // border : `1px solid #00000012`,
                 background:'white',
-            boxShadow:'1px 1px 3px #00000017',
+            boxShadow:'none',
                     width:'100%',
                     justifyCotntent:'space-between !important',
                     maxWidth:'lg',
@@ -97,9 +97,13 @@ export default function Navbar() {
                
             {/* <SearchModal openModal={openModal} setOpenModal={setOpenModal} /> */}
                
-                <Link className='flex center absolute   aling-center ' style={{ justifyContent:'flex-start !important'}}  href='/' color='inherit'>
+                <Link 
+                className='flex center absolute cursor pointer   aling-center '
+                 style={{ justifyContent:'flex-start !important'}}  href='/' 
+                 color='inherit'>
 
 <Box
+className='cursor pointer'
     sx={{
         
     mx: {
@@ -111,7 +115,7 @@ export default function Navbar() {
     <img
         className='img cover'
         src={`https://pps.whatsapp.net/v/t61.24694-24/395029516_3182848785354113_8126807764435523565_n.jpg?ccb=11-4&oh=01_AdR_csxoLCW4KqBi0Cn_pujUGUS3L3s_ILNg7zRy1gp8fA&oe=6560B819&_nc_sid=e6ed6c&_nc_cat=104`}
-        alt="gifts.and.more_lb Lebanon logo"/>
+        alt="Site logo"/>
 </Box>
 </Link>
 <IconButton

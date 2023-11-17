@@ -89,9 +89,18 @@ const Index = () => {
 
                         </Box>
     
-    
-    <Grid sx={{mt:12}} container maxWidth='xl'>
-        <Grid item xs={12} sm={4}>
+                        <Box className='center ' sx={{mt:16}}>
+                <Title sx={{textAlign:'center'}}>
+                Why Choose IATLC?
+                </Title>
+                <Typography className='auto' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
+                At IATLC, we believe in providing our students with a comprehensive learning experience. Our courses are taught by experienced instructors who are experts in their respective fields. We also offer flexible learning options, including online courses, to cater to the diverse needs of our students.
+
+Join us at the International Academy for Translation and Learning Courses in Lebanon and embark on a journey of learning and discovery.
+                </Typography>
+    </Box>
+    <Grid sx={{my:8}} container maxWidth='xl'>
+        {/* <Grid item xs={12} sm={4}>
             <Box>
                 <Title>
                     Our Specialties 
@@ -102,10 +111,10 @@ const Index = () => {
                     Register Now
                 </Btn>
             </Box>
-        </Grid>
+        </Grid> */}
         <Grid sx={{mx:1}} xs={12} sm={8}>
             <Box>
-            <Box sx={{justifyContent:'space-between'}} className="flex wrap">
+            {/* <Box sx={{justifyContent:'space-between'}} className="flex wrap">
 
             {
                 reasons.map(i=>{
@@ -121,7 +130,7 @@ const Index = () => {
                     </Box>
                 })
             }
-            </Box>
+            </Box> */}
             </Box>
         </Grid>
         <Grid sx={{mt:16}} xs={12} sm={6}>
@@ -157,14 +166,7 @@ const Index = () => {
             </Box>
         </Grid>
     </Grid>
-    <Box className='center ' sx={{mt:16}}>
-                <Title sx={{textAlign:'center'}}>
-                Experience Innovation with onBeirut
-                </Title>
-                <Typography className='auto' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
-                We believe in turning ideas into reality. Since our inception in 2016, we have been committed to redefining excellence in engineering and architecture across Lebanon and the Middle East. We have successfully served over 1200 customers and partnered with more than 15 companies, offering a range of services from design engineering to certified courses and corporate training. Our team of professionals is dedicated to ensuring quality and client satisfaction.
-                </Typography>
-    </Box>
+
     </Box>
     </Box>
   

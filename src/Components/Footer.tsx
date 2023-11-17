@@ -118,7 +118,7 @@ const Footer = () =>
       </div>
     </div>
 
-    <div className="center text-center bg2 relative " style={{textAlign:'center',color:'black',borderTop:"1px solid #0000001f"}}>
+    <div className="center text-center  relative " style={{background:'#030c1e',textAlign:'center',color:'black',borderTop:"1px solid #0000001f"}}>
       <div className=" bg white " style={{}}>
         <Box sx={{py:2}}>Website Developed By{' '}
           <a className='white' href={`${'https://www.onbeirut.com'}`}>OnBeirut Agency </a></Box>
