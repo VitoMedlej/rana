@@ -6,10 +6,10 @@ import Navbar from '@/Components/Navbar'
 // import ScrollToTop from '@/Components/ScrollToTop/ScrollToTop'
 
 export const metadata = {
-    title: 'Civil Engineering Excellence and Training in Lebanon',
-    description: `Elevate your engineering skills with [Company Name] - Your partner in civil engineering services and professional training in Lebanon. Benefit from authorized certified instructors, enhance software proficiency. `,
+    title: `ITAA: Lebanon's Premier Translation & Training Hub`,
+    description: `Unlock career growth with expert translation services and cutting-edge training at the International Academy. Elevate your skills in Lebanon's leading language institution.`,
     icons: {
-        icon:`https://ucarecdn.com/662aba9b-005a-4bb8-a4a1-c939111c8898/275633496_1156231295147805_2239147006843652299_n.jpg`
+        icon:`https://pps.whatsapp.net/v/t61.24694-24/395029516_3182848785354113_8126807764435523565_n.jpg?ccb=11-4&oh=01_AdR_csxoLCW4KqBi0Cn_pujUGUS3L3s_ILNg7zRy1gp8fA&oe=6560B819&_nc_sid=e6ed6c&_nc_cat=104`
     }
 }
 

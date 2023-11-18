@@ -103,7 +103,7 @@ export default function Navbar() {
     <img
         className='img cover'
         src={`https://pps.whatsapp.net/v/t61.24694-24/395029516_3182848785354113_8126807764435523565_n.jpg?ccb=11-4&oh=01_AdR_csxoLCW4KqBi0Cn_pujUGUS3L3s_ILNg7zRy1gp8fA&oe=6560B819&_nc_sid=e6ed6c&_nc_cat=104`}
-        alt="gifts.and.more_lb Lebanon logo"/>
+        alt="iatt logo"/>
 </Box>
 </Link>
 <IconButton
