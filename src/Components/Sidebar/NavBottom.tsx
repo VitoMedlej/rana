@@ -62,7 +62,7 @@ const NavBottom = () => {
                 </Link>
                 <Link  style={{color:'#1865f2 !important'}}
                 
-                className=' decor-none #1865f2 !important '  href={`#testimonials`}>
+                className=' decor-none #1865f2 !important '  href={`#contact`}>
                     <Typography  component='p' sx={{width:'max-content',
                     fontWeight:700,fontSize:{xs:'.75em',sm:'.95em'}}}>
                   Reach Us

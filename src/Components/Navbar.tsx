@@ -99,7 +99,7 @@ export default function Navbar() {
                
                 <Link 
                 className='flex center absolute cursor pointer   aling-center '
-                 style={{ justifyContent:'flex-start !important'}}  href='/' 
+                 style={{zIndex:12354, justifyContent:'flex-start !important'}}  href='/' 
                  color='inherit'>
 
 <Box

@@ -36,11 +36,11 @@ const Footer = () =>
             <img className='img ' src='https://pps.whatsapp.net/v/t61.24694-24/395029516_3182848785354113_8126807764435523565_n.jpg?ccb=11-4&oh=01_AdR_csxoLCW4KqBi0Cn_pujUGUS3L3s_ILNg7zRy1gp8fA&oe=6560B819&_nc_sid=e6ed6c&_nc_cat=104' alt="Footer Logo" />
             </Link>
           </div>
-          <Typography component='p' sx={{ fontWeight:700,fontSize: '1.2em' ,color:'white' }}  className='footer-p  '>
+          <Typography component='p' sx={{ fontWeight:300,fontSize: '1.2em' ,color:'white' }}  className='footer-p  '>
 {
   text('The International Academy for Translation and Training in Lebanon is a renowned institution dedicated to providing high-quality education in the field of translation. Established with a commitment to excellence, the academy serves as a hub for individuals aspiring to build successful careers in the dynamic world of language translation.', 'الأكاديمية الدولية للترجمة والتدريب في لبنان هي مؤسسة مشهورة ملتزمة بتقديم تعليم عالي الجودة في مجال الترجمة. تأسست بالتزام بالتميز، تعتبر الأكاديمية محورًا للأفراد الطموحين الذين يسعون لبناء مهن ناجحة في عالم الترجمة اللغوية الدينامي.')
 }
-```
+
           </Typography>
         
 
