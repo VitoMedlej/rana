@@ -46,10 +46,18 @@ const NavBottom = () => {
                 </Link>
                 <Link  style={{ margin:'0 .25em',color:'#1865f2 !important'}}
                 
-                className=' decor-none #1865f2 !important '  href={`#why-us`}>
+                className=' decor-none #1865f2 !important '  href={`/services`}>
                     <Typography  component='p' sx={{width:'max-content',
                     fontWeight:700,fontSize:{xs:'.75em',sm:'.95em'}}}>
                    Services
+                    </Typography>
+                </Link>
+                <Link  style={{ margin:'0 .25em',color:'#1865f2 !important'}}
+                
+                className=' decor-none #1865f2 !important '  href={`/about-us`}>
+                    <Typography  component='p' sx={{width:'max-content',
+                    fontWeight:700,fontSize:{xs:'.75em',sm:'.95em'}}}>
+                   About Us
                     </Typography>
                 </Link>
                 <Link  style={{color:'#1865f2 !important'}}

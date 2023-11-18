@@ -5,6 +5,7 @@ import React, { useRef, useState } from 'react'
 import Title from '../Title'
 import {AiFillAudio} from 'react-icons/ai'
 import Btn from '../Btn/Btn'
+import useLanguage from '@/Hooks/UseLanguage'
 const Contact = () => {
     const form :any = useRef();
     const [status,
@@ -52,11 +53,13 @@ const Contact = () => {
           setMessage('')
   }
   };
+  const {text} = useLanguage()
+
   return (
     <Box id='contact' className='flex between col '>
         <Box sx={{mb:4,justifyContent:{xs:'center',sm:'justify-between'}}} className="flex wrap  ">
 
-        {[1,2,3].map(i=>{
+        {/* {[1,2,3].map(i=>{
             return <Box key={i} sx={{mt:1,width:{xs:'99%',sm:'32%'}}} className='flex row center  items-center'>
             <Box sx={{mx:.5}}>
                     <AiFillAudio  fontSize='2em'/>
@@ -66,10 +69,10 @@ const Contact = () => {
 Have any questions?
                 </Typography>
                 <Typography className='clr'>
-                    +961 76561580
+                    +961 
                 </Typography>
             </Box>
-        </Box>})}
+        </Box>})} */}
         </Box>
 
 
@@ -84,14 +87,15 @@ Have any questions?
                     px:1,
                 }}
             >
-                <Typography className='clr' component='h2' sx={{
+                <Typography  className='clr' component='h1' sx={{
                     
-                   fontSize:'1.85em',textAlign:'center',fontWeight:600}}>
-                    Sign up today and get %20 off
+                   fontSize:'3em',textAlign:'center',fontWeight:600}}>
+                 {
+  text('Join Khan Academy today', 'انضم إلى Khan Academy اليوم')
+}
+
                 </Typography>
-                <Typography className='black' component='h2' sx={{mb:2,textAlign:'center',fontSize:'1em',fontWeight:400}}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                </Typography>
+           
 
                 <Box ref={form} onSubmit={(e)=>sendMessage(e)} component='form' sx={{gap:1,
           py:2.5,

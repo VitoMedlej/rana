@@ -81,7 +81,7 @@ const Preloader3 = ({res}:{res:any}) => {
                                 Engineering Excellence for the Future
                                 </Typography>
                                 <Typography sx={{color:'white',fontSize:{xs:'.75em',sm:'.9em'},mt:1,maxWidth:'500px'}}>
-                               Whether you need design engineering services, certified courses, or corporate training, CivilEnGuide is your trusted partner in engineering excellence. 
+                               Whether you need design engineering services, certified courses, or corporate training, onBeirut is your trusted partner in engineering excellence. 
                                 </Typography>
                                 <Btn onClick={()=>router.push('/about-us')} sx={{mt:3,width:'220px'}}>
                                 Learn More

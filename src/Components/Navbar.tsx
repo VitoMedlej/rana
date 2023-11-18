@@ -7,13 +7,14 @@ import IconButton from '@mui/material/IconButton';
 import Link from 'next/link';
 import {useRouter} from 'next/navigation';
 import {IoBagOutline ,IoMenuOutline} from 'react-icons/io5'
-import { useDrawerContext } from '@/context/Context';
+import { useDrawerContext, useLangContext } from '@/context/Context';
 import NavBottom from './Sidebar/NavBottom';
 import Btn from './Btn/Btn';
 import SearchModal from './Sidebar/searchModal';
 import { useState } from 'react';
 import SearchInput from './Sidebar/SearchInput';
 import { Typography } from '@mui/material';
+import useLanguage from '@/Hooks/UseLanguage';
 
 
 
@@ -23,8 +24,8 @@ import { Typography } from '@mui/material';
 export default function Navbar() {
     const {open, setOpen} = useDrawerContext();
     const [openModal,setOpenModal] = useState(false)
-
-
+    const {text} = useLanguage()
+    const {lang,setLang} = useLangContext()
     const router = useRouter()
 
 
@@ -61,7 +62,7 @@ export default function Navbar() {
                     py:1,
                     // border : `1px solid #00000012`,
                 background:'white',
-            boxShadow:'1px 1px 3px #00000017',
+            boxShadow:'none',
                     width:'100%',
                     justifyCotntent:'space-between !important',
                     maxWidth:'lg',
@@ -77,21 +78,32 @@ export default function Navbar() {
 
             <SearchInput/>
                 
-                <Link  style={{color:'#1865f2 !important'}}
                 
-                className='gap gap1 decor-none black uppercase'  href={`/`}>
-                    <Typography  component='p' sx={{width:'max-content',
+                
+                    <Typography 
+                    
+                className='gap gap1 cursor pointer decor-none black uppercase'  
+                  onClick={() => setLang(lang === 'en' ? 'ar' : 'en')}
+                    component='p' sx={{width:'max-content',
+                    
+                    color:'#1865f2 !important',
                     fontWeight:700,ml:1,fontSize:{xs:'.75em',sm:'.885em'}}}>
-                   Courses
+                   
+                   {
+                    text('العربية','English')
+                   }
                     </Typography>
-                </Link>
             </Box>
                
             {/* <SearchModal openModal={openModal} setOpenModal={setOpenModal} /> */}
                
-                <Link className='flex center absolute   aling-center ' style={{ justifyContent:'flex-start !important'}}  href='/' color='inherit'>
+                <Link 
+                className='flex center absolute cursor pointer   aling-center '
+                 style={{ justifyContent:'flex-start !important'}}  href='/' 
+                 color='inherit'>
 
 <Box
+className='cursor pointer'
     sx={{
         
     mx: {
@@ -103,7 +115,7 @@ export default function Navbar() {
     <img
         className='img cover'
         src={`https://pps.whatsapp.net/v/t61.24694-24/395029516_3182848785354113_8126807764435523565_n.jpg?ccb=11-4&oh=01_AdR_csxoLCW4KqBi0Cn_pujUGUS3L3s_ILNg7zRy1gp8fA&oe=6560B819&_nc_sid=e6ed6c&_nc_cat=104`}
-        alt="iatt logo"/>
+        alt="IATT logo"/>
 </Box>
 </Link>
 <IconButton

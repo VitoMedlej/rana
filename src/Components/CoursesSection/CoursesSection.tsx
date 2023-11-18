@@ -2,53 +2,57 @@
 
 import React from 'react'
 import Title from '../Title'
-import { Box, Typography } from '@mui/material'
+import { Box, Container, Typography } from '@mui/material'
 import Btn from '../Btn/Btn'
 import { useRouter } from 'next/navigation'
 import courses from '../../../courses.json'
+import Link from 'next/link'
+import useLanguage from '@/Hooks/UseLanguage'
 
 
 
 const CoursesSection = ({limit}:{limit:number}) => {
   const router= useRouter()
   const crs = courses?.map(i=> i.name )
-  console.log('crs: ', crs);
+  const {text} = useLanguage()
 
   return (
     <>
-    <Title sx={{py:8}}>
-            BROWSE OUR LATEST COURSES
-    </Title>
-<Box className='flex wrap'>
 
-{courses && courses.slice(0,Number(limit)).map(i=>{   
-  return <Box
-  onClick={()=>router.push(`/course/${i.id}?title=${i.name}`)}
-  key={i.img} sx={{my:2,mx:1,width:{xs:'98%',sm:'49%',md:'32%'}}}>
-        <Box 
-        className='pointer'
-       
-        sx={{width:'100%',height:'250px',minHeight:'200px'}}>
-        <img src={`${i.img}`} style={{minHeight:'200px',maxHeight:'400px',}} alt={`Course Main image`} className="img " />
+<Container sx={{maxWidth:'md',background:'#f5f5f5',my:{xs:12,md:14},py:4,borderRadius:'3px'}} className='flex wrap'>
+      {[1,2,3].map(i=> <Box key={i} className='flex gap gap2 ' sx={{borderBottom:'1px solid #6a6969',pb:3,mx:1,my:3,width:{xs:'95%',sm:'45%'}}}>
+        <Box sx={{height:'50px'}}>
+          <img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/math.png-444b34-128c.png" alt="" className="img rounded" />
         </Box>
-        <Box>
-            <Typography className='clr pointer'
-          onClick={()=>router.push(`/course/${i}`)}
-            
-            sx={{mt:1,fontSize:'1.32em',fontWeight:600}}>{i.name} </Typography>
-            <Typography sx={{fontSize:'.8em',py:.35}}>{i.duration}</Typography>
-            <Typography sx={{fontWeight:600,fontSize:'1.1em'}}>{i.coursePrice['1 person']}</Typography>
+        <Box sx={{mx:1}}>
+            <Typography className='clr' sx={{pb:1,fontWeight:600,fontSize:'1.2em'}}>
+            {
+  text('Math: My Course Name Goes - Here', 'الرياضيات: اسم دورتي يذهب هنا')
+}
+            </Typography>
+            <Link href='/' className='decor-none' style={{color:' #1865f2'}}> 
+            <Typography sx={{fontWeight:500}}>
+              1- Math Course Name 
+            </Typography>
+            </Link>
+            <Link href='/' className='decor-none' style={{color:' #1865f2'}}> 
+            <Typography sx={{fontWeight:500}}>
+              2- Math Course Name 2 
+            </Typography>
+            </Link>
+            <Link href='/' className='decor-none' style={{color:' #1865f2'}}> 
+            <Typography sx={{fontWeight:500}}>
+              3- Math Course Name 3 
+            </Typography>
+            </Link>
         </Box>
-</Box>})}
-<Box sx={{width:'100%'}} className="flex">
+      </Box>)}
 
-<Btn 
-onClick={()=>router.push('/courses')}
-sx={{mb:8,mt:4,mx:'auto'}} className='flex '>
-  View All
-</Btn>
-</Box>
-    </Box>
+      
+
+      
+
+    </Container>
     </>
   )
 }
