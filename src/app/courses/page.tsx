@@ -13,7 +13,7 @@ const Index = () => {
     <Box className="flex auto gap wrap">
 
     {[1,2,3,4].map(i=>{
-      return <Box className='auto center' sx={{py:2,width:{xs:'95%',sm:'45%'}}}>
+      return <Box  key={i} className='auto center' sx={{py:2,width:{xs:'95%',sm:'45%'}}}>
           <img src="" alt="" className="img" />
       </Box>
     })}
