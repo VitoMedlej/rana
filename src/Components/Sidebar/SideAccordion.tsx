@@ -24,7 +24,7 @@ export default function BasicAccordion({toggleDrawer} : any) {
             router.push(`/`)
            }}
            disablePadding>
-            <ListItemButton sx={{py:1 ,  fontWeight:'600 !important',}}>
+            <ListItemButton  className='center text-center' sx={{py:1 ,  fontWeight:'600 !important',}}>
            
               <ListItemText
               sx={{
@@ -46,7 +46,7 @@ export default function BasicAccordion({toggleDrawer} : any) {
             router.push(`/courses`)
            }}
            disablePadding>
-            <ListItemButton sx={{py:1 ,  fontWeight:'600 !important',}}>
+            <ListItemButton className='center text-center' sx={{py:1 ,  fontWeight:'600 !important',}}>
            
               <ListItemText
               sx={{
@@ -67,7 +67,7 @@ export default function BasicAccordion({toggleDrawer} : any) {
             router.push(`/about-us`)
            }}
            disablePadding>
-            <ListItemButton sx={{py:1 ,  fontWeight:'600 !important',}}>
+            <ListItemButton   className='center text-center' sx={{py:1 ,  fontWeight:'600 !important',}}>
            
               <ListItemText
               sx={{
@@ -85,10 +85,10 @@ export default function BasicAccordion({toggleDrawer} : any) {
           <ListItem 
           onClick={()=>{
             toggleDrawer(false)
-            router.push(`#why-us`)
+            router.push(`/#why-us`)
            }}
            disablePadding>
-            <ListItemButton sx={{py:1 ,  fontWeight:'600 !important',}}>
+            <ListItemButton  className='center text-center' sx={{py:1 ,  fontWeight:'600 !important',}}>
            
               <ListItemText
               sx={{
@@ -106,10 +106,31 @@ export default function BasicAccordion({toggleDrawer} : any) {
           <ListItem 
           onClick={()=>{
             toggleDrawer(false)
-            router.push(`#contact`)
+            router.push(`/services`)
            }}
            disablePadding>
-            <ListItemButton sx={{py:1 ,  fontWeight:'600 !important',}}>
+            <ListItemButton  className='center text-center' sx={{py:1 ,  fontWeight:'600 !important',}}>
+           
+              <ListItemText
+              sx={{
+                color:'black',
+                fontWeight:'600 !important',
+                textTransform: 'capitalize'
+              }}
+            >
+                    <Typography sx={{fontWeight:600}}>Our Services</Typography>
+              </ListItemText>
+                    <Divider></Divider>
+            </ListItemButton>
+          </ListItem>
+
+          <ListItem 
+          onClick={()=>{
+            toggleDrawer(false)
+            router.push(`/contact`)
+           }}
+           disablePadding>
+            <ListItemButton  className='center text-center' sx={{py:1 ,  fontWeight:'600 !important',}}>
            
               <ListItemText
               sx={{

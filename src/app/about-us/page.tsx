@@ -83,7 +83,7 @@ const Index = () => {
                                 className={`img pointer  cover
                                 `}
                                 // ${item?.className}
-                                src={`https://img.freepik.com/free-photo/student-class-looking-course_23-2148888810.jpg?h=900&w=1640&t=st=1700158849~exp=1700159449~hmac=ce02332a2a7e30a3d43152030a1c8cf95cc3f1e33b777e7f0860fa0d8711f783`}
+                                src={`https://ucarecdn.com/64fd9c9b-40da-4b04-b64f-0ff58eaa252f/download.jfif`}
                                 alt="Main Carousel Image"/>
                             </Box>
 
@@ -91,10 +91,10 @@ const Index = () => {
     
                         <Box className='center ' sx={{mt:16}}>
                 <Title sx={{textAlign:'center'}}>
-                Why Choose IATLC?
+                Why Choose IATT?
                 </Title>
                 <Typography className='auto' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
-                At IATLC, we believe in providing our students with a comprehensive learning experience. Our courses are taught by experienced instructors who are experts in their respective fields. We also offer flexible learning options, including online courses, to cater to the diverse needs of our students.
+                At IATT, we believe in providing our students with a comprehensive learning experience. Our courses are taught by experienced instructors who are experts in their respective fields. We also offer flexible learning options, including online courses, to cater to the diverse needs of our students.
 
 Join us at the International Academy for Translation and Learning Courses in Lebanon and embark on a journey of learning and discovery.
                 </Typography>
@@ -141,11 +141,11 @@ Join us at the International Academy for Translation and Learning Courses in Leb
     className={`img pointer  
     `}
     // ${item?.className}
-    src={`https://i.pinimg.com/736x/4f/56/18/4f56186e8cd088a219d4c50e2ab198af.jpg`}
+    src={`https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}
     alt="Main Carousel Image"/>
 </Box>
         </Grid>
-        <Grid sx={{mt:{sm:16}}} className='flex bg white center items-center' item xs={12} sm={6}>
+        <Grid sx={{mt:{sm:16},background:'#000818 '}} className='flex  white center items-center' item xs={12} sm={6}>
             <Box sx={{px:1,py:8}}>
             <Title sx={{color:'white'}}>
             We offer a wide range of courses, including:

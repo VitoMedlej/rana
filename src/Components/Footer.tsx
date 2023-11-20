@@ -33,7 +33,7 @@ const Footer = () =>
               {/* <a><h1 className="site-logo"><Logo />E-Shop</h1></a> */}
               {/* https://res.cloudinary.com/dwxm8f25f/image/upload/v1675357773/logo_ghli5e.jpg */}
               {/* https://res.cloudinary.com/dwxm8f25f/image/upload/v1675713948/logo_sktnut_1_jwy2hk.png */}
-            <img className='img ' src='https://pps.whatsapp.net/v/t61.24694-24/395029516_3182848785354113_8126807764435523565_n.jpg?ccb=11-4&oh=01_AdR_csxoLCW4KqBi0Cn_pujUGUS3L3s_ILNg7zRy1gp8fA&oe=6560B819&_nc_sid=e6ed6c&_nc_cat=104' alt="Footer Logo" />
+            <img className='img ' src='https://ucarecdn.com/a8fde0d5-772c-4818-acab-95b78a1b58c9/iatt.jfif' alt="Footer Logo" />
             </Link>
           </div>
           <Typography component='p' sx={{ fontWeight:300,fontSize: '1.2em' ,color:'white' }}  className='footer-p  '>
@@ -118,10 +118,10 @@ const Footer = () =>
       </div>
     </div>
 
-    <div className="center text-center  relative " style={{background:'#030c1e',textAlign:'center',color:'black',borderTop:"1px solid #0000001f"}}>
-      <div className=" bg white " style={{}}>
+    <div className="center text-center  relative " style={{background:'##000818 !important',textAlign:'center',color:'black',borderTop:"1px solid #0000001f"}}>
+      <div className="  white " style={{background:'##000818 !important',}}>
         <Box sx={{py:2}}>Website Developed By{' '}
-          <a className='white' href={`${'https://www.onbeirut.com'}`}>OnBeirut Agency </a></Box>
+          <a className='white' href={`${'htts://www.onbeirut.com'}`}>OnBeirut Agency </a></Box>
       </div>
     </div>
   </Box>

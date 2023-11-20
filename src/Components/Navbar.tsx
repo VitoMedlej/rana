@@ -105,7 +105,7 @@ export default function Navbar() {
 <Box
 className='cursor pointer'
     sx={{
-        
+    zIndex:134124,        
     mx: {
         sm: '1em'
     },
@@ -113,19 +113,22 @@ className='cursor pointer'
     width:{xs:'90px',sm: '100px'}
 }}>
     <img
+    style={{zIndex:134124}}
         className='img cover'
-        src={`https://pps.whatsapp.net/v/t61.24694-24/395029516_3182848785354113_8126807764435523565_n.jpg?ccb=11-4&oh=01_AdR_csxoLCW4KqBi0Cn_pujUGUS3L3s_ILNg7zRy1gp8fA&oe=6560B819&_nc_sid=e6ed6c&_nc_cat=104`}
+        src={`https://ucarecdn.com/a8fde0d5-772c-4818-acab-95b78a1b58c9/iatt.jfif`}
         alt="IATT logo"/>
 </Box>
 </Link>
+<Box sx={{  flex:1,   justifyContent:'flex-end',
+                                display:{xs:'flex',md:'none'},}}>
+
 <IconButton
                             onClick={() => setOpen(!open)}
                             edge="start"
                             aria-label="menu"
                             sx={{
-                                flex:1,
-                                justifyContent:'flex-end',
-                                display:{xs:'flex',md:'none'},
+                              
+                             
                             margin:0,
                             color: 'black',
                          
@@ -134,6 +137,8 @@ className='cursor pointer'
                   
 
                         </IconButton> 
+</Box>
+
     <NavBottom/>
 
                 {/* <Box

@@ -54,7 +54,7 @@ export default function TemporaryDrawer({cates}:{cates:string[] | undefined}) {
     <Divider light></Divider>
 
               <IconButton 
-        
+          sx={{color:'red'}}
         onClick={toggleDrawer(false)}
         >
                         <GrFormClose
