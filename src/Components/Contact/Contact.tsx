@@ -91,7 +91,7 @@ Have any questions?
                     
                    fontSize:'3em',textAlign:'center',fontWeight:600}}>
                  {
-  text('Join Khan Academy today', 'انضم إلى Khan Academy اليوم')
+  text('Join Our Academy today', 'انضم إلى IATT Academy اليوم')
 }
 
                 </Typography>

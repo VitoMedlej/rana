@@ -23,12 +23,12 @@ const Home = () => {
       </Box>
       <Box>
         <Typography component="h1" className='clr' sx={{fontWeight:600,maxWidth:'300px',fontSize:'2em'}}>
-       { text('For every student, every classroom. Real results.', 'لكل طالب، في كل فصل دراسي. نتائج حقيقية.')}
+       { text('Excellence in Translation and Training.', 'لكل طالب، في كل فصل دراسي. نتائج حقيقية.')}
         </Typography>
         <Typography  className='' sx={{py:2,color:'#4b4e55',maxWidth:'600px'}}>
 
         {
-  text('We’re a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.', 'نحن منظمة غير ربحية برسالة توفير تعليم مجاني ومتميز على مستوى العالم لأي شخص في أي مكان.')
+  text('Unlock your potential and chart a course to linguistic excellence with the International Academy for Translation and Training.', 'نحن منظمة غير ربحية برسالة توفير تعليم مجاني ومتميز على مستوى العالم لأي شخص في أي مكان.')
 }
         </Typography>
         <Box className="flex gap gap2">

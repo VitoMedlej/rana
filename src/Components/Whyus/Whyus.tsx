@@ -17,22 +17,22 @@ const Whyus = () => {
     const {text} = useLanguage()
     const reasons= [
         {
-            title: text('Affordable Prices', 'أسعار معقولة'),
-            desc:  text('Students practice at their own pace, first filling in gaps in their understanding and then accelerating their learning.', 'يمارس الطلاب بوتيرة خاصة بهم، يقومون أولاً بسد الفجوات في فهمهم ثم يسرعون في عملية التعلم.'),
+            title: text('Unmatched Expertise', 'أسعار معقولة'),
+            desc:  text('17 years of excellence. Specialized programs. Practical learning. Choose us for unparalleled expertise in translation and training.', 'يمارس الطلاب بوتيرة خاصة بهم، يقومون أولاً بسد الفجوات في فهمهم ثم يسرعون في عملية التعلم.'),
             icon: 'https://cdn.kastatic.org/images/lohp/personalized_learning_icon.png',
         },
             {
-            title:  text('Trusted content', 'محتوى موثوق به'),
+            title:  text('Personalized Guidance', 'محتوى موثوق به'),
             desc:
-                text('Created by experts, Khan Academy’s library of trusted practice and lessons covers math, science, and more. Always free for learners and teachers.', 'تم إنشاؤها بواسطة خبراء، مكتبة الدروس والتمارين الموثوقة في Khan Academy تغطي مواضيع الرياضيات والعلوم وأكثر. دائمًا مجانية للمتعلمين والمعلمين.')
+                text('Led by Dr. Rana CHEHAB, our elite team provides personalized education. Join us for hands-on courses tailored to your success.', 'تم إنشاؤها بواسطة خبراء، مكتبة الدروس والتمارين الموثوقة في Khan Academy تغطي مواضيع الرياضيات والعلوم وأكثر. دائمًا مجانية للمتعلمين والمعلمين.')
               ,
             icon: 'https://cdn.kastatic.org/images/lohp/trusted_content_icon.png',
     
         },    {
             title:
-                text('Authorized Instructors', 'مدرسون معتمدون')
+                text('Your Success, Our Focus', 'مدرسون معتمدون')
               ,
-            desc: text('With Khan Academy, teachers can identify gaps in their students’ understanding, tailor instruction, and meet the needs of every student.', 'مع Khan Academy، يمكن للمعلمين تحديد الفجوات في فهم طلابهم، ضبط التعليم، وتلبية احتياجات كل طالب.'),
+            desc: text('Your success matters. Explore specialized courses, learn from industry experts, and earn international accreditation. Enroll now for a successful journey.', 'مع Khan Academy، يمكن للمعلمين تحديد الفجوات في فهم طلابهم، ضبط التعليم، وتلبية احتياجات كل طالب.'),
             icon: 'https://cdn.kastatic.org/images/lohp/empower_teachers_icon.png',
     
         }

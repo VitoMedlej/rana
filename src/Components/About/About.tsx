@@ -23,13 +23,13 @@ const About = () => {
        <Typography component='h1' className='clr' sx={{pt:4,maxWidth:'600px',fontWeight:500,fontSize:'3em'}}>
           
        {
-text('Every child deserves the chance to learn.', 'كل طفل يستحق فرصة التعلم.')
+text('Online Learning: Anytime, Anywhere.', 'كل طفل يستحق فرصة التعلم.')
 }
 
        </Typography>
        <Typography component='p' sx={{py:2,maxWidth:'620px',color:'#4d4d4d'}}>
        {
-text('Across the globe, 617 million children are missing basic math and reading skills. We’re a nonprofit delivering the education they need, and we need your help. You can change the course of a child’s life.', 'نمكن المعلمين من دعم فصولهم الدراسية بأكملها. وجد 90٪ من المعلمين في الولايات المتحدة الذين استخدموا Khan Academy أننا فعالون.')
+text('Whether you prefer in-person classes or the flexibility of online learning, we have got you covered. Access our courses seamlessly through Zoom, connecting with a global community of learners.', 'نمكن المعلمين من دعم فصولهم الدراسية بأكملها. وجد 90٪ من المعلمين في الولايات المتحدة الذين استخدموا Khan Academy أننا فعالون.')
 }              
        </Typography>
 
@@ -49,13 +49,13 @@ text('Start Now', 'ابدأ الآن')
                 <Typography component='h1' className='clr' sx={{pt:4,maxWidth:'600px',fontWeight:500,fontSize:'3em'}}>
                    
                 {
-  text('You can learn anything.', 'يمكنك تعلم أي شيء.')
+  text('Elevate Your Skills with International Accreditation', 'يمكنك تعلم أي شيء.')
 }
 
                 </Typography>
                 <Typography component='p' sx={{py:2,maxWidth:'620px',color:'#4d4d4d'}}>
                 {
-  text('Build a deep, solid understanding in math, science, and more.', 'بناء فهم عميق وراسخ في مجالات الرياضيات والعلوم وأكثر.')
+  text('Participate in our courses, engage in hands-on practice, and witness your skills soar. ', 'بناء فهم عميق وراسخ في مجالات الرياضيات والعلوم وأكثر.')
 }
               
                 </Typography>
@@ -91,13 +91,13 @@ text('Start Now', 'ابدأ الآن')
                 <Typography component='h1' className='clr' sx={{pt:4,maxWidth:'600px',fontWeight:500,fontSize:'3em'}}>
                    
                 {
-  text('Differentiate your classroom and engage every student.', 'قم بتمييز صفك الدراسي وشارك كل طالب.')
+  text('Our Journey: When and Why We Started.', 'قم بتمييز صفك الدراسي وشارك كل طالب.')
 }
 
                 </Typography>
                 <Typography component='p' sx={{py:2,maxWidth:'620px',color:'#4d4d4d'}}>
                 {
-  text('We empower teachers to support their entire classroom. 90% of US teachers who have used Khan Academy have found us effective.', 'نمكن المعلمين من دعم فصولهم الدراسية بأكملها. وجد 90٪ من المعلمين في الولايات المتحدة الذين استخدموا Khan Academy أننا فعالون.')
+  text('Established in 2023, the International Academy for Translation and Training has proudly served as a beacon of knowledge for 17 years. Our journey began with a commitment to providing unparalleled education in translation and training, driven by passion and dedication.  .', 'نمكن المعلمين من دعم فصولهم الدراسية بأكملها. وجد 90٪ من المعلمين في الولايات المتحدة الذين استخدموا Khan Academy أننا فعالون.')
 }              
                 </Typography>
       
@@ -106,7 +106,7 @@ text('Start Now', 'ابدأ الآن')
                                 onClick={()=>router.push('/about-us')}
                                 className='  ' sx={{mt:2,mb:{xs:3,sm:0}}}>
                        {
-  text('Start Now', 'ابدأ الآن')
+  text('About Us', 'ابدأ الآن')
 }
                                 </Btn>
                 </Grid>
