@@ -6,20 +6,28 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton'
 import { Paper, Typography } from '@mui/material';
+import useLanguage from '@/Hooks/UseLanguage';
 
 
 
 
 
 
-export default function BasicList({summaryContent}:{summaryContent:string[] |  {
+export default function BasicList({summaryContent,  secondaryTitle }:{ secondaryTitle: {en:string,ar?:string},summaryContent:string[] |  {
   title: string;
-  content: string[];
+  titleAr?: string;
+  content ?: string[];
+
 }[]}) {
+  const {text} = useLanguage()
+
   return (
     <Box sx={{ mt:4,mx:1,  maxWidth: '900px', bgcolor: 'background.paper' }}>
    <Typography className='clr' sx={{mx:1,fontWeight:'600',pb:1,fontSize:'.98em'}}>
-                Course Content Sumamry:
+               {
+               text(secondaryTitle.en,secondaryTitle?.ar)
+               }
+               
               </Typography>
       <Paper variant="outlined" aria-label="secondary mailbox folders">
         <List>
@@ -40,13 +48,13 @@ export default function BasicList({summaryContent}:{summaryContent:string[] |  {
               <Box  >
              <Typography sx={{fontWeight:'400'}}>
 
-             <strong>{ item?.title    }</strong>
+             <strong>{ text( item?.title,item?.titleAr)    }</strong>
              </Typography>
               
-              {item?.content.map((i,idx)=>{return  <Typography key={i} sx={{fontWeight:'300',fontSize:'.8em'}}>
+              {/* {item?.content && item?.content.map((i,idx)=>{return  <Typography key={i} sx={{fontWeight:'300',fontSize:'.8em'}}>
               {idx + 1}- {' '} {' '} 
 {`${i}`}
-              </Typography> })}
+              </Typography> })} */}
             
               </Box>
             }

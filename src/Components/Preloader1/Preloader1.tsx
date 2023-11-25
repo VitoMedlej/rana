@@ -216,14 +216,14 @@ const Page = () => {
   
 
   return (
-    <Grid maxWidth={'xl'} container sx={{my:12}}>
+    <Grid  maxWidth={'xl'} container sx={{my:12}}>
     {
       course && 
     <>
         <Grid item xs={12} sm={8}>
             <Title>{course?.name}</Title>
              
-            <ContentList summaryContent={course?.summaryContent ? course?.summaryContent : ['']}/>
+            <ContentList secondaryTitle={course?.secondaryTitle} summaryContent={course?.summaryContent ? course?.summaryContent : ['']}/>
                 
             
         </Grid>
