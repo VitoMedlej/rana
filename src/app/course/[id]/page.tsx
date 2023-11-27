@@ -7,98 +7,116 @@ import { Grid, Box, Typography, Divider } from "@mui/material"
 import { useParams, useRouter } from "next/navigation"
 import { useState, useEffect } from "react"
 
-const courses = [
-  {
-         name: "3D-MAX: (Live & Recorded)",
-         duration: "7.5 hours (15 sessions)",
-        secondaryTitle : {en:'English',ar:'Arabic'},
+// const courses = [
+//   {
+//          name: "3D-MAX: (Live & Recorded)",
+//          duration: "7.5 hours (15 sessions)",
+//         secondaryTitle : {en:'English',ar:'Arabic'},
         
-         coursePrice: {
-           "1 person": "$40"
-         },
-         summaryContent: [
-           {
-             titleAr:'', title: "Introduction to 3ds Max",
+//          coursePrice: {
+//            "1 person": "$40"
+//          },
+//          summaryContent: [
+//            {
+//              titleAr:'', title: "Introduction to 3ds Max",
            
-           },
-           {
-             titleAr:'', title: "Modeling",
+//            },
+//            {
+//              titleAr:'', title: "Modeling",
             
-           },
-           {
-             titleAr:'', title: "Texturing and Materials",
+//            },
+//            {
+//              titleAr:'', title: "Texturing and Materials",
            
-           },
-           {
-             titleAr:'', title: "Lighting",
+//            },
+//            {
+//              titleAr:'', title: "Lighting",
            
-           },
-           {
-             titleAr:'', title: "Rendering",
+//            },
+//            {
+//              titleAr:'', title: "Rendering",
           
-           },
-           {
-             titleAr:'', title: "Animation",
+//            },
+//            {
+//              titleAr:'', title: "Animation",
             
-           },
-           {
-             titleAr:'', title: "Particle Systems and Dynamics",
+//            },
+//            {
+//              titleAr:'', title: "Particle Systems and Dynamics",
            
-           },
-           {
-             titleAr:'', title: "Architectural Visualization (Optional)",
+//            },
+//            {
+//              titleAr:'', title: "Architectural Visualization (Optional)",
             
-           },
-           {
-             titleAr:'', title: "Environment Creation",
+//            },
+//            {
+//              titleAr:'', title: "Environment Creation",
            
-           },
-           {
-             titleAr:'', title: "Character Modeling and Animation (Optional)",
+//            },
+//            {
+//              titleAr:'', title: "Character Modeling and Animation (Optional)",
            
-           },
-           {
-             titleAr:'', title: "Scripting and Automation (Optional)",
+//            },
+//            {
+//              titleAr:'', title: "Scripting and Automation (Optional)",
            
-           },
-           {
-             titleAr:'', title: "Project Work",
+//            },
+//            {
+//              titleAr:'', title: "Project Work",
             
-           }
-         ],
-         img: "https:ucarecdn.com/2d9065d6-30ce-40cc-a36c-9ae90d7a025b/57eea15220194ac18a26b18f3000be4b.jfif",
-         id: "832bb2a4-8b8d-11ee-b9d1"
-       },
-]
+//            }
+//          ],
+//          img: "https:ucarecdn.com/2d9065d6-30ce-40cc-a36c-9ae90d7a025b/57eea15220194ac18a26b18f3000be4b.jfif",
+//          id: "832bb2a4-8b8d-11ee-b9d1"
+//        },
+// ]
 const Page = () => {
 
   const {id} : any= useParams()
    const router = useRouter() 
    const [course,setCourse] = useState<any>(null)
-  //  const [courses,setCourses] = useState<any>(null)
+
+  
+  const fetcher =async () => {
+    try {
+
+      const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-by-id?id=${id}`);
+      const res = await req.json(); 
+      console.log('res: ', res);
+      if (res && res?.product) {
+        setCourse(res?.product)
+      }
+    }
+    catch(e){
+      console.log('e: ', e);
+
+    }
+  }
+
 
  
-   const selector = () => {
-     try {
-       if (!courses || !id) return
-       const crs = courses?.find((i:any)=>`${i?.id}` == `${id}`)
-       if (crs) {
-         setCourse(crs)
-       }
-     }
-     catch(e) {
-       console.log('e: ', e);
+  //  const selector = () => {
+  //    try {
+  //      if (!course || !id) return
+  //      const crs = courses?.find((i:any)=>`${i?.id}` == `${id}`)
+  //      if (crs) {
+  //        setCourse(crs)
+  //      }
+  //    }
+  //    catch(e) {
+  //      console.log('e: ', e);
        
-     }
-   }
+  //    }
+  //  }
    useEffect(() => {
-     if (courses && id){
+     if (id){
  
-       selector()
+      fetcher()
      }
    }, [])
    
-   if (!courses || !id) return <h1>Course Not Found 404</h1>
+   console.log('course: ', course);
+   if (!course || !id) return <h1>Course Not Found 404</h1>
    return (
      <Grid className='auto' maxWidth={'1200px'} container sx={{py:12}}>
      {
@@ -106,8 +124,9 @@ const Page = () => {
      <>
          <Grid item xs={12} sm={8}>
              <Title >{course?.name}</Title>
-              
-             <ContentList secondaryTitle={course?.secondaryTitle} summaryContent={course?.summaryContent ? course?.summaryContent : ['']}/>
+            
+             <ContentList secondaryTitle={{en:course?.title,ar:course?.titleAr}}
+              summaryContent={{en:course?.description ,ar: course?.descriptionAr}}/>
                  
              
          </Grid>
@@ -139,7 +158,7 @@ const Page = () => {
                  <Typography sx={{color:'black'}}>
                    5 & above Persons: $40
                  </Typography> */}
-                {course.coursePrice['1 person'] && (
+                {/* {course.coursePrice['1 person'] && (
          <Typography sx={{ color: 'black' }}>
            {`1 person: ${course.coursePrice['1 person']}`}
          </Typography>
@@ -159,7 +178,7 @@ const Page = () => {
                  {
                    course?.coursePrice['"1 person"']
                  }
-                 </Typography>
+                 </Typography> */}
                  <Divider sx={{my:1}} light></Divider>
                  <Box>
                        <Typography sx={{color:'black'}}>

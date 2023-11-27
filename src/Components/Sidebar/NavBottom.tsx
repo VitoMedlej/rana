@@ -62,10 +62,10 @@ const NavBottom = () => {
                 </Link>
                 <Link  style={{color:'#1865f2 !important'}}
                 
-                className=' decor-none #1865f2 !important '  href={`#contact`}>
+                className=' decor-none #1865f2 !important '  href={`/courses`}>
                     <Typography  component='p' sx={{width:'max-content',
                     fontWeight:700,fontSize:{xs:'.75em',sm:'.95em'}}}>
-                  Reach Us
+                  Courses
                     </Typography>
                 </Link>
            

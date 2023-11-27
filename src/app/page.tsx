@@ -10,11 +10,12 @@ import { Box, Container, Typography } from '@mui/material'
 import Btn from '@/Components/Btn/Btn'
 import Contact from '@/Components/Contact/Contact'
 import useLanguage from '@/Hooks/UseLanguage'
+import { useRouter } from 'next/navigation'
 // import Contact from '@/Components/Contact/Contact'
 
 const Home = () => {
   const {text} = useLanguage()
-
+  const router = useRouter()
   return (
     <>
     <Container sx={{my:5,mx:'auto',maxWidth:'lg'}} className='flex wrap space-evenly justify-evenly items-center'>
@@ -33,12 +34,16 @@ const Home = () => {
         </Typography>
         <Box className="flex gap gap2">
 
-        <Btn>
+        <Btn
+         onClick={()=>router.push(`/about-us`)}
+        >
         {
-  text('Learners', 'المتعلمون')
+  text('Our Story', 'قصتنا')
 }
         </Btn>
-        <Btn>
+        <Btn
+        
+        onClick={()=>router.push(`/course`)}>
         {
   text('Courses', 'الدورات')
 }
@@ -47,7 +52,7 @@ const Home = () => {
       </Box>
     </Container>
 
-    <CoursesSection limit={0} />
+    <CoursesSection data={null} limit={0} />
     <Whyus/>
     <About/>
     {/* <MainCarousel res={null}/> */}
