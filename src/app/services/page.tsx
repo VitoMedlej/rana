@@ -4,7 +4,7 @@ import useLanguage from '@/Hooks/UseLanguage'
 import { Box, Container, Typography } from '@mui/material'
 import React from 'react'
 
-const page = () => {
+const Page = () => {
   const {text} = useLanguage()
   const reasons= [
   
@@ -125,4 +125,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
