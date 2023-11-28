@@ -148,6 +148,22 @@ const Page = () => {
  
                  <strong>Prices:</strong>
                </Typography>
+               <Typography sx={{color:'black'}}>
+ 
+ {
+   course?.price
+ }
+ </Typography> 
+ { course?.priceAr && <strong>Outside Lebanon:</strong>}
+ {
+  
+  course?.priceAr &&     <Typography sx={{color:'black'}}>
+ 
+  {
+    course?.priceAr
+  }
+  </Typography> 
+ }
                {/* <Typography sx={{color:'black'}}>
  
                    "1 person": ${course.price}
