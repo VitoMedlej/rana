@@ -3,9 +3,12 @@ import Btn from '@/Components/Btn/Btn'
 import useLanguage from '@/Hooks/UseLanguage'
 import { Box, Container, Typography } from '@mui/material'
 import React from 'react'
+import { useRouter } from 'next/navigation';
 
 const Page = () => {
   const {text} = useLanguage()
+  const router = useRouter()
+
   const reasons= [
   
         {
@@ -74,12 +77,18 @@ const Page = () => {
         </Typography>
         <Box sx={{pt:2}} className="flex gap gap2 auto center">
 
-        <Btn>
+        <Btn
+                                onClick={()=>router.push('/#contact')}
+        
+        >
         {
   text('Learners', 'المتعلمون')
 }
         </Btn>
-        <Btn sx={{color:' #1865f2',ml:1,border:'1px solid',background:'transparent'}}>
+        <Btn
+                                onClick={()=>router.push('/courses')}
+        
+        sx={{color:' #1865f2',ml:1,border:'1px solid',background:'transparent'}}>
         {
   text('Courses', 'الدورات')
 }

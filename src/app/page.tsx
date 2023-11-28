@@ -43,7 +43,7 @@ const Home = () => {
         </Btn>
         <Btn
         
-        onClick={()=>router.push(`/course`)}>
+        onClick={()=>router.push(`/courses`)}>
         {
   text('Courses', 'الدورات')
 }

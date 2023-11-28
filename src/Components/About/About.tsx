@@ -35,7 +35,7 @@ text('Whether you prefer in-person classes or the flexibility of online learning
 
                           
                        <Btn 
-                       onClick={()=>router.push('/about-us')}
+                       onClick={()=>router.push('/#contact')}
                        className='  ' sx={{mt:2,mb:{xs:3,sm:0}}}>
               {
 text('Start Now', 'ابدأ الآن')
@@ -62,10 +62,10 @@ text('Start Now', 'ابدأ الآن')
       
                                    
                                 <Btn 
-                                onClick={()=>router.push('/about-us')}
+                                onClick={()=>router.push('/courses')}
                                 className='  ' sx={{mt:2,mb:{xs:3,sm:0}}}>
                        {
-  text('Start Now', 'ابدأ الآن')
+  text('View Courses', 'ابدأ الآن')
 }
                                 </Btn>
                 </Grid>
@@ -106,7 +106,7 @@ text('Start Now', 'ابدأ الآن')
                                 onClick={()=>router.push('/about-us')}
                                 className='  ' sx={{mt:2,mb:{xs:3,sm:0}}}>
                        {
-  text('About Us', 'ابدأ الآن')
+  text('About Us', 'من نحن')
 }
                                 </Btn>
                 </Grid>
