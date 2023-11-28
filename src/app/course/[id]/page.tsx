@@ -123,7 +123,7 @@ const Page = () => {
        course && 
      <>
          <Grid item xs={12} sm={8}>
-             <Title >{course?.name}</Title>
+             <Title sx={{fontSize:'2em'}}>{course?.name}</Title>
             
              <ContentList secondaryTitle={{en:course?.title,ar:course?.titleAr}}
               summaryContent={{en:course?.description ,ar: course?.descriptionAr}}/>
@@ -139,7 +139,7 @@ const Page = () => {
                <Box sx={{height:'250px'}}>
                  <img
                  style={{borderRadius:0}}
-                 src={`${course?.img}`}
+                 src={`${course?.images && course?.images[0]}`}
                  
                  alt="" className="img contain" />
                </Box>
@@ -150,7 +150,7 @@ const Page = () => {
                </Typography>
                <Typography sx={{color:'black'}}>
  
- {
+ ${
    course?.price
  }
  </Typography> 
@@ -159,7 +159,7 @@ const Page = () => {
   
   course?.priceAr &&     <Typography sx={{color:'black'}}>
  
-  {
+  ${
     course?.priceAr
   }
   </Typography> 

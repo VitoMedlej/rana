@@ -21,13 +21,13 @@ export default function BasicList({summaryContent,  secondaryTitle }:{
 
   return (
     <Box sx={{ mt:4,mx:1,  maxWidth: '900px', bgcolor: 'background.paper' }}>
-   <Typography className='clr' sx={{mx:1,fontWeight:'600',pb:1,fontSize:'.98em'}}>
+   <Typography className='' sx={{mx:1,fontWeight:'600',pb:1,fontSize:'2.5em'}}>
                {
                text(secondaryTitle.en,secondaryTitle?.ar)
                }
                
               </Typography>
-      <Paper variant="outlined" aria-label="secondary mailbox folders">
+      <Paper variant="outlined" sx={{mt:2}} aria-label="secondary mailbox folders">
         {/* <List>
 
         {
@@ -59,7 +59,7 @@ export default function BasicList({summaryContent,  secondaryTitle }:{
     }
         </List> */}
 
-<Typography sx={{fontWeight:'400'}} >
+<Typography sx={{px:2,py:3,fontWeight:'400'}} >
              <strong> {
                text(summaryContent.en,summaryContent?.ar)
                }</strong>
