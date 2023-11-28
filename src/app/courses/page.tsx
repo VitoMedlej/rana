@@ -7,7 +7,7 @@ import React, { useEffect, useState } from 'react'
 
 
 
-function categorizeCourses(courseArray : any) : any {
+export function categorizeCourses(courseArray : any) : any {
   const categorizedArrays : any = {};
 
   courseArray.forEach((course : any) => {

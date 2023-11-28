@@ -71,7 +71,7 @@ const Index = () => {
 
                                 </Typography>
                                 <Btn
-                                onClick={()=>router.push('/')}
+                                                              onClick={()=>router.push('/#contact')}
                                 sx={{mt:3,width:'220px'}}>
                                 Contact Us Now
                                 </Btn>
@@ -158,7 +158,7 @@ Join us at the International Academy for Translation and Learning Courses in Leb
                 </Typography>
                
                 <Btn
-                                onClick={()=>router.push('/')}
+                                onClick={()=>router.push('/#contact')}
                 
                 v2  sx={{color:'white',mx:1,my:3}}>
                 Get a Free Quote
