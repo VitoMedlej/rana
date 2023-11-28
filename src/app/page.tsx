@@ -11,8 +11,30 @@ import Btn from '@/Components/Btn/Btn'
 import Contact from '@/Components/Contact/Contact'
 import useLanguage from '@/Hooks/UseLanguage'
 import { useRouter } from 'next/navigation'
-import { categorizeCourses } from './courses/page'
 // import Contact from '@/Components/Contact/Contact'
+function categorizeCourses(courseArray : any) : any {
+  const categorizedArrays : any = {};
+
+  courseArray.forEach((course : any) => {
+    const { category, ...rest } = course;
+
+    if (!categorizedArrays[category]) {
+      categorizedArrays[category] = [];
+    }
+
+    const categoryArray = categorizedArrays[category];
+
+    // Check if an object with the same properties already exists in the category array
+    if (!categoryArray.some((c : any) => JSON.stringify(c) === JSON.stringify(rest))) {
+      categoryArray.push({ ...rest, category });
+    }
+  });
+
+  // Convert the object to an array of arrays
+  const resultArray = Object.values(categorizedArrays).map((categoryArray) => categoryArray);
+
+  return resultArray;
+}
 
 const Home = () => {
   const {text} = useLanguage()
