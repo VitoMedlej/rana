@@ -75,6 +75,7 @@ const Page = () => {
   const {id} : any= useParams()
    const router = useRouter() 
    const [course,setCourse] = useState<any>(null)
+   console.log('course: ', course);
 
   
   const fetcher =async () => {
@@ -124,8 +125,10 @@ const Page = () => {
      <>
          <Grid item xs={12} sm={8}>
              <Title sx={{fontSize:'2em'}}>{course?.name}</Title>
-            
-             <ContentList secondaryTitle={{en:course?.title,ar:course?.titleAr}}
+             
+             <ContentList
+             method={course?.method}
+             trainer={course?.trainer} secondaryTitle={{en:course?.title,ar:course?.titleAr}}
               summaryContent={{en:course?.description ,ar: course?.descriptionAr}}/>
                  
              
@@ -139,19 +142,19 @@ const Page = () => {
                <Box sx={{height:'250px'}}>
                  <img
                  style={{borderRadius:0}}
-                 src={`${course?.images && course?.images[0]}`}
+                 src={`${course?.images && course?.images?.length > 0 ? course?.images[0] : 'https://img.freepik.com/free-vector/illustrated-online-certification-screen_23-2148579915.jpg?w=740&t=st=1701292682~exp=1701293282~hmac=bce0a02d19d726c7d1caf653c72b31200554eb543ff1425924b5f4f4754e21f4'}`}
                  
-                 alt="" className="img contain" />
+                 alt="" className="img " />
                </Box>
                <Box className='flex col' sx={{mt:1}}>
                <Typography sx={{color:'black'}}>
  
-                 <strong>Prices:</strong>
+                 <strong style={{whiteSpace:'pre'}}>Prices:</strong>
                </Typography>
                <Typography sx={{color:'black'}}>
  
- ${
-   course?.price
+ {
+   `${course?.fees}`
  }
  </Typography> 
  { course?.priceAr && <strong>Outside Lebanon:</strong>}
@@ -204,6 +207,14 @@ const Page = () => {
            
                
                </Typography>
+              {course?.certificate && <Typography sx={{pt:1,color:'black'}}>
+                 <strong>Certificates:</strong>
+                 {' '}
+               {course?.certificate}  
+           
+               
+               </Typography>}
+               
                  </Box>
                   {/* <Divider sx={{my:1}} light></Divider> */}
                  {/* <Box >
@@ -215,7 +226,9 @@ const Page = () => {
                 {course?.softwareVersionPreference}
                </Typography>
                  </Box> */}
-                 <Btn sx={{mt:2}}>
+                 <Btn 
+                 onClick={()=>router.push('/#contact')}
+                 sx={{mt:2}}>
                    Buy NOW
                  </Btn>
                </Box>

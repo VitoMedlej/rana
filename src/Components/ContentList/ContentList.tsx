@@ -13,8 +13,9 @@ import useLanguage from '@/Hooks/UseLanguage';
 
 
 
-export default function BasicList({summaryContent,  secondaryTitle }:{
-  
+export default function BasicList({method,summaryContent,  trainer,secondaryTitle }:{
+  trainer ?: any,
+  method ?: any,
   summaryContent :{en:string,ar?:string},
   secondaryTitle: {en:string,ar?:string}}) {
   const {text} = useLanguage()
@@ -27,6 +28,22 @@ export default function BasicList({summaryContent,  secondaryTitle }:{
                }
                
               </Typography>
+              {
+                trainer &&    <Typography sx={{mx:1,color:'black'}}>
+ 
+ By {' '}{
+                  `${trainer}`
+                }
+                </Typography> 
+              }
+               {
+                method &&    <Typography sx={{mx:1,color:'black'}}>
+ 
+ Method: {' '}{
+                  `${method}`
+                }
+                </Typography> 
+              }
       <Paper variant="outlined" sx={{mt:2}} aria-label="secondary mailbox folders">
         {/* <List>
 
