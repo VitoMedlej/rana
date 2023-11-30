@@ -15,8 +15,8 @@ export default function BasicAccordion({toggleDrawer} : any) {
   const router = useRouter();
 
   return (
-    <Box sx={{zIndex:241241241}}>
-      <List>
+    <Box sx={{zIndex:541521259}}>
+      <List sx={{zIndex:541521259}}>
 
        <ListItem 
           onClick={()=>{

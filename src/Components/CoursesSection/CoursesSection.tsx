@@ -35,7 +35,7 @@ const CoursesSection = ({data,limit}:{data:any,limit:number}) => {
             
            return  <Link key={a?._id} href={`/course/${a?._id}`} className='decor-none' style={{color:' #1865f2'}}> 
             <Typography sx={{fontWeight:500}}>
-{  text(`${a?.title}`,`${a?.titleAr && a?.titleAr?.length > 1}`)
+{  text(`${a?.title}`)
 } 
             </Typography>
             </Link>
