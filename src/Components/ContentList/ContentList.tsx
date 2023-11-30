@@ -6,23 +6,46 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton'
 import { Paper, Typography } from '@mui/material';
+import useLanguage from '@/Hooks/UseLanguage';
 
 
 
 
 
 
-export default function BasicList({summaryContent}:{summaryContent:string[] |  {
-  title: string;
-  content: string[];
-}[]}) {
+export default function BasicList({method,summaryContent,  trainer,secondaryTitle }:{
+  trainer ?: any,
+  method ?: any,
+  summaryContent :{en:string,ar?:string},
+  secondaryTitle: {en:string,ar?:string}}) {
+  const {text} = useLanguage()
+
   return (
     <Box sx={{ mt:4,mx:1,  maxWidth: '900px', bgcolor: 'background.paper' }}>
-   <Typography className='clr' sx={{mx:1,fontWeight:'600',pb:1,fontSize:'.98em'}}>
-                Course Content Sumamry:
+   <Typography className='' sx={{mx:1,fontWeight:'600',pb:1,fontSize:'2.5em'}}>
+               {
+               text(secondaryTitle.en,secondaryTitle?.ar)
+               }
+               
               </Typography>
-      <Paper variant="outlined" aria-label="secondary mailbox folders">
-        <List>
+              {
+                trainer &&    <Typography sx={{mx:1,color:'black'}}>
+ 
+ By {' '}{
+                  `${trainer}`
+                }
+                </Typography> 
+              }
+               {
+                method &&    <Typography sx={{mx:1,color:'black'}}>
+ 
+ Method: {' '}{
+                  `${method}`
+                }
+                </Typography> 
+              }
+      <Paper variant="outlined" sx={{mt:2}} aria-label="secondary mailbox folders">
+        {/* <List>
 
         {
             summaryContent.map((item,index)=>{
@@ -40,13 +63,10 @@ export default function BasicList({summaryContent}:{summaryContent:string[] |  {
               <Box  >
              <Typography sx={{fontWeight:'400'}}>
 
-             <strong>{ item?.title    }</strong>
+             <strong>{ text( item?.title,item?.titleAr)    }</strong>
              </Typography>
               
-              {item?.content.map((i,idx)=>{return  <Typography key={i} sx={{fontWeight:'300',fontSize:'.8em'}}>
-              {idx + 1}- {' '} {' '} 
-{`${i}`}
-              </Typography> })}
+           
             
               </Box>
             }
@@ -54,7 +74,15 @@ export default function BasicList({summaryContent}:{summaryContent:string[] |  {
           </ListItem>
         })
     }
-        </List>
+        </List> */}
+
+<Typography sx={{px:2,py:3,fontWeight:'400'}} >
+             <strong> {
+               text(summaryContent.en,summaryContent?.ar)
+               }</strong>
+    
+            
+              </Typography>
       </Paper>
     {/* <Box sx={{my:8}}>
 

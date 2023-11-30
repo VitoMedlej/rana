@@ -119,7 +119,7 @@ Have any questions?
                     backgroundColor: "white"
                   },
                 width:'99%',py:1}} type='email' placeholder='Email'/>
-                <Select
+                {/* <Select
                 value={CourseName}
                 name={'Course-name'} onChange={(e)=>setCourse(e?.target?.value)} variant='outlined' sx={{
                   "& .MuiInputBase-input": {
@@ -130,7 +130,7 @@ Have any questions?
                 <MenuItem value={'Course Name 1'}>Course Name1</MenuItem>
                 <MenuItem value={'namer'}>Course Name 2</MenuItem>
                 <MenuItem value={'namer'}>Course Name 3</MenuItem>
-                </Select>
+                </Select> */}
               <TextField name={'Phone'} 
               value={Phone}
 
@@ -143,12 +143,13 @@ Have any questions?
               <TextField 
               value={Message}
               onChange={(e)=>setMessage(e?.target?.value)} 
-              
+              multiline
+              rows={3}
               name={'Message'}  variant='outlined' sx={{
                 "& .MuiInputBase-input": {
                     backgroundColor: "white"
                   },
-                width:'99%',py:1}} placeholder='Message'/>
+                width:'99%',py:1}} placeholder='Message (Include Course Name)'/>
               <Btn
 
    submit

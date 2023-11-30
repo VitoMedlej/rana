@@ -3,18 +3,65 @@ import ContactSection from '@/Components/ContactSection/ContactSection'
 import CoursesSection from '@/Components/CoursesSection/CoursesSection'
 import MainCarousel from '@/Components/MainCarousel/MainCarousel'
 import About from '@/Components/About/About'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Whyus from '@/Components/Whyus/Whyus'
 import Testimonials from '@/Components/Testimonials/Testimonials'
 import { Box, Container, Typography } from '@mui/material'
 import Btn from '@/Components/Btn/Btn'
 import Contact from '@/Components/Contact/Contact'
 import useLanguage from '@/Hooks/UseLanguage'
+import { useRouter } from 'next/navigation'
 // import Contact from '@/Components/Contact/Contact'
+function categorizeCourses(courseArray : any) : any {
+  const categorizedArrays : any = {};
+
+  courseArray.forEach((course : any) => {
+    const { category, ...rest } = course;
+
+    if (!categorizedArrays[category]) {
+      categorizedArrays[category] = [];
+    }
+
+    const categoryArray = categorizedArrays[category];
+
+    // Check if an object with the same properties already exists in the category array
+    if (!categoryArray.some((c : any) => JSON.stringify(c) === JSON.stringify(rest))) {
+      categoryArray.push({ ...rest, category });
+    }
+  });
+
+  // Convert the object to an array of arrays
+  const resultArray = Object.values(categorizedArrays).map((categoryArray) => categoryArray);
+
+  return resultArray;
+}
 
 const Home = () => {
   const {text} = useLanguage()
+  const router = useRouter()
+  const [data,setData] = useState(null)
+  
+  const fetcher =async () => {
+    try {
 
+      const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-all`)
+      const res = await req.json(); 
+      if (res && res?.data?.products) {
+        const newArray = categorizeCourses(res?.data?.products)
+        setData(newArray)
+      }
+    }
+    catch(e){
+      console.log('e: ', e);
+
+    }
+  }
+  useEffect(() => {
+    
+  
+    fetcher()
+
+  }, [])
   return (
     <>
     <Container sx={{my:5,mx:'auto',maxWidth:'lg'}} className='flex wrap space-evenly justify-evenly items-center'>
@@ -33,12 +80,16 @@ const Home = () => {
         </Typography>
         <Box className="flex gap gap2">
 
-        <Btn>
+        <Btn
+         onClick={()=>router.push(`/about-us`)}
+        >
         {
-  text('Learners', 'المتعلمون')
+  text('Our Story', 'قصتنا')
 }
         </Btn>
-        <Btn>
+        <Btn
+        
+        onClick={()=>router.push(`/courses`)}>
         {
   text('Courses', 'الدورات')
 }
@@ -47,7 +98,7 @@ const Home = () => {
       </Box>
     </Container>
 
-    <CoursesSection limit={0} />
+    <CoursesSection data={data} limit={0} />
     <Whyus/>
     <About/>
     {/* <MainCarousel res={null}/> */}

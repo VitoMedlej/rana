@@ -1,24 +1,70 @@
 "use client"
 import CoursesSection from '@/Components/CoursesSection/CoursesSection'
+import Title from '@/Components/Title'
 import { Box, Typography } from '@mui/material'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+
+
+
+
+ function categorizeCourses(courseArray : any) : any {
+  const categorizedArrays : any = {};
+
+  courseArray.forEach((course : any) => {
+    const { category, ...rest } = course;
+
+    if (!categorizedArrays[category]) {
+      categorizedArrays[category] = [];
+    }
+
+    const categoryArray = categorizedArrays[category];
+
+    // Check if an object with the same properties already exists in the category array
+    if (!categoryArray.some((c : any) => JSON.stringify(c) === JSON.stringify(rest))) {
+      categoryArray.push({ ...rest, category });
+    }
+  });
+
+  // Convert the object to an array of arrays
+  const resultArray = Object.values(categorizedArrays).map((categoryArray) => categoryArray);
+
+  return resultArray;
+}
+
+
 
 const Index = () => {
+  const [data,setData] = useState(null)
+  console.log('data: ', data);
+  
+  const fetcher =async () => {
+    try {
 
+      const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-all`)
+      const res = await req.json(); 
+      if (res && res?.data?.products) {
+        const newArray = categorizeCourses(res?.data?.products)
+        setData(newArray)
+      }
+    }
+    catch(e){
+      console.log('e: ', e);
+
+    }
+  }
+  useEffect(() => {
+    
+  
+    fetcher()
+
+  }, [])
+  
   return (
     <>
-    <Typography className='text-center auto' component='h1' sx={{px:1,py:8,fontSize:'2.4em'}}>
-      Checkout Our Latest Offers
-    </Typography>
-    <Box className="flex auto gap wrap">
-
-    {[1,2,3,4].map(i=>{
-      return <Box  key={i} className='auto center' sx={{py:2,width:{xs:'95%',sm:'45%'}}}>
-          <img src="" alt="" className="img" />
-      </Box>
-    })}
-    </Box>
-    
+        <Typography component={'h1'} sx={{pt:6,fontSize:'2em'}} className='center text-center auto'>
+        Explore Our Diverse Courses    
+        </Typography>
+       <CoursesSection data={data} limit={100}/>
     </>
   )
 }
