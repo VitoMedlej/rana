@@ -88,7 +88,7 @@ const Footer = () =>
             <li><a href="https://www.instagram.com/onBeirut/" target="_blank" rel="noreferrer" >onBeirut Instagram</a></li>
             <li><a href={'https://wa.me/79192959'} rel="noreferrer" target='_blank' >{` +961 79192959 `}</a></li>
             
-      <Box className='flex white' sx={{fill:'white',mt:1}}>
+      {/* <Box className='flex white' sx={{fill:'white',mt:1}}>
 
           <Box className='cursor pointer white'  sx={{width:'50px'}}>
          <a href=' https://www.facebook.com/onBeirut' style={{color:'white',fill:'white'}} className='white' target='_blank' rel='noopener' >
@@ -112,7 +112,7 @@ const Footer = () =>
             </Box>
             
             
-          </Box>
+          </Box> */}
           </ul>
         </div>
       </div>
