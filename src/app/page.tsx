@@ -97,7 +97,12 @@ const Home = () => {
         </Box>
       </Box>
     </Container>
+    <Container  sx={{py:4}} className="center text-center auto flex" >
+    <Typography component='h1' sx={{fontWeight:600,maxWidth:'700px'}}>
 
+      {text(`The International Academy for Translation & Training, Its abbreviation is IATT, established in Lebanon in the year 2023, a licensed company in translation and training (financial number 3859264) located in Akbieh, Noureddine Center, 1st floor.`)}
+    </Typography>
+    </Container>
     <CoursesSection data={data} limit={0} />
     <Whyus/>
     <About/>

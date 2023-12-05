@@ -118,6 +118,12 @@ button[disabled] {
   justify-content: space-between;
 }
 
+.pre {
+  white-space: pre;
+  text-wrap: wrap;
+  text-align: justify;
+}
+
 .cap {
   text-transform: uppercase;
 }

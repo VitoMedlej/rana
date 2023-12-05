@@ -9,7 +9,7 @@ export const metadata = {
     title: `ITAA: Lebanon's Premier Translation & Training Hub`,
     description: `Unlock career growth with expert translation services and cutting-edge training at the International Academy. Elevate your skills in Lebanon's leading language institution.`,
     icons: {
-        icon:`https://ucarecdn.com/a8fde0d5-772c-4818-acab-95b78a1b58c9/iatt.jfif`
+        icon:`https://ucarecdn.com/cd42fd12-91e8-4fdb-ba51-d5a68865e578/logorana.png`
     }
 }
 

@@ -59,7 +59,7 @@ export default function Navbar() {
     className='center  flex w100  auto'
 
                 sx={{
-                    py:1,
+                    py:2,
                     // border : `1px solid #00000012`,
                 background:'white',
             boxShadow:'none',
@@ -109,13 +109,13 @@ className='cursor pointer'
     mx: {
         sm: '1em'
     },
-    height : '60px',
-    width:{xs:'90px',sm: '100px'}
+    width:{xs:'100px',sm: '100px'}
+    ,height:{xs:'100px',sm: '100px'}
 }}>
     <img
     style={{zIndex:134124}}
-        className='img cover'
-        src={`https://ucarecdn.com/a8fde0d5-772c-4818-acab-95b78a1b58c9/iatt.jfif`}
+        className='img contain'
+        src={`https://ucarecdn.com/cd42fd12-91e8-4fdb-ba51-d5a68865e578/logorana.png`}
         alt="IATT logo"/>
 </Box>
 </Link>

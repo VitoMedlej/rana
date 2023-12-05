@@ -33,12 +33,13 @@ const Footer = () =>
               {/* <a><h1 className="site-logo"><Logo />E-Shop</h1></a> */}
               {/* https://res.cloudinary.com/dwxm8f25f/image/upload/v1675357773/logo_ghli5e.jpg */}
               {/* https://res.cloudinary.com/dwxm8f25f/image/upload/v1675713948/logo_sktnut_1_jwy2hk.png */}
-            <img className='img ' src='https://ucarecdn.com/a8fde0d5-772c-4818-acab-95b78a1b58c9/iatt.jfif' alt="Footer Logo" />
+            <img className='img ' src='https://ucarecdn.com/cd42fd12-91e8-4fdb-ba51-d5a68865e578/logorana.png' alt="Footer Logo" />
             </Link>
           </div>
           <Typography component='p' sx={{ fontWeight:300,fontSize: '1.2em' ,color:'white' }}  className='footer-p  '>
 {
-  text('The International Academy for Translation and Training in Lebanon is a renowned institution dedicated to providing high-quality education in the field of translation. Established with a commitment to excellence, the academy serves as a hub for individuals aspiring to build successful careers in the dynamic world of language translation.', 'الأكاديمية الدولية للترجمة والتدريب في لبنان هي مؤسسة مشهورة ملتزمة بتقديم تعليم عالي الجودة في مجال الترجمة. تأسست بالتزام بالتميز، تعتبر الأكاديمية محورًا للأفراد الطموحين الذين يسعون لبناء مهن ناجحة في عالم الترجمة اللغوية الدينامي.')
+  text(`IATT is a professional translation company based in Lebanon, providing translation, interpretation, transcreation, transcription, subtitling, localization, writing/copywriting and editing/proofreading services in over 60 languages and all courses related to translation.`,
+   'IATT هي شركة ترجمة محترفة مقرها في لبنان، تقدم خدمات الترجمة التحريرية والفورية والترجمة الإبداعية والنسخ والترجمة والتعريب والكتابة/كتابة النصوص والتحرير/التدقيق اللغوي بأكثر من 60 لغة وجميع الدورات التدريبية المتعلقة بالترجمة.')
 }
 
           </Typography>

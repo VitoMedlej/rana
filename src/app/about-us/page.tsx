@@ -65,7 +65,7 @@ const Index = () => {
                                 position:'absolute'}}>
                              <Typography sx={{textAlign:'center',color:'white',fontSize:{xs:'1.95em',sm:'2.5em',md:'3em'},fontWeight:600}}>
                              {/* Redefining Excellence in Engineering and Architecture */}
-                             {text('high-quality translation and learning courses to the globle', `ترجمة عالية الجودة ودورات تعليمية للعالم`)}
+                             {text('High-quality translation and learning courses to the globle', `ترجمة عالية الجودة ودورات تعليمية للعالم`)}
                                 </Typography>
                                 <Typography sx={{color:'white',textAlign:'center',fontSize:{xs:'.75em',sm:'.9em'},mt:1,maxWidth:'500px'}}>
                                 {text('We aim to foster an environment that encourages intellectual growth and cultural exchange.', `نهدف إلى تعزيز بيئة تشجع على النمو الفكري والتبادل الثقافي.`)}
@@ -98,11 +98,30 @@ const Index = () => {
 
                 </Title>
                 <Typography className='auto' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
-                {text(`At IATT, we believe in providing our students with a comprehensive learning experience. Our courses are taught by experienced instructors who are experts in their respective fields. We also offer flexible learning options, including online courses, to cater to the diverse needs of our students.
+                {text(`Everyone talks about quality and service. These are more than words — they are part of our core values and driving principles.
+We recognize that translations can be a daunting or confusing industry. We are experts in removing the confusion and taking one more worry off of your mind. When you partner with us, we ensure quality and accuracy from start to finish.
+`, `الجميع يتحدث عن الجودة والخدمة. هذه أكثر من مجرد كلمات، فهي جزء من قيمنا الأساسية ومبادئنا الدافعة.
+نحن ندرك أن الترجمات يمكن أن تكون صناعة شاقة أو مربكة. نحن خبراء في إزالة الارتباك وإزالة أي قلق آخر من عقلك. عندما تكون شريكًا معنا، فإننا نضمن الجودة والدقة من البداية إلى النهاية.`)}
 
-Join us at the International Academy for Translation and Learning Courses in Lebanon and embark on a journey of learning and discovery.`, `في IATT ، نؤمن بتقديم تجربة تعليمية شاملة لطلابنا. يتم تدريس دوراتنا بواسطة مدرسين ذوي خبرة هم خبراء في مجالاتهم المحترمة. نحن نقدم أيضًا خيارات تعلم مرنة ، بما في ذلك الدورات عبر الإنترنت ، لتلبية احتياجات طلابنا المتنوعة.
+                </Typography>
+    </Box>
+    <Box className='center ' sx={{mt:16}}>
+                <Title sx={{textAlign:'center'}}>
+                {text('Top reasons to partner with us:', `أهم الأسباب للشراكة معنا:`)}
 
-انضم إلينا في الأكاديمية الدولية للترجمة ودورات التعلم في لبنان وانطلق في رحلة التعلم والاكتشاف.`)}
+                </Title>
+                <Typography className='auto pre' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
+                {text(`Quality: mature processes, six-sigma efficiencies and quality checkpoints result in world-class excellence.
+•	Expertise: a diverse group of linguists who are experts in their language set and subject matter. Many have been with us for over 10 years!
+•	Pricing: competitive industry rates on all services. We utilize a proprietary pricing model which removes dependencies on CAT tools—meaning more savings for you!
+•	Speed & Flexibility: we are nimble—we have a great track record of fast turnaround times. We can customize our processes and timelines to fit your needs.
+We utilize a proprietary workflow automation tool which optimizes our processes and lowers our overhead.
+
+`, `الجودة: تؤدي العمليات الناضجة وكفاءات ستة سيجما ونقاط فحص الجودة إلى التميز على مستوى عالمي.
+• الخبرة: مجموعة متنوعة من اللغويين الذين هم خبراء في مجموعة لغتهم وموضوعهم. لقد كان الكثير معنا لأكثر من 10 سنوات!
+• التسعير: أسعار صناعية تنافسية على جميع الخدمات. نحن نستخدم نموذج تسعير خاص يزيل التبعيات على أدوات CAT، مما يعني المزيد من التوفير بالنسبة لك!
+• السرعة والمرونة: نحن نتمتع بالذكاء، ولدينا سجل حافل من أوقات التسليم السريعة. يمكننا تخصيص عملياتنا وجداولنا الزمنية لتناسب احتياجاتك.
+نحن نستخدم أداة أتمتة سير العمل الخاصة التي تعمل على تحسين عملياتنا وتقليل النفقات العامة.`)}
 
                 </Typography>
     </Box>
@@ -141,7 +160,7 @@ Join us at the International Academy for Translation and Learning Courses in Leb
             </Box>
         </Grid>
         <Grid sx={{mt:16}} xs={12} sm={6}>
-        <Box sx={{height:'500px'}}>
+        <Box sx={{height:'100%',minHeight:'500px'}}>
 
 <img
 
@@ -153,8 +172,8 @@ Join us at the International Academy for Translation and Learning Courses in Leb
 </Box>
         </Grid>
         <Grid sx={{mt:{sm:16},background:'#000818 '}} className='flex  white center items-center' item xs={12} sm={6}>
-            <Box sx={{px:1,py:8}}>
-            <Title sx={{color:'white'}}>
+            <Box sx={{px:{xs:2,sm:4,md:5},py:8}}>
+            {/* <Title sx={{color:'white'}}>
             {text('We offer a wide range of courses, including:', `نحن نقدم مجموعة واسعة من الدورات ، بما في ذلك:`)}
 
                 </Title>
@@ -164,8 +183,63 @@ Join us at the International Academy for Translation and Learning Courses in Leb
                 </Typography>
                 <Typography sx={{color:'white',mx:1,mt:1}}>
              
-                </Typography>
-               
+                </Typography> */}
+  <Box>
+    <Typography>
+      {text(
+        'Our Core Values are the guidelines that define our professional behaviour and constitute the backbone of our work ethic. They are, in short, the daily essence of our client relations and company culture.',
+        'قيمنا الأساسية هي الإرشادات التي تحدد سلوكنا المهني وتشكل عمود فقري لأخلاقيات عملنا. إنها، ببساطة، جوهر يومي لعلاقاتنا مع العملاء وثقافة الشركة.'
+      )}
+    </Typography>
+
+    <Typography>
+      <strong>PROFESSIONALISM:</strong>{' '}
+      {text(
+        'Behaving in a business-like manner, with skill, competence, and character; keeping promises.',
+        'الاحترافية: السلوك بطريقة تجارية، بمهارة وكفاءة وشخصية؛ الوفاء بالوعود.'
+      )}
+    </Typography>
+
+    <Typography>
+      <strong>RESPONSIVENESS:</strong>{' '}
+      {text(
+        'Timely, attentive, and empathetic communication leading to greater trust and rapport.',
+        'الاستجابة: التواصل في الوقت المناسب، وباهتمام وتعاطف، مما يؤدي إلى بناء الثقة وتعزيز التواصل.'
+      )}
+    </Typography>
+
+    <Typography>
+      <strong>CONGENIALITY:</strong>{' '}
+      {text(
+        'A pleasant disposition, friendly and sociable; working together harmoniously.',
+        'المحبة للآخرين: التصرف بطابع لطيف، ودود واجتماعي؛ العمل معًا بتناغم.'
+      )}
+    </Typography>
+
+    <Typography>
+      <strong>COURTESY:</strong>{' '}
+      {text(
+        'Polite or considerate behaviour with willingness, generosity, and civility.',
+        'اللباقة: التصرف بلطف أو اهتمام مع الاستعداد والسخاء والأدب.'
+      )}
+    </Typography>
+
+    <Typography>
+      <strong>HUMILITY:</strong>{' '}
+      {text(
+        'Modesty and empathy; the ability to say, “I don’t know, but I’m willing to learn.”',
+        'التواضع: التواضع والتعاطف؛ القدرة على قول "لا أعلم، ولكنني على استعداد للتعلم".'
+      )}
+    </Typography>
+
+    <Typography>
+      <strong>EFFORT:</strong>{' '}
+      {text(
+        'The use of physical or mental energy to accomplish something; achievement through exertion.',
+        'الجهد: استخدام الطاقة الجسدية أو العقلية لتحقيق شيء ما؛ التحقيق من خلال البذل.'
+      )}
+    </Typography>
+  </Box>
                 <Btn
                                 onClick={()=>router.push('/#contact')}
                 
