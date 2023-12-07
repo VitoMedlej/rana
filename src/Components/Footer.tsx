@@ -71,7 +71,7 @@ const Footer = () =>
 
             {/* <li><Link href="/cart">Cart</Link></li> */}
             <li><Link href="/courses">Courses</Link></li>
-     
+        
           </ul>
      
           <ul  className='ul-white white' style={{color:'black'}}>
@@ -86,9 +86,18 @@ const Footer = () =>
             
             {/* <li><a href="https://www.facebook.com/profile.php?id=100076163602459/" target="_blank" rel="noreferrer" >Facebook</a></li> */}
 
-            <li><a href="https://www.instagram.com/onBeirut/" target="_blank" rel="noreferrer" >onBeirut Instagram</a></li>
-            <li><a href={'https://wa.me/79192959'} rel="noreferrer" target='_blank' >{` +961 79192959 `}</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61552420779348&mibextid=ZbWKwL" target="_blank" rel="noreferrer" >International Academy for Translation & Training-IATT</a></li>
+            <li><a href="https://instagram.com/i.a.t.t2023?igshid=eWdndzdzcTh2cmxm" target="_blank" rel="noreferrer" >Instagram: i.a.t.t2023</a></li>
+            <li><a href="https://www.tiktok.com/@internationalacademytt?_t=8hFXyHXnt5E&_r=1" target="_blank" rel="noreferrer" >TikTok: I.A.T.T</a></li>
+            <li><a href="https://youtube.com/@me.ranachehab1643?si=5-V1U79Nv4hIL5Pd" target="_blank" rel="noreferrer" >Youtube: Me.Rana CHEHAB</a></li>
+            <li><a href={`
+            https://www.linkedin.com/in/rana-chehab1985?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
             
+            `} target="_blank" rel="noreferrer" >LinkedIn: Rana Chéhab</a></li>
+            
+            <li><a href={'https://wa.me/79192959'} rel="noreferrer" target='_blank' >{` +961 79192959 `}</a></li>
+            <li><a href={'https://wa.me/9617260091'} rel="noreferrer" target='_blank' >{` +961 7260091 `}</a></li>
+           
       {/* <Box className='flex white' sx={{fill:'white',mt:1}}>
 
           <Box className='cursor pointer white'  sx={{width:'50px'}}>

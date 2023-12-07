@@ -185,60 +185,59 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
              
                 </Typography> */}
   <Box>
-    <Typography>
+  <Typography sx={{py:1}}>
       {text(
         'Our Core Values are the guidelines that define our professional behaviour and constitute the backbone of our work ethic. They are, in short, the daily essence of our client relations and company culture.',
         'قيمنا الأساسية هي الإرشادات التي تحدد سلوكنا المهني وتشكل عمود فقري لأخلاقيات عملنا. إنها، ببساطة، جوهر يومي لعلاقاتنا مع العملاء وثقافة الشركة.'
       )}
     </Typography>
 
-    <Typography>
-      <strong>PROFESSIONALISM:</strong>{' '}
-      {text(
-        'Behaving in a business-like manner, with skill, competence, and character; keeping promises.',
-        'الاحترافية: السلوك بطريقة تجارية، بمهارة وكفاءة وشخصية؛ الوفاء بالوعود.'
-      )}
+    <Box>
+    <Typography sx={{py:1}}>
+
+    {text(
+      'PROFESSIONALISM: Behaving in a business-like manner, with skill, competence, and character; keeping promises.',
+      'الاحترافية: السلوك بطريقة تجارية، بمهارة وكفاءة وشخصية؛ الوفاء بالوعود.'
+    )}
+    </Typography>
+    <Typography sx={{py:1}}>
+
+    {text(
+      'RESPONSIVENESS: Timely, attentive, and empathetic communication leading to greater trust and rapport.',
+      'الاستجابة: التواصل في الوقت المناسب، وباهتمام وتعاطف، مما يؤدي إلى بناء الثقة وتعزيز التواصل.'
+    )}
+    </Typography>
+    <Typography sx={{py:1}}>
+
+    {text(
+      'CONGENIALITY: A pleasant disposition, friendly and sociable; working together harmoniously.',
+      'المحبة للآخرين: التصرف بطابع لطيف، ودود واجتماعي؛ العمل معًا بتناغم.'
+    )}
+ </Typography>
+ <Typography sx={{py:1}}>
+    {text(
+      'COURTESY: Polite or considerate behaviour with willingness, generosity, and civility.',
+      'اللباقة: التصرف بلطف أو اهتمام مع الاستعداد والسخاء والأدب.'
+    )}
+    </Typography>
+    <Typography sx={{py:1}}>
+
+    {text(
+      'HUMILITY: Modesty and empathy; the ability to say, “I don’t know, but I’m willing to learn.”',
+      'التواضع: التواضع والتعاطف؛ القدرة على قول "لا أعلم، ولكنني على استعداد للتعلم".'
+    )}
+    </Typography>
+    <Typography sx={{py:1}}>
+
+    {text(
+      'EFFORT: The use of physical or mental energy to accomplish something; achievement through exertion.',
+      'الجهد: استخدام الطاقة الجسدية أو العقلية لتحقيق شيء ما؛ التحقيق من خلال البذل.'
+    )}
     </Typography>
 
-    <Typography>
-      <strong>RESPONSIVENESS:</strong>{' '}
-      {text(
-        'Timely, attentive, and empathetic communication leading to greater trust and rapport.',
-        'الاستجابة: التواصل في الوقت المناسب، وباهتمام وتعاطف، مما يؤدي إلى بناء الثقة وتعزيز التواصل.'
-      )}
-    </Typography>
+  </Box>
 
-    <Typography>
-      <strong>CONGENIALITY:</strong>{' '}
-      {text(
-        'A pleasant disposition, friendly and sociable; working together harmoniously.',
-        'المحبة للآخرين: التصرف بطابع لطيف، ودود واجتماعي؛ العمل معًا بتناغم.'
-      )}
-    </Typography>
-
-    <Typography>
-      <strong>COURTESY:</strong>{' '}
-      {text(
-        'Polite or considerate behaviour with willingness, generosity, and civility.',
-        'اللباقة: التصرف بلطف أو اهتمام مع الاستعداد والسخاء والأدب.'
-      )}
-    </Typography>
-
-    <Typography>
-      <strong>HUMILITY:</strong>{' '}
-      {text(
-        'Modesty and empathy; the ability to say, “I don’t know, but I’m willing to learn.”',
-        'التواضع: التواضع والتعاطف؛ القدرة على قول "لا أعلم، ولكنني على استعداد للتعلم".'
-      )}
-    </Typography>
-
-    <Typography>
-      <strong>EFFORT:</strong>{' '}
-      {text(
-        'The use of physical or mental energy to accomplish something; achievement through exertion.',
-        'الجهد: استخدام الطاقة الجسدية أو العقلية لتحقيق شيء ما؛ التحقيق من خلال البذل.'
-      )}
-    </Typography>
+ 
   </Box>
                 <Btn
                                 onClick={()=>router.push('/#contact')}
