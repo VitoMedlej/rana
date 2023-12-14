@@ -92,8 +92,8 @@ const Index = () => {
 
                         </Box>
     
-                        <Box className='center ' sx={{mt:16}}>
-                <Title sx={{textAlign:'center'}}>
+                        <Box className='center ' sx={{mt:14}}>
+                <Title  sx={{fontWeight:800,textAlign:'center'}}>
                 {text('Why Choose IATT?', `لماذا تختار IATT؟`)}
 
                 </Title>
@@ -105,12 +105,12 @@ We recognize that translations can be a daunting or confusing industry. We are e
 
                 </Typography>
     </Box>
-    <Box className='center ' sx={{mt:16}}>
-                <Title sx={{textAlign:'center'}}>
+    <Box className='center ' sx={{mt:14}}>
+                <Title sx={{fontWeight:800,textAlign:'center'}}>
                 {text('Top reasons to partner with us:', `أهم الأسباب للشراكة معنا:`)}
 
                 </Title>
-                <Typography className='auto pre' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
+                {/* <Typography className='auto pre' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
                 {text(`Quality: mature processes, six-sigma efficiencies and quality checkpoints result in world-class excellence.
 •	Expertise: a diverse group of linguists who are experts in their language set and subject matter. Many have been with us for over 10 years!
 •	Pricing: competitive industry rates on all services. We utilize a proprietary pricing model which removes dependencies on CAT tools—meaning more savings for you!
@@ -123,9 +123,54 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
 • السرعة والمرونة: نحن نتمتع بالذكاء، ولدينا سجل حافل من أوقات التسليم السريعة. يمكننا تخصيص عملياتنا وجداولنا الزمنية لتناسب احتياجاتك.
 نحن نستخدم أداة أتمتة سير العمل الخاصة التي تعمل على تحسين عملياتنا وتقليل النفقات العامة.`)}
 
-                </Typography>
+                </Typography> */}
+
+<Typography className='auto ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
+<strong>
+{text("Quality:", "الجودة:")}
+        </strong>   
+  {text(`
+    mature processes, six-sigma efficiencies and quality checkpoints result in world-class excellence.
+  `, `
+     تؤدي العمليات الناضجة وكفاءات ستة سيجما ونقاط فحص الجودة إلى التميز على مستوى عالمي.
+  `)}
+</Typography>
+<Typography className='auto ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
+ 
+      <strong>
+      {text("Expertise:", "الخبرة:")}
+        </strong>          
+  {text(`
+    a diverse group of linguists who are experts in their language set and subject matter. Many have been with us for over 10 years!
+  `, `
+     مجموعة متنوعة من اللغويين الذين هم خبراء في مجموعة لغتهم وموضوعهم. لقد كان الكثير معنا لأكثر من 10 سنوات!
+  `)}
+</Typography>
+<Typography className='auto ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
+ 
+<strong>
+{text("Pricing:", "التسعير:")}
+        </strong>   
+  {text(`
+     competitive industry rates on all services. We utilize a proprietary pricing model which removes dependencies on CAT tools—meaning more savings for you!
+  `, `
+    التسعير: أسعار صناعية تنافسية على جميع الخدمات. نحن نستخدم نموذج تسعير خاص يزيل التبعيات على أدوات CAT، مما يعني المزيد من التوفير بالنسبة لك!
+  `)}
+</Typography>
+<Typography className='auto ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
+<strong>
+{text("Speed & Flexibility:", "السرعة والمرونة:")}
+        </strong>  
+  {text(`
+     we are nimble—we have a great track record of fast turnaround times. We can customize our processes and timelines to fit your needs.
+    We utilize a proprietary workflow automation tool which optimizes our processes and lowers our overhead.
+  `, `
+     نحن نتمتع بالذكاء، ولدينا سجل حافل من أوقات التسليم السريعة. يمكننا تخصيص عملياتنا وجداولنا الزمنية لتناسب احتياجاتك.
+    نحن نستخدم أداة أتمتة سير العمل الخاصة التي تعمل على تحسين عملياتنا وتقليل النفقات العامة.
+  `)}
+</Typography>
     </Box>
-    <Grid sx={{my:8}} container maxWidth='xl'>
+    <Grid sx={{my:6}} container maxWidth='xl'>
         {/* <Grid item xs={12} sm={4}>
             <Box>
                 <Title>
@@ -159,31 +204,20 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
             </Box> */}
             </Box>
         </Grid>
-        <Grid sx={{mt:16}} xs={12} sm={6}>
+        {/* <Grid sx={{mt:16}} xs={12} sm={6}>
         <Box sx={{height:'100%',minHeight:'500px'}}>
 
 <img
 
     className={`img pointer  
     `}
-    // ${item?.className}
     src={`https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}
     alt="Main Carousel Image"/>
 </Box>
         </Grid>
         <Grid sx={{mt:{sm:16},background:'#000818 '}} className='flex  white center items-center' item xs={12} sm={6}>
             <Box sx={{px:{xs:2,sm:4,md:5},py:8}}>
-            {/* <Title sx={{color:'white'}}>
-            {text('We offer a wide range of courses, including:', `نحن نقدم مجموعة واسعة من الدورات ، بما في ذلك:`)}
-
-                </Title>
-                <Typography sx={{color:'white',mx:1,mt:1}}>
-                {text('Translation Studies: This course provides students with the skills necessary to translate texts accurately and effectively between various languages.', `دراسات الترجمة: يوفر هذا البرنامج للطلاب المهارات اللازمة لترجمة النصوص بدقة وفعالية بين اللغات المختلفة.`)}
-
-                </Typography>
-                <Typography sx={{color:'white',mx:1,mt:1}}>
-             
-                </Typography> */}
+       
   <Box>
   <Typography sx={{py:1}}>
       {text(
@@ -247,7 +281,62 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
 
                 </Btn>
             </Box>
-        </Grid>
+        </Grid> */}
+    <Grid sx={{pt:2}} container>
+<Grid item xs={12} sm={6}>
+  <Box className='auto flex' sx={{pt:{xs:0,sm:5},maxWidth:'400px'}}>
+    <img src="https://ucarecdn.com/95ad162a-fbab-4120-b434-494de1736cba/rana.jpg" alt="" className="img" />
+  </Box>
+</Grid>
+<Grid item xs={12} sm={6}>
+        <Box sx={{maxWidth:'600px',px:1,pt:{xs:2,sm:5}}}>
+          <Typography sx={{textAlign:text('left !important','end !important'),fontSize:'.85em'}}>
+            {text(`Founder of the Academy`,`مؤسس الأكاديمية`)}
+          </Typography>
+          <Typography sx={{textAlign:text('left !important',
+          'end !important'),fontWeight:800,fontSize:'2.5em',pb:4}}>
+            {text(`Rana Mahmoud CHEHAB`,`رنا محمود شهاب`)}
+          </Typography>
+          
+        </Box>
+        <Box sx={{maxWidth:'600px',px:1}}>
+          <Typography className='pre ' sx={{textAlign:text('left !important','end !important')}}>
+            {
+              text(`-	BA degree in Translation 
+-	MA degree in French literature 
+-	Higher Honorary Doctorate Certificate issued by the International University of Smart and Academic University of Safana 
+-	Higher honorary doctorate issued by the American Canadian Board
+-	“Training of Trainers” and “International Trainer” certificate.
+-	Sworn translator, certified before courts, official departments, embassies and ministries in Lebanon for more than 17 years.
+-	Lecturer and Translator at the University of People
+-	My courses are not limited to:
+Cat tools, Internship, Economic translation, Professional Translation, Basics of Translation, Subtitling, Memoq ets..
+-	Certified by Translators without Borders
+-	Certified by the Arab Organization of Professional Translators
+-	- Member of the International Union of Languages and Translation (No. 648)
+-	ISO 9001 certified
+-	Accredited by the American and Canadian Board
+
+              `,` درجة البكالوريوس في الترجمة
+               درجة الماجستير في الأدب الفرنسي
+               شهادة الدكتوراه الفخرية العليا صادرة عن الجامعة الدولية الذكية والأكاديمية بسافانا
+               الدكتوراه الفخرية العليا الصادرة عن البورد الأمريكي الكندي
+               شهادة "تدريب المدربين" و"المدرب الدولي".
+               مترجم محلف ومعتمد أمام المحاكم والدوائر الرسمية والسفارات والوزارات في لبنان منذ أكثر من 17 عاماً.
+               محاضر ومترجم في جامعة الشعب
+               دوراتي لا تقتصر على:
+              أدوات Cat، التدريب، الترجمة الاقتصادية، الترجمة الاحترافية، أساسيات الترجمة، الترجمة، Memoq وما إلى ذلك.
+               معتمد من مترجمين بلا حدود
+               معتمد من المنظمة العربية للمترجمين المحترفين
+                عضو الاتحاد الدولي للغات والترجمة (رقم 648)
+               حاصلة على شهادة الأيزو 9001
+               معتمدة من البورد الأمريكي والكندي`)
+            }
+          </Typography>
+        </Box>
+</Grid>
+    </Grid>
+
     </Grid>
 
     </Box>
