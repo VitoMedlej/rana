@@ -86,7 +86,7 @@ const Index = () => {
                                 className={`img pointer  cover
                                 `}
                                 // ${item?.className}
-                                src={`https://ucarecdn.com/64fd9c9b-40da-4b04-b64f-0ff58eaa252f/download.jfif`}
+                                src={`https://www.alucare.fr/wp-content/uploads/2022/10/une-agence-de-traduction-en-ligne.jpg`}
                                 alt="Main Carousel Image"/>
                             </Box>
 
