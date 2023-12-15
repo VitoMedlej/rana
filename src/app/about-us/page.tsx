@@ -81,6 +81,7 @@ const Index = () => {
                             </Box>
                             <Box sx={{height:'500px',width:'100%'}}>
 
+
                             <img
             
                                 className={`img pointer  cover
@@ -97,7 +98,7 @@ const Index = () => {
                 {text('Why Choose IATT?', `لماذا تختار IATT؟`)}
 
                 </Title>
-                <Typography className='auto' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
+                <Typography className='auto clr' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
                 {text(`Everyone talks about quality and service. These are more than words — they are part of our core values and driving principles.
 We recognize that translations can be a daunting or confusing industry. We are experts in removing the confusion and taking one more worry off of your mind. When you partner with us, we ensure quality and accuracy from start to finish.
 `, `الجميع يتحدث عن الجودة والخدمة. هذه أكثر من مجرد كلمات، فهي جزء من قيمنا الأساسية ومبادئنا الدافعة.
@@ -125,7 +126,7 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
 
                 </Typography> */}
 
-<Typography className='auto ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
+<Typography className='auto clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
 <strong>
 {text("Quality:", "الجودة:")}
         </strong>   
@@ -135,7 +136,7 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
      تؤدي العمليات الناضجة وكفاءات ستة سيجما ونقاط فحص الجودة إلى التميز على مستوى عالمي.
   `)}
 </Typography>
-<Typography className='auto ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
+<Typography className='auto clr ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
  
       <strong>
       {text("Expertise:", "الخبرة:")}
@@ -146,7 +147,7 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
      مجموعة متنوعة من اللغويين الذين هم خبراء في مجموعة لغتهم وموضوعهم. لقد كان الكثير معنا لأكثر من 10 سنوات!
   `)}
 </Typography>
-<Typography className='auto ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
+<Typography className='auto  clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
  
 <strong>
 {text("Pricing:", "التسعير:")}
@@ -157,7 +158,7 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
     التسعير: أسعار صناعية تنافسية على جميع الخدمات. نحن نستخدم نموذج تسعير خاص يزيل التبعيات على أدوات CAT، مما يعني المزيد من التوفير بالنسبة لك!
   `)}
 </Typography>
-<Typography className='auto ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
+<Typography className='auto clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
 <strong>
 {text("Speed & Flexibility:", "السرعة والمرونة:")}
         </strong>  
@@ -290,17 +291,17 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
 </Grid>
 <Grid item xs={12} sm={6}>
         <Box sx={{maxWidth:'600px',px:1,pt:{xs:2,sm:5}}}>
-          <Typography sx={{textAlign:text('left !important','end !important'),fontSize:'.85em'}}>
+          <Typography className='clr' sx={{textAlign:text('left !important','end !important'),fontSize:'.85em'}}>
             {text(`Founder of the Academy`,`مؤسس الأكاديمية`)}
           </Typography>
-          <Typography sx={{textAlign:text('left !important',
-          'end !important'),fontWeight:800,fontSize:'2.5em',pb:4}}>
-            {text(`Rana Mahmoud CHEHAB`,`رنا محمود شهاب`)}
+          <Typography component={'h1'} sx={{textAlign:text('left !important',
+          'end !important'),fontWeight:800,fontSize:'2.65em',pb:4}}>
+            {text(`Rana Mahmoud Chehab `,`رنا محمود شهاب`)}
           </Typography>
           
         </Box>
         <Box sx={{maxWidth:'600px',px:1}}>
-          <Typography className='pre ' sx={{textAlign:text('left !important','end !important')}}>
+          <Typography className='pre clr' sx={{textAlign:text('left !important','end !important')}}>
             {
               text(`-	BA degree in Translation 
 -	MA degree in French literature 
