@@ -73,6 +73,9 @@ $color :#21242C  !important;
 .row {
     flex-direction: row;
 }
+.rounded {
+    border-radius: 50%;
+}
 .bg {
     background: $color ;
 }
@@ -126,6 +129,9 @@ button[disabled]{
 }
 .relative{
     position: relative;
+}
+.none {
+    display: none;
 }
 .swiper  {
     width: 100%;

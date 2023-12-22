@@ -79,7 +79,7 @@ const Index = () => {
                               {text('Contact Us Now', `اتصل بنا الآن`)}
                                 </Btn>
                             </Box>
-                            <Box sx={{height:'500px',width:'100%'}}>
+                            <Box  sx={{height:'500px',width:'100%'}}>
 
 
                             <img
@@ -106,8 +106,16 @@ We recognize that translations can be a daunting or confusing industry. We are e
 
                 </Typography>
     </Box>
-    <Box className='center ' sx={{mt:14}}>
-                <Title sx={{fontWeight:800,textAlign:'center'}}>
+
+
+
+
+
+
+    <Box className='flex center auto wrap ' sx={{py:16,maxWidth:'lg'}}>
+      
+    <Box className='center ' sx={{width:{xs:'95%',sm:'60%'}}}>
+                <Title sx={{fontWeight:800,textAlign:'left'}}>
                 {text('Top reasons to partner with us:', `أهم الأسباب للشراكة معنا:`)}
 
                 </Title>
@@ -126,7 +134,7 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
 
                 </Typography> */}
 
-<Typography className='auto clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
+<Typography className=' clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'left' }}>
 <strong>
 {text("Quality:", "الجودة:")}
         </strong>   
@@ -136,7 +144,7 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
      تؤدي العمليات الناضجة وكفاءات ستة سيجما ونقاط فحص الجودة إلى التميز على مستوى عالمي.
   `)}
 </Typography>
-<Typography className='auto clr ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
+<Typography className=' clr ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'left' }}>
  
       <strong>
       {text("Expertise:", "الخبرة:")}
@@ -147,7 +155,7 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
      مجموعة متنوعة من اللغويين الذين هم خبراء في مجموعة لغتهم وموضوعهم. لقد كان الكثير معنا لأكثر من 10 سنوات!
   `)}
 </Typography>
-<Typography className='auto  clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
+<Typography className='  clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'left' }}>
  
 <strong>
 {text("Pricing:", "التسعير:")}
@@ -158,7 +166,7 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
     التسعير: أسعار صناعية تنافسية على جميع الخدمات. نحن نستخدم نموذج تسعير خاص يزيل التبعيات على أدوات CAT، مما يعني المزيد من التوفير بالنسبة لك!
   `)}
 </Typography>
-<Typography className='auto clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'center' }}>
+<Typography className=' clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'left' }}>
 <strong>
 {text("Speed & Flexibility:", "السرعة والمرونة:")}
         </strong>  
@@ -171,6 +179,18 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
   `)}
 </Typography>
     </Box>
+    <Box sx={{height:'300px',width:{xs:'95%',sm:'300px'}}} className='flex center items-center rounded'>
+      <img
+    
+      src="https://www.lisedunetwork.com/wp-content/uploads/2014/03/Knowledge-Classification-and-Book-Classification.jpg" alt="" 
+      className="img rounded" />
+    </Box>
+    </Box>
+
+
+
+
+
     <Grid sx={{my:6}} container maxWidth='xl'>
         {/* <Grid item xs={12} sm={4}>
             <Box>
@@ -291,19 +311,23 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
 </Grid>
 <Grid item xs={12} sm={6}>
         <Box sx={{maxWidth:'600px',px:1,pt:{xs:2,sm:5}}}>
-          <Typography className='clr' sx={{textAlign:text('left !important','end !important'),fontSize:'.85em'}}>
-            {text(`Founder of the Academy`,`مؤسس الأكاديمية`)}
+          <Typography component={'h1'} 
+          sx={{textAlign:text('left !important','end !important'),fontWeight:800,fontSize:'2.65em'}}>
+            {text(`Founder of the Academy:`,`مؤسس الأكاديمية`)}
           </Typography>
           <Typography component={'h1'} sx={{textAlign:text('left !important',
-          'end !important'),fontWeight:800,fontSize:'2.65em',pb:4}}>
+          
+          'end !important'),
+          textDecoration:'underline',
+          fontWeight:800,fontSize:'2.65em',pb:4,pt:.25,}}>
             {text(`Rana Mahmoud Chehab `,`رنا محمود شهاب`)}
           </Typography>
           
         </Box>
         <Box sx={{maxWidth:'600px',px:1}}>
-          <Typography className='pre clr' sx={{textAlign:text('left !important','end !important')}}>
+          {/* <Typography className='pre clr' sx={{textAlign:text('left !important','end !important')}}>
             {
-              text(`-	BA degree in Translation 
+              text(` -	BA degree in Translation 
 -	MA degree in French literature 
 -	Higher Honorary Doctorate Certificate issued by the International University of Smart and Academic University of Safana 
 -	Higher honorary doctorate issued by the American Canadian Board
@@ -333,7 +357,47 @@ Cat tools, Internship, Economic translation, Professional Translation, Basics of
                حاصلة على شهادة الأيزو 9001
                معتمدة من البورد الأمريكي والكندي`)
             }
-          </Typography>
+          </Typography> */}
+        {
+         [
+          { en: "BA degree in Translation", ar: "درجة البكالوريوس في الترجمة" },
+          { en: "MA degree in French literature", ar: "درجة الماجستير في الأدب الفرنسي" },
+          { en: "Higher Honorary Doctorate Certificate issued by the International University of Smart and Academic University of Safana", ar: "شهادة الدكتوراه الفخرية العالية صادرة عن الجامعة الدولية للذكاء والجامعة الأكاديمية لسفانا" },
+          { en: "Higher honorary doctorate issued by the American Canadian Board", ar: "دكتوراه فخرية عالية صادرة عن المجلس الأمريكي الكندي" },
+          { en: "“Training of Trainers” and “International Trainer” certificate.", ar: "شهادة 'تدريب المدربين' و 'مدرب دولي'." },
+          { en: "Sworn translator, certified before courts, official departments, embassies and ministries in Lebanon for more than 17 years.", ar: "مترجم محلف، معتمد أمام المحاكم والأقسام الرسمية والسفارات والوزارات في لبنان لأكثر من 17 عامًا." },
+          { en: "Lecturer and Translator at the University of People", ar: "محاضر ومترجم في جامعة الناس" },
+          { en: "My courses are not limited to: ( Cat tools, Internship, Economic translation, Professional Translation, Basics of Translation, Subtitling, Memoq etc..)", ar: "ليست دوراتي مقتصرة على: أدوات Cat، التدريب العملي، الترجمة الاقتصادية، الترجمة المهنية، أساسيات الترجمة، الترجمة الفرعية، Memoq وغيرها.." },
+          { en: "Certified by Translators without Borders", ar: "معتمد من قبل المترجمين بدون حدود" },
+          { en: "Certified by the Arab Organization of Professional Translators", ar: "معتمد من قبل الهيئة العربية للمترجمين المحترفين" },
+          { en: "Member of the International Union of Languages and Translation (No. 648)", ar: "عضو في الاتحاد الدولي للغات والترجمة (رقم 648)" },
+          { en: "ISO 9001 certified", ar: "معتمدة من قبل ISO 9001" },
+          { en: "Accredited by the American and Canadian Board", ar: "معتمدة من قبل المجلس الأمريكي الكندي" }
+        ].map(i=>{
+            return <Typography key={i?.en} className=' ' sx={{py:.5,textAlign:text('left !important','end !important')}}>
+              <strong 
+              style={{textAlign:'left'}}
+              
+              className={text('init','none')}>
+              •
+              {' '}
+              </strong>
+            
+              <span>
+
+            {text(`${i?.en}`,`${i?.ar}`)}
+              </span>
+              <strong
+              style={{textAlign:'right'}}
+              className={`${text('none','init')}  `}>
+              {' '}
+              •
+              </strong>
+ </Typography>
+
+
+          })
+        }
         </Box>
 </Grid>
     </Grid>

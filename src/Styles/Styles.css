@@ -77,6 +77,10 @@ h1 {
   flex-direction: row;
 }
 
+.rounded {
+  border-radius: 50%;
+}
+
 .bg {
   background: #21242C !important;
 }
@@ -146,6 +150,10 @@ button[disabled] {
 
 .relative {
   position: relative;
+}
+
+.none {
+  display: none;
 }
 
 .swiper {
