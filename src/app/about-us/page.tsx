@@ -113,10 +113,19 @@ We recognize that translations can be a daunting or confusing industry. We are e
 
 
     <Box className='flex center auto wrap ' sx={{py:16,maxWidth:'lg'}}>
-      
+    <Box sx={{ 
+      display:text('none','flex'),
+      height:'300px',width:{xs:'95%',sm:'300px'}}} className=' center items-center rounded'>
+      <img
+    
+      src="https://www.lisedunetwork.com/wp-content/uploads/2014/03/Knowledge-Classification-and-Book-Classification.jpg" alt="" 
+      className="img rounded" />
+    </Box>
+
+
     <Box className='center ' sx={{width:{xs:'95%',sm:'60%'}}}>
-                <Title sx={{fontWeight:800,textAlign:'left'}}>
-                {text('Top reasons to partner with us:', `أهم الأسباب للشراكة معنا:`)}
+                <Title sx={{fontWeight:800,textAlign: text('left','right')}}>
+                {text('Top reasons to partner with us:', `:أهم الأسباب للشراكة معنا`)}
 
                 </Title>
                 {/* <Typography className='auto pre' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
@@ -134,9 +143,10 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
 
                 </Typography> */}
 
-<Typography className=' clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'left' }}>
+<Typography className=' clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: text('left','right') }}>
 <strong>
 {text("Quality:", "الجودة:")}
+{' '}
         </strong>   
   {text(`
     mature processes, six-sigma efficiencies and quality checkpoints result in world-class excellence.
@@ -144,10 +154,15 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
      تؤدي العمليات الناضجة وكفاءات ستة سيجما ونقاط فحص الجودة إلى التميز على مستوى عالمي.
   `)}
 </Typography>
-<Typography className=' clr ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'left' }}>
+<Typography className=' clr ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1,
+
+
+textAlign: text('left','right') }}>
  
       <strong>
-      {text("Expertise:", "الخبرة:")}
+      {text("Expertise:", ":الخبرة")}
+{' '}
+
         </strong>          
   {text(`
     a diverse group of linguists who are experts in their language set and subject matter. Many have been with us for over 10 years!
@@ -155,10 +170,12 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
      مجموعة متنوعة من اللغويين الذين هم خبراء في مجموعة لغتهم وموضوعهم. لقد كان الكثير معنا لأكثر من 10 سنوات!
   `)}
 </Typography>
-<Typography className='  clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'left' }}>
+<Typography className='  clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: text('left','right') }}>
  
 <strong>
-{text("Pricing:", "التسعير:")}
+{text("Pricing:", ":التسعير")}
+{' '}
+
         </strong>   
   {text(`
      competitive industry rates on all services. We utilize a proprietary pricing model which removes dependencies on CAT tools—meaning more savings for you!
@@ -166,9 +183,11 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
     التسعير: أسعار صناعية تنافسية على جميع الخدمات. نحن نستخدم نموذج تسعير خاص يزيل التبعيات على أدوات CAT، مما يعني المزيد من التوفير بالنسبة لك!
   `)}
 </Typography>
-<Typography className=' clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: 'left' }}>
+<Typography className=' clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: text('left','right') }}>
 <strong>
-{text("Speed & Flexibility:", "السرعة والمرونة:")}
+{text("Speed & Flexibility:", ":السرعة والمرونة")}
+{' '}
+
         </strong>  
   {text(`
      we are nimble—we have a great track record of fast turnaround times. We can customize our processes and timelines to fit your needs.
@@ -179,7 +198,9 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
   `)}
 </Typography>
     </Box>
-    <Box sx={{height:'300px',width:{xs:'95%',sm:'300px'}}} className='flex center items-center rounded'>
+    <Box sx={{ 
+      display:text('flex','none'),
+      height:'300px',width:{xs:'95%',sm:'300px'}}} className=' center items-center rounded'>
       <img
     
       src="https://www.lisedunetwork.com/wp-content/uploads/2014/03/Knowledge-Classification-and-Book-Classification.jpg" alt="" 
