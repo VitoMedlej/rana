@@ -65,10 +65,10 @@ const Index = () => {
                                 position:'absolute'}}>
                              <Typography sx={{textAlign:'center',color:'white',fontSize:{xs:'1.95em',sm:'2.5em',md:'3em'},fontWeight:600}}>
                              {/* Redefining Excellence in Engineering and Architecture */}
-                             {text('High-quality translation and learning courses to the globle', `ترجمة عالية الجودة ودورات تعليمية للعالم`)}
+                             {text('High-quality translation and learning courses to the globle', `خدمات ترجمة عالية الجودة ودورات تعليمية للطلاب من حول العالم`)}
                                 </Typography>
                                 <Typography sx={{color:'white',textAlign:'center',fontSize:{xs:'.75em',sm:'.9em'},mt:1,maxWidth:'500px'}}>
-                                {text('We aim to foster an environment that encourages intellectual growth and cultural exchange.', `نهدف إلى تعزيز بيئة تشجع على النمو الفكري والتبادل الثقافي.`)}
+                                {text('We aim to foster an environment that encourages intellectual growth and cultural exchange.', `هدفنا هو أن نعزز بيئة تشجّع على النمو الفكري والتبادل الثقافي`)}
 
 
 
@@ -76,7 +76,7 @@ const Index = () => {
                                 <Btn
                                                               onClick={()=>router.push('/#contact')}
                                 sx={{mt:3,width:'220px'}}>
-                              {text('Contact Us Now', `اتصل بنا الآن`)}
+                              {text('Contact Us Now', `تواصل معنا الآن `)}
                                 </Btn>
                             </Box>
                             <Box  sx={{height:'500px',width:'100%'}}>
@@ -95,14 +95,13 @@ const Index = () => {
     
                         <Box className='center ' sx={{mt:14}}>
                 <Title  sx={{fontWeight:800,textAlign:'center'}}>
-                {text('Why Choose IATT?', `لماذا تختار IATT؟`)}
+                {text('Why Choose IATT?', `لماذا تختار الأكاديمية الدولية للترجمة والتدريب`)}
 
                 </Title>
                 <Typography className='auto clr' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
                 {text(`Everyone talks about quality and service. These are more than words — they are part of our core values and driving principles.
 We recognize that translations can be a daunting or confusing industry. We are experts in removing the confusion and taking one more worry off of your mind. When you partner with us, we ensure quality and accuracy from start to finish.
-`, `الجميع يتحدث عن الجودة والخدمة. هذه أكثر من مجرد كلمات، فهي جزء من قيمنا الأساسية ومبادئنا الدافعة.
-نحن ندرك أن الترجمات يمكن أن تكون صناعة شاقة أو مربكة. نحن خبراء في إزالة الارتباك وإزالة أي قلق آخر من عقلك. عندما تكون شريكًا معنا، فإننا نضمن الجودة والدقة من البداية إلى النهاية.`)}
+`, `يتحدّث الجميع عن الجودة والخدمة. إذًا، هاتان الكلمتان مألوفتان – غير أنّهما ليستا مجرد كلمتين، بل هما جزء من قيمنا الأساسية ومبادئنا التوجيهية. فنحن ندرك أنّ مجال الترجمة قد يكون شاقًا أو مربكًا. لذا، نحن نتمتّع بالخبرة اللازمة لنزيل الارتباك والمخاوف من ذهنك. فعندما تتعاون معنا، نضمن لك الجودة والدقة من البداية حتى النهاية.  `)}
 
                 </Typography>
     </Box>
@@ -125,7 +124,7 @@ We recognize that translations can be a daunting or confusing industry. We are e
 
     <Box className='center ' sx={{width:{xs:'95%',sm:'60%'}}}>
                 <Title sx={{fontWeight:800,textAlign: text('left','right')}}>
-                {text('Top reasons to partner with us:', `:أهم الأسباب للشراكة معنا`)}
+                {text('Top reasons to partner with us:', `أهم الأسباب التي تشجّعك على التعاون معنا:`)}
 
                 </Title>
                 {/* <Typography className='auto pre' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
@@ -151,7 +150,7 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
   {text(`
     mature processes, six-sigma efficiencies and quality checkpoints result in world-class excellence.
   `, `
-     تؤدي العمليات الناضجة وكفاءات ستة سيجما ونقاط فحص الجودة إلى التميز على مستوى عالمي.
+   تؤدي العمليات الناضحة وفعالية منهجية سيغما السداسية واختبارات الجودة إلى تحقيق التميّز العالمي.
   `)}
 </Typography>
 <Typography className=' clr ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1,
@@ -167,7 +166,7 @@ textAlign: text('left','right') }}>
   {text(`
     a diverse group of linguists who are experts in their language set and subject matter. Many have been with us for over 10 years!
   `, `
-     مجموعة متنوعة من اللغويين الذين هم خبراء في مجموعة لغتهم وموضوعهم. لقد كان الكثير معنا لأكثر من 10 سنوات!
+  مجموعة كبيرة من اللغويين الذين يتمتّعون بخبرة واسعة باللغة والمواضيع التي يترجمونها. فالكثير منهم يعمل معنا لأكثر من 10 سنوات
   `)}
 </Typography>
 <Typography className='  clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: text('left','right') }}>
@@ -180,7 +179,7 @@ textAlign: text('left','right') }}>
   {text(`
      competitive industry rates on all services. We utilize a proprietary pricing model which removes dependencies on CAT tools—meaning more savings for you!
   `, `
-    التسعير: أسعار صناعية تنافسية على جميع الخدمات. نحن نستخدم نموذج تسعير خاص يزيل التبعيات على أدوات CAT، مما يعني المزيد من التوفير بالنسبة لك!
+  أسعار خدماتنا تنافسية جدًا، إذ إنّنا نستعين بنموذج تسعير ملائم لا يعتمد على أدوات الترجمة بمساعدة الحاسوب (CAT tools)، ما يجعلك توفّر المزيد من المال!
   `)}
 </Typography>
 <Typography className=' clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: text('left','right') }}>
@@ -193,8 +192,7 @@ textAlign: text('left','right') }}>
      we are nimble—we have a great track record of fast turnaround times. We can customize our processes and timelines to fit your needs.
     We utilize a proprietary workflow automation tool which optimizes our processes and lowers our overhead.
   `, `
-     نحن نتمتع بالذكاء، ولدينا سجل حافل من أوقات التسليم السريعة. يمكننا تخصيص عملياتنا وجداولنا الزمنية لتناسب احتياجاتك.
-    نحن نستخدم أداة أتمتة سير العمل الخاصة التي تعمل على تحسين عملياتنا وتقليل النفقات العامة.
+  نتمتّع بالذكاء والفطنة، فسجلنا حافل بأوقات التسليم السريعة. ويمكننا أن نخصص عملياتنا وجداولنا الزمنية لتلبية احتياجاتك، إذ نستعين بأداة خاصة لأتمتة تدفق العمل تحسّن عملياتنا وتقلل نفقاتنا. 
   `)}
 </Typography>
     </Box>
@@ -334,7 +332,7 @@ textAlign: text('left','right') }}>
         <Box sx={{maxWidth:'600px',px:1,pt:{xs:2,sm:5}}}>
           <Typography component={'h1'} 
           sx={{textAlign:text('left !important','end !important'),fontWeight:800,fontSize:'2.65em'}}>
-            {text(`Founder of the Academy:`,`مؤسس الأكاديمية`)}
+            {text(`Founder of the Academy:`,`مؤسسة الأكاديمية`)}
           </Typography>
           <Typography component={'h1'} sx={{textAlign:text('left !important',
           
@@ -381,19 +379,30 @@ Cat tools, Internship, Economic translation, Professional Translation, Basics of
           </Typography> */}
         {
          [
-          { en: "BA degree in Translation", ar: "درجة البكالوريوس في الترجمة" },
-          { en: "MA degree in French literature", ar: "درجة الماجستير في الأدب الفرنسي" },
-          { en: "Higher Honorary Doctorate Certificate issued by the International University of Smart and Academic University of Safana", ar: "شهادة الدكتوراه الفخرية العالية صادرة عن الجامعة الدولية للذكاء والجامعة الأكاديمية لسفانا" },
-          { en: "Higher honorary doctorate issued by the American Canadian Board", ar: "دكتوراه فخرية عالية صادرة عن المجلس الأمريكي الكندي" },
-          { en: "“Training of Trainers” and “International Trainer” certificate.", ar: "شهادة 'تدريب المدربين' و 'مدرب دولي'." },
-          { en: "Sworn translator, certified before courts, official departments, embassies and ministries in Lebanon for more than 17 years.", ar: "مترجم محلف، معتمد أمام المحاكم والأقسام الرسمية والسفارات والوزارات في لبنان لأكثر من 17 عامًا." },
-          { en: "Lecturer and Translator at the University of People", ar: "محاضر ومترجم في جامعة الناس" },
-          { en: "My courses are not limited to: ( Cat tools, Internship, Economic translation, Professional Translation, Basics of Translation, Subtitling, Memoq etc..)", ar: "ليست دوراتي مقتصرة على: أدوات Cat، التدريب العملي، الترجمة الاقتصادية، الترجمة المهنية، أساسيات الترجمة، الترجمة الفرعية، Memoq وغيرها.." },
-          { en: "Certified by Translators without Borders", ar: "معتمد من قبل المترجمين بدون حدود" },
-          { en: "Certified by the Arab Organization of Professional Translators", ar: "معتمد من قبل الهيئة العربية للمترجمين المحترفين" },
-          { en: "Member of the International Union of Languages and Translation (No. 648)", ar: "عضو في الاتحاد الدولي للغات والترجمة (رقم 648)" },
-          { en: "ISO 9001 certified", ar: "معتمدة من قبل ISO 9001" },
-          { en: "Accredited by the American and Canadian Board", ar: "معتمدة من قبل المجلس الأمريكي الكندي" }
+          { en: "BA degree in Translation", ar: "إجازة في الترجمة"},
+          { en: "MA degree in French literature", ar: "ماجستير في الأدب الفرنسي" },
+          { en: "Higher Honorary Doctorate Certificate issued by the International University of Smart and Academic University of Safana",
+           ar: "شهادة الدكتوراه الفخرية الصادرة عن جامعة وأكاديمية سمارت العالمية وجامعة سفانة الأكاديمية" },
+          { en: "Higher honorary doctorate issued by the American Canadian Board", 
+          ar: "شهادة الدكتوراه الفخرية الصادرة عن البورد الأميركي الكندي" },
+          { en: "“Training of Trainers” and “International Trainer” certificate.",
+           ar: `شهادتي "تدريب المدربين" و"المدرب الدولي"` },
+          { en: "Sworn translator, certified before courts, official departments, embassies and ministries in Lebanon for more than 17 years.",
+           ar: "مترجمة محلّفة ومعتمدة أمام المحاكم والدوائر الرسمية والسفارات والوزارات في لبنان لأكثر من 17 عامًا." },
+          { en: "Lecturer and Translator at the University of People", ar: "محاضرة ومترجمة في جامعة الشعب" },
+          { en: "My courses are not limited to: ( Cat tools, Internship, Economic translation, Professional Translation, Basics of Translation, Subtitling, Memoq etc..)", 
+          
+          ar: " أدوات الترجمة بمساعدة الحاسوب (CAT tools) والتدريب والترجمة الاقتصادية وأسس الترجمة وترجمة الأفلام وmemoQ، إلخ..." },
+          { en: "Certified by Translators without Borders",
+           ar: `معتمدة من "مترجمون بلا حدود" ` },
+          { en: "Certified by the Arab Organization of Professional Translators",
+           ar: "معتمدة من المنظمة العربية للمترجمين المحترفين  " },
+          { en: "Member of the International Union of Languages and Translation (No. 648)",
+          
+          ar: "عضو في الاتحاد الدولي للغات والترجمة (رقم 648)" },
+          { en: "ISO 9001 certified", ar: "حاصلة على شهادة ISO 9001" },
+          { en: "Accredited by the American and Canadian Board",
+           ar: "معتمدة من قبل البورد الأميركي الكندي" }
         ].map(i=>{
             return <Typography key={i?.en} className=' ' sx={{py:.5,textAlign:text('left !important','end !important')}}>
               <strong 
