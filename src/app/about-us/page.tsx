@@ -124,7 +124,7 @@ We recognize that translations can be a daunting or confusing industry. We are e
 
     <Box className='center ' sx={{width:{xs:'95%',sm:'60%'}}}>
                 <Title sx={{fontWeight:800,textAlign: text('left','right')}}>
-                {text('Top reasons to partner with us:', `أهم الأسباب التي تشجّعك على التعاون معنا:`)}
+                {text('Top reasons to partner with us:', `:أهم الأسباب التي تشجّعك على التعاون معنا`)}
 
                 </Title>
                 {/* <Typography className='auto pre' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
@@ -150,7 +150,7 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
   {text(`
     mature processes, six-sigma efficiencies and quality checkpoints result in world-class excellence.
   `, `
-   تؤدي العمليات الناضحة وفعالية منهجية سيغما السداسية واختبارات الجودة إلى تحقيق التميّز العالمي.
+   تؤدي العمليات الناضحة وفعالية منهجية سيغما السداسية واختبارات الجودة إلى تحقيق التميّز العالمي
   `)}
 </Typography>
 <Typography className=' clr ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1,
@@ -192,7 +192,7 @@ textAlign: text('left','right') }}>
      we are nimble—we have a great track record of fast turnaround times. We can customize our processes and timelines to fit your needs.
     We utilize a proprietary workflow automation tool which optimizes our processes and lowers our overhead.
   `, `
-  نتمتّع بالذكاء والفطنة، فسجلنا حافل بأوقات التسليم السريعة. ويمكننا أن نخصص عملياتنا وجداولنا الزمنية لتلبية احتياجاتك، إذ نستعين بأداة خاصة لأتمتة تدفق العمل تحسّن عملياتنا وتقلل نفقاتنا. 
+  نتمتّع بالذكاء والفطنة، فسجلنا حافل بأوقات التسليم السريعة. ويمكننا أن نخصص عملياتنا وجداولنا الزمنية لتلبية احتياجاتك، إذ نستعين بأداة خاصة لأتمتة تدفق العمل تحسّن عملياتنا وتقلل نفقاتنا 
   `)}
 </Typography>
     </Box>
@@ -339,7 +339,7 @@ textAlign: text('left','right') }}>
           'end !important'),
           textDecoration:'underline',
           fontWeight:800,fontSize:'2.65em',pb:4,pt:.25,}}>
-            {text(`Rana Mahmoud Chehab `,`رنا محمود شهاب`)}
+            {text(`Rana Mahmoud Chehab `,`الاستاذة رنا محمود شهاب `)}
           </Typography>
           
         </Box>

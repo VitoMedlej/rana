@@ -28,14 +28,14 @@ export default function BasicList({method,summaryContent,  trainer,secondaryTitl
                }
                
               </Typography>
-              {
+              {/* {
                 trainer &&    <Typography sx={{mx:1,color:'black'}}>
  
  By {' '}{
                   `${trainer}`
                 }
                 </Typography> 
-              }
+              } */}
                {
                 method &&    <Typography sx={{mx:1,color:'black'}}>
  
@@ -76,7 +76,7 @@ export default function BasicList({method,summaryContent,  trainer,secondaryTitl
     }
         </List> */}
 
-<Typography sx={{px:2,py:3,fontWeight:'400'}} >
+<Typography className='pre' sx={{px:2,py:3,fontWeight:'400'}} >
              <strong> {
                text(summaryContent.en,summaryContent?.ar)
                }</strong>

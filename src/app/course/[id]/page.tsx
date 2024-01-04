@@ -147,11 +147,11 @@ const Page = () => {
                  alt="" className="img " />
                </Box>
                <Box className='flex col' sx={{mt:1}}>
-               <Typography sx={{color:'black'}}>
+               {/* <Typography sx={{color:'black'}}>
  
                  <strong style={{whiteSpace:'pre'}}>Prices:</strong>
-               </Typography>
-               <Typography sx={{color:'black'}}>
+               </Typography> */}
+               {/* <Typography sx={{color:'black'}}>
  
  {
    `${course?.fees}`
@@ -166,7 +166,7 @@ const Page = () => {
     course?.priceAr
   }
   </Typography> 
- }
+ } */}
                {/* <Typography sx={{color:'black'}}>
  
                    "1 person": ${course.price}

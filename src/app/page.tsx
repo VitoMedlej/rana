@@ -64,9 +64,15 @@ const Home = () => {
   }, [])
   return (
     <>
+    <Container  sx={{py:6}} className="center text-center auto flex" >
+    <Typography component='h1' sx={{fontWeight:600,maxWidth:'700px'}}>
+
+      {text(`The International Academy for Translation & Training, its abbreviation is IATT, established in Lebanon in the year 2023, a licensed company in translation and training (financial number 3859264) located in Sarafand, Akbieh, Noureddine Center, 1st floor.`)}
+    </Typography>
+    </Container>
     <Container sx={{my:5,mx:'auto',maxWidth:'lg'}} className='flex wrap space-evenly justify-evenly items-center'>
       <Box sx={{width:'450px'}}>
-        <img src="https://cdn.kastatic.org/images/lohp/hero_student_collage_US_1x.png" alt="" className="img" />
+        <img src="https://ucarecdn.com/cd42fd12-91e8-4fdb-ba51-d5a68865e578/logorana.png" alt="" className="img" />
       </Box>
       <Box>
         <Typography component="h1" className='clr' sx={{fontWeight:600,maxWidth:'300px',fontSize:'2em'}}>
@@ -96,12 +102,6 @@ const Home = () => {
         </Btn>
         </Box>
       </Box>
-    </Container>
-    <Container  sx={{py:4}} className="center text-center auto flex" >
-    <Typography component='h1' sx={{fontWeight:600,maxWidth:'700px'}}>
-
-      {text(`The International Academy for Translation & Training, its abbreviation is IATT, established in Lebanon in the year 2023, a licensed company in translation and training (financial number 3859264) located in Sarafand, Akbieh, Noureddine Center, 1st floor.`)}
-    </Typography>
     </Container>
     <CoursesSection data={data} limit={0} />
     <Whyus/>

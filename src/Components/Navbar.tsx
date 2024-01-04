@@ -103,8 +103,9 @@ export default function Navbar() {
                  color='inherit'>
 
 <Box
-className='cursor pointer'
+// className='cursor pointer'
     sx={{
+        opacity:0,
     zIndex:134124,        
     mx: {
         sm: '1em'
