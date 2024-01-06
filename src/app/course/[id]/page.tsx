@@ -80,12 +80,15 @@ const Page = () => {
   
   const fetcher =async () => {
     try {
-
-      const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-by-id?id=${id}`);
+      const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-all`)
+      // const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-by-id?id=${id}`);
       const res = await req.json(); 
       console.log('res: ', res);
-      if (res && res?.product) {
-        setCourse(res?.product)
+      if (res && res?.data?.products) {
+        let item = res?.data?.products.find((item:any) => item?._id === id);
+
+
+        setCourse(item)
       }
     }
     catch(e){
@@ -95,7 +98,6 @@ const Page = () => {
   }
 
 
- 
   //  const selector = () => {
   //    try {
   //      if (!course || !id) return
@@ -144,7 +146,7 @@ const Page = () => {
                  style={{borderRadius:0}}
                  src={`${course?.images && course?.images?.length > 0 ? course?.images[0] : 'https://img.freepik.com/free-vector/illustrated-online-certification-screen_23-2148579915.jpg?w=740&t=st=1701292682~exp=1701293282~hmac=bce0a02d19d726c7d1caf653c72b31200554eb543ff1425924b5f4f4754e21f4'}`}
                  
-                 alt="" className="img " />
+                 alt="" className="img contain " />
                </Box>
                <Box className='flex col' sx={{mt:1}}>
                {/* <Typography sx={{color:'black'}}>

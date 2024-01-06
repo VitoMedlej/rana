@@ -30,7 +30,7 @@ export async function GET(req : NextRequest, res : NextApiResponse) {
         products.push(doc)
         
       });
-      console.log('products: ', products?.length);
+      console.log('products: ', products);
     if (!products || products?.length < 1  ) {
       throw 'ERROR: Could not find any products'
     }
