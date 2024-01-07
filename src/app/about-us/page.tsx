@@ -180,7 +180,7 @@ textAlign: text('left','right') }}>
   {text(`
      competitive industry rates on all services. We utilize a proprietary pricing model which removes dependencies on CAT tools—meaning more savings for you!
      `, `
-     أسعار صناعية تنافسية على جميع الخدمات. نحن نستخدم نموذج تسعير خاص يزيل التبعيات على أدوات CAT، مما يعني المزيد من التوفير بالنسبة لك!
+   أسعار صناعية تنافسية على جميع الخدمات. نحن نستخدم نموذج تسعير خاص يزيل التبعيات على أدوات الترجمة بمساعدة الحاسوب مما يعني المزيد من التوفير بالنسبة لك!
      `)}
      </>
 </Typography>
