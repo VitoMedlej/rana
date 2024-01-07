@@ -76,10 +76,10 @@ export default function BasicList({method,summaryContent,  trainer,secondaryTitl
     }
         </List> */}
 
-<Typography className='pre' sx={{px:2,py:3,fontWeight:'400'}} >
-             <strong> {
+<Typography className='' sx={{whiteSpace:'pre-line',px:2,py:3,fontWeight:'400'}} >
+             <> {
                text(summaryContent.en,summaryContent?.ar)
-               }</strong>
+               }</>
     
             
               </Typography>

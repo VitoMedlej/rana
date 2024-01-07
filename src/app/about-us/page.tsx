@@ -159,7 +159,7 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
 textAlign: text('left','right') }}>
  
       <strong>
-      {text("Expertise:", ":الخبرة")}
+      {text("Expertise:", "الخبرة:")}
 {' '}
 
         </strong>          
@@ -172,19 +172,21 @@ textAlign: text('left','right') }}>
 <Typography className='  clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: text('left','right') }}>
  
 <strong>
-{text("Pricing:", ":التسعير")}
+{text("Pricing:", "السعر:")}
 {' '}
 
         </strong>   
+      <>
   {text(`
      competitive industry rates on all services. We utilize a proprietary pricing model which removes dependencies on CAT tools—meaning more savings for you!
-  `, `
-  أسعار خدماتنا تنافسية جدًا، إذ إنّنا نستعين بنموذج تسعير ملائم لا يعتمد على أدوات الترجمة بمساعدة الحاسوب (CAT tools)، ما يجعلك توفّر المزيد من المال!
-  `)}
+     `, `
+     أسعار خدماتنا تنافسية جدًا، إذ إنّنا نستعين بنموذج تسعير ملائم لا يعتمد على أدوات الترجمة بمساعدة الحاسوب (CAT tools) !ما يجعلك توفّر المزيد من المال
+     `)}
+     </>
 </Typography>
 <Typography className=' clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: text('left','right') }}>
 <strong>
-{text("Speed & Flexibility:", ":السرعة والمرونة")}
+{text("Speed & Flexibility:", "السرعة والمرونة:")}
 {' '}
 
         </strong>  

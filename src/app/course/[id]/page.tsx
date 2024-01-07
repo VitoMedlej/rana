@@ -209,12 +209,22 @@ const Page = () => {
            
                
                </Typography>
-              {course?.certificate && <Typography sx={{pt:1,color:'black'}}>
+              {course?.certificate && typeof course?.certificate === 'string'  && <Typography sx={{pt:1,color:'black'}}>
                  <strong>Certificates:</strong>
                  {' '}
+                           
                {course?.certificate}  
-           
-               
+    
+               </Typography>}
+               {course?.certificate && Array.isArray(course?.certificate)  && <Typography sx={{pt:1,color:'black'}}>
+                 <strong>Certificates:</strong>
+                 {' '}
+                           
+                 {course?.certificate.map((item:any, index:any) => <li key={index}>{item}</li>)}
+        
+        
+    
+    
                </Typography>}
                
                  </Box>
