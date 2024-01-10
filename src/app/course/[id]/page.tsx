@@ -3,6 +3,7 @@
 import Btn from "@/Components/Btn/Btn"
 import ContentList from "@/Components/ContentList/ContentList"
 import Title from "@/Components/Title"
+import useLanguage from "@/Hooks/UseLanguage"
 import { Grid, Box, Typography, Divider } from "@mui/material"
 import { useParams, useRouter } from "next/navigation"
 import { useState, useEffect } from "react"
@@ -77,6 +78,7 @@ const Page = () => {
    const [course,setCourse] = useState<any>(null)
    console.log('course: ', course);
 
+   const {text} = useLanguage()
   
   const fetcher =async () => {
     try {
@@ -222,12 +224,18 @@ const Page = () => {
                  <strong>Certificates:</strong>
                  {' '}
                  <li >
+               
 
-                 A certificate issued by IATT
+                 
+                 {
+                  text('A certificate issued by IATT',`شهادة صادرة عن IATT `)
+                 }
                  </li>
                  <li >
-
-An internationally accredited certificate (if required)      
+                 {
+                  text('An internationally accredited certificate (if required) ',`شهادة معتمدة دوليا من البورد الأميركي الكندي (حسب الطلب) `)
+                 }
+     
 </li>
                  {/* {course?.certificate.map((item:any, index:any) => <li key={index}>{item}</li>)} */}
         
