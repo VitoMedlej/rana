@@ -67,7 +67,7 @@ const Home = () => {
     <Container  sx={{py:6}} className="center text-center auto flex" >
     <Typography component='h1' sx={{fontWeight:600,maxWidth:'700px'}}>
 
-      {text(`The International Academy for Translation & Training, its abbreviation is IATT, established in Lebanon in the year 2023, a licensed company in translation and training (financial number 3859264) located in Sarafand, Akbieh, Noureddine Center, 1st floor.`)}
+      {text(`The International Academy for Translation & Training, its abbreviation is IATT, established in Lebanon in the year 2023, a licensed company in translation and training (financial number 3859264) located in Sarafand, Akbieh, Noureddine Center, 1st floor.`,`الأكاديمية الدولية للترجمة والتدريب، اختصارها IATT، تأسست في لبنان في عام 2023، شركة مرخصة في مجال الترجمة والتدريب (الرقم المالي 3859264) ، مقرها الرئيسي في منطقة الصرفند، العاقبية، مركز نور الدين، الطابق الأول.`)}
     </Typography>
     </Container>
     <Container sx={{my:5,mx:'auto',maxWidth:'lg'}} className='flex wrap space-evenly justify-evenly items-center'>
@@ -81,7 +81,7 @@ const Home = () => {
         <Typography  className='' sx={{py:2,color:'#4b4e55',maxWidth:'600px'}}>
 
         {
-  text('Unlock your potential and chart a course to linguistic excellence with the International Academy for Translation and Training.', 'نحن منظمة غير ربحية برسالة توفير تعليم مجاني ومتميز على مستوى العالم لأي شخص في أي مكان.')
+  text('Unlock your potential and chart a course to linguistic excellence with the International Academy for Translation and Training.', 'تفوق في الترجمة والتدريب. حرّر إمكانياتك وارسم مسارًا نحو التفوق اللغوي مع الأكاديمية الدولية للترجمة والتدريب.')
 }
         </Typography>
         <Box className="flex gap gap2">

@@ -141,7 +141,7 @@ const Page = () => {
            boxShadow: `rgba(0, 0, 0, 0.16) 0px 1px 4px`,
            borderRadius:3,
            }} >
-               <Box sx={{height:'250px'}}>
+               <Box sx={{height:'auto',maxHeight:'400px'}}>
                  <img
                  style={{borderRadius:0}}
                  src={`${course?.images && course?.images?.length > 0 ? course?.images[0] : 'https://img.freepik.com/free-vector/illustrated-online-certification-screen_23-2148579915.jpg?w=740&t=st=1701292682~exp=1701293282~hmac=bce0a02d19d726c7d1caf653c72b31200554eb543ff1425924b5f4f4754e21f4'}`}
@@ -209,18 +209,27 @@ const Page = () => {
            
                
                </Typography>
-              {course?.certificate && typeof course?.certificate === 'string'  && <Typography sx={{pt:1,color:'black'}}>
+              {/* {course?.certificate && typeof course?.certificate === 'string'  && <Typography sx={{pt:1,color:'black'}}>
                  <strong>Certificates:</strong>
                  {' '}
                            
                {course?.certificate}  
     
-               </Typography>}
-               {course?.certificate && Array.isArray(course?.certificate)  && <Typography sx={{pt:1,color:'black'}}>
+               </Typography>} */}
+               {true
+              //  {course?.certificate && Array.isArray(course?.certificate)
+                 && <Typography sx={{pt:1,color:'black'}}>
                  <strong>Certificates:</strong>
                  {' '}
-                           
-                 {course?.certificate.map((item:any, index:any) => <li key={index}>{item}</li>)}
+                 <li >
+
+                 A certificate issued by IATT
+                 </li>
+                 <li >
+
+An internationally accredited certificate (if required)      
+</li>
+                 {/* {course?.certificate.map((item:any, index:any) => <li key={index}>{item}</li>)} */}
         
         
     

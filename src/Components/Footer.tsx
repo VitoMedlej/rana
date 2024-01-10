@@ -36,7 +36,7 @@ const Footer = () =>
             <img className='img ' src='https://ucarecdn.com/cd42fd12-91e8-4fdb-ba51-d5a68865e578/logorana.png' alt="Footer Logo" />
             </Link>
           </div>
-          <Typography component='p' sx={{ fontWeight:300,fontSize: '1.2em' ,color:'white' }}  className='footer-p  '>
+          <Typography component='p' sx={{ fontWeight:300,fontSize: '1.2em' ,color:'white', textAlign: text('left','right') }}  className='footer-p  '>
 {
   text(`IATT is a professional translation company based in Lebanon, providing translation, interpretation, transcreation, transcription, subtitling, localization, writing/copywriting and editing/proofreading services in over 60 languages and all courses related to translation.`,
    'IATT هي شركة ترجمة محترفة مقرها في لبنان، تقدم خدمات الترجمة التحريرية والفورية والترجمة الإبداعية والنسخ والترجمة والتعريب والكتابة/كتابة النصوص والتحرير/التدقيق اللغوي بأكثر من 60 لغة وجميع الدورات التدريبية المتعلقة بالترجمة.')
