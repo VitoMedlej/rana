@@ -22,7 +22,10 @@ export default function BasicList({method,summaryContent,  trainer,secondaryTitl
 
   return (
     <Box sx={{ mt:4,mx:1,  maxWidth: '900px', bgcolor: 'background.paper' }}>
-   <Typography className='' sx={{mx:1,fontWeight:'600',pb:1,fontSize:'2.5em'}}>
+   <Typography  sx={{mx:1
+              ,textAlign:text('left','right'),
+    
+    fontWeight:'600',pb:1,fontSize:'2.5em'}}>
                {
                text(secondaryTitle.en,secondaryTitle?.ar)
                }
@@ -37,7 +40,10 @@ export default function BasicList({method,summaryContent,  trainer,secondaryTitl
                 </Typography> 
               } */}
                {
-                method &&    <Typography sx={{mx:1,color:'black'}}>
+                method &&    <Typography sx={{
+              textAlign:text('left','right'),
+    
+                  mx:1,color:'black'}}>
  
  Method: {' '}{
                   `${text(`${method.en}`,`${method?.ar}`)}`
@@ -76,7 +82,10 @@ export default function BasicList({method,summaryContent,  trainer,secondaryTitl
     }
         </List> */}
 
-<Typography className='' sx={{whiteSpace:'pre-line',px:2,py:3,fontWeight:'400'}} >
+<Typography className='' sx={{
+              textAlign:text('left','right'),
+  
+  whiteSpace:'pre-line',px:2,py:3,fontWeight:'400'}} >
              <> {
                text(summaryContent.en,summaryContent?.ar)
                }</>

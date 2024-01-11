@@ -128,16 +128,18 @@ const Page = () => {
        course && 
      <>
          <Grid item xs={12} sm={8}>
-             <Title sx={{fontSize:'2em'}}>
+             <Title sx={{
+              textAlign:text('left','right'),
+              fontSize:'2em'}}>
 
-             {text(`${course?.name}`,`${course?.nameAR || course?.nameAr}`)}  
+             {text(`${course?.name}`,`${course?.nameAR || course?.nameAr ? course?.nameAR || course?.nameAr : course?.name}`)}  
 
              </Title>
              
              <ContentList
              method={{en:course?.method,ar:course?.methodAr}}
-             trainer={course?.trainer} secondaryTitle={{en:course?.title,ar:course?.titleAr}}
-              summaryContent={{en:course?.description ,ar: course?.descriptionAr}}/>
+             trainer={course?.trainer} secondaryTitle={{en:course?.title,ar:course?.titleAr || course?.title}}
+              summaryContent={{en:course?.description ,ar: course?.descriptionAr || course?.description}}/>
                  
              
          </Grid>
@@ -224,7 +226,10 @@ const Page = () => {
                </Typography>} */}
                {true
               //  {course?.certificate && Array.isArray(course?.certificate)
-                 && <Typography sx={{pt:1,color:'black'}}>
+                 && <Typography sx={{
+              textAlign:text('left','right'),
+                  
+                  pt:1,color:'black'}}>
                  <strong>Certificates:</strong>
                  {' '}
                  <li >

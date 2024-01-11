@@ -7,6 +7,7 @@ const useLanguage = () => {
     
     
       const text = (textEn : string, textOther ?: string) => {
+        if (!textOther) return textEn;
         return lang === 'en' ? textEn : textOther ? textOther : textEn;
       };
     
