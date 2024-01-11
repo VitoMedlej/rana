@@ -128,10 +128,14 @@ const Page = () => {
        course && 
      <>
          <Grid item xs={12} sm={8}>
-             <Title sx={{fontSize:'2em'}}>{course?.name}</Title>
+             <Title sx={{fontSize:'2em'}}>
+
+             {text(`${course?.name}`,`${course?.nameAR || course?.nameAr}`)}  
+
+             </Title>
              
              <ContentList
-             method={course?.method}
+             method={{en:course?.method,ar:course?.methodAr}}
              trainer={course?.trainer} secondaryTitle={{en:course?.title,ar:course?.titleAr}}
               summaryContent={{en:course?.description ,ar: course?.descriptionAr}}/>
                  
@@ -207,7 +211,7 @@ const Page = () => {
                        <Typography sx={{color:'black'}}>
                  <strong>Duration:</strong>
                  {' '}
-               {course?.duration}  
+               {text(`${course?.duration}`,`${course?.durationAR || course?.durationAr}`)}  
            
                
                </Typography>

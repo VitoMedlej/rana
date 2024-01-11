@@ -15,7 +15,7 @@ import useLanguage from '@/Hooks/UseLanguage';
 
 export default function BasicList({method,summaryContent,  trainer,secondaryTitle }:{
   trainer ?: any,
-  method ?: any,
+  method ?: {en:string,ar?:string},
   summaryContent :{en:string,ar?:string},
   secondaryTitle: {en:string,ar?:string}}) {
   const {text} = useLanguage()
@@ -40,7 +40,7 @@ export default function BasicList({method,summaryContent,  trainer,secondaryTitl
                 method &&    <Typography sx={{mx:1,color:'black'}}>
  
  Method: {' '}{
-                  `${method}`
+                  `${text(`${method.en}`,`${method?.ar}`)}`
                 }
                 </Typography> 
               }
