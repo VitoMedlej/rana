@@ -46,7 +46,7 @@ export default function BasicList({method,summaryContent,  trainer,secondaryTitl
                   mx:1,color:'black'}}>
  
  Method: {' '}{
-                  `${text(`${method.en}`,`${method?.ar}`)}`
+                  `${text(`${method.en}`,method?.ar)}`
                 }
                 </Typography> 
               }

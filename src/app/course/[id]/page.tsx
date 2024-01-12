@@ -128,17 +128,17 @@ const Page = () => {
        course && 
      <>
          <Grid item xs={12} sm={8}>
-             <Title sx={{
+             {/* {course?.name && <Title sx={{
               textAlign:text('left','right'),
               fontSize:'2em'}}>
 
-             {text(`${course?.name}`,`${course?.nameAR || course?.nameAr ? course?.nameAR || course?.nameAr : course?.name}`)}  
+             {text(course?.name,course?.nameAR || course?.nameAr)}  
 
-             </Title>
+             </Title>} */}
              
              <ContentList
              method={{en:course?.method,ar:course?.methodAr}}
-             trainer={course?.trainer} secondaryTitle={{en:course?.title,ar:course?.titleAr || course?.title}}
+             trainer={course?.trainer} secondaryTitle={{en:course?.title,ar:course?.titleAr || course?.nameAr}}
               summaryContent={{en:course?.description ,ar: course?.descriptionAr || course?.description}}/>
                  
              
@@ -213,7 +213,7 @@ const Page = () => {
                        <Typography sx={{color:'black'}}>
                  <strong>Duration:</strong>
                  {' '}
-               {text(`${course?.duration}`,`${course?.durationAR || course?.durationAr}`)}  
+               {text(`${course?.duration}`,course?.durationAR || course?.durationAr)}  
            
                
                </Typography>
@@ -227,7 +227,7 @@ const Page = () => {
                {true
               //  {course?.certificate && Array.isArray(course?.certificate)
                  && <Typography sx={{
-              textAlign:text('left','right'),
+              // textAlign:text('left','right'),
                   
                   pt:1,color:'black'}}>
                  <strong>Certificates:</strong>
