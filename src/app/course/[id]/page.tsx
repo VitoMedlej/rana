@@ -210,8 +210,15 @@ const Page = () => {
                  </Typography> */}
                  <Divider sx={{my:1}} light></Divider>
                  <Box>
-                       <Typography sx={{color:'black'}}>
-                 <strong>Duration:</strong>
+                       <Typography sx={{
+              direction:text('ltr','rtl'),
+                        
+                        color:'black'}}>
+                 <strong>
+
+                 {text(`Duration:`,`المدة`)}
+                 </strong>
+
                  {' '}
                {text(`${course?.duration}`,course?.durationAR || course?.durationAr)}  
            
@@ -225,12 +232,13 @@ const Page = () => {
     
                </Typography>} */}
                {true
-              //  {course?.certificate && Array.isArray(course?.certificate)
                  && <Typography sx={{
-              // textAlign:text('left','right'),
+              direction:text('ltr','rtl'),
                   
                   pt:1,color:'black'}}>
-                 <strong>Certificates:</strong>
+                 <strong>
+                  {text(`Certificates:`,`الشهادات`)}
+                  </strong>
                  {' '}
                  <li >
                
