@@ -63,11 +63,17 @@ const Index = () => {
                                 zIndex:123456,
                                 margin :'0 auto',
                                 position:'absolute'}}>
-                             <Typography sx={{textAlign:'center',color:'white',fontSize:{xs:'1.95em',sm:'2.5em',md:'3em'},fontWeight:600}}>
+                             <Typography sx={{
+      direction:text(`ltr`,'rtl'),
+                              
+                              textAlign:'center',color:'white',fontSize:{xs:'1.95em',sm:'2.5em',md:'3em'},fontWeight:600}}>
                              {/* Redefining Excellence in Engineering and Architecture */}
                              {text('High-quality translation and learning courses to the globle', `خدمات ترجمة عالية الجودة ودورات تعليمية للطلاب من حول العالم`)}
                                 </Typography>
-                                <Typography sx={{color:'white',textAlign:'center',fontSize:{xs:'.75em',sm:'.9em'},mt:1,maxWidth:'500px'}}>
+                                <Typography sx={{
+      direction:text(`ltr`,'rtl'),
+                                  
+                                  color:'white',textAlign:'center',fontSize:{xs:'.75em',sm:'.9em'},mt:1,maxWidth:'500px'}}>
                                 {text('We aim to foster an environment that encourages intellectual growth and cultural exchange.', `هدفنا هو أن نعزز بيئة تشجّع على النمو الفكري والتبادل الثقافي`)}
 
 
@@ -98,7 +104,10 @@ const Index = () => {
                 {text('Why Choose IATT?', `لماذا تختار الأكاديمية الدولية للترجمة والتدريب`)}
 
                 </Title>
-                <Typography className='auto clr' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
+                <Typography className='auto clr' sx={{
+      direction:text(`ltr`,'rtl'),
+                  
+                  color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
                 {text(`Everyone talks about quality and service. These are more than words — they are part of our core values and driving principles.
 We recognize that translations can be a daunting or confusing industry. We are experts in removing the confusion and taking one more worry off of your mind. When you partner with us, we ensure quality and accuracy from start to finish.
 `, `يتحدّث الجميع عن الجودة والخدمة. إذًا، هاتان الكلمتان مألوفتان – غير أنّهما ليستا مجرد كلمتين، بل هما جزء من قيمنا الأساسية ومبادئنا التوجيهية. فنحن ندرك أنّ مجال الترجمة قد يكون شاقًا أو مربكًا. لذا، نحن نتمتّع بالخبرة اللازمة لنزيل الارتباك والمخاوف من ذهنك. فعندما تتعاون معنا، نضمن لك الجودة والدقة من البداية حتى النهاية.  `)}
@@ -123,7 +132,10 @@ We recognize that translations can be a daunting or confusing industry. We are e
 
 
     <Box className='center ' sx={{width:{xs:'95%',sm:'60%'}}}>
-                <Title sx={{fontWeight:800,textAlign: text('left','right')}}>
+                <Title sx={{
+      direction:text(`ltr`,'rtl'),
+                  
+                  fontWeight:800,textAlign: text('left','right')}}>
                 {text('Top reasons to partner with us:', `:أهم الأسباب التي تشجّعك على التعاون معنا`)}
 
                 </Title>
@@ -142,7 +154,10 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
 
                 </Typography> */}
 
-<Typography className=' clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: text('left','right') }}>
+<Typography className=' clr' sx={{ 
+      direction:text(`ltr`,'rtl'),
+  
+  color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: text('left','right') }}>
 <strong>
 {text("Quality:", "الجودة:")}
 {' '}
@@ -153,7 +168,10 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
    تؤدي العمليات الناضحة وفعالية منهجية سيغما السداسية واختبارات الجودة إلى تحقيق التميّز العالمي
   `)}
 </Typography>
-<Typography className=' clr ' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1,
+<Typography className=' clr ' sx={{
+      direction:text(`ltr`,'rtl'),
+  
+  color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1,
 
 
 textAlign: text('left','right') }}>
@@ -184,7 +202,11 @@ textAlign: text('left','right') }}>
      `)}
      </>
 </Typography>
-<Typography className=' clr' sx={{ color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: text('left','right') }}>
+<Typography className=' clr' sx={{ 
+  
+  direction:text(`ltr`,'rtl'),
+  
+  color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: text('left','right') }}>
 <strong>
 {text("Speed & Flexibility:", "السرعة والمرونة:")}
 {' '}
@@ -391,7 +413,7 @@ Cat tools, Internship, Economic translation, Professional Translation, Basics of
            ar: `شهادتي "تدريب المدربين" و"المدرب الدولي"` },
           { en: "Sworn translator, certified before courts, official departments, embassies and ministries in Lebanon for more than 17 years.",
            ar: "مترجمة محلّفة ومعتمدة أمام المحاكم والدوائر الرسمية والسفارات والوزارات في لبنان لأكثر من 17 عامًا." },
-          { en: "Lecturer and Translator at the University of People", ar: "محاضرة ومترجمة في جامعة الشعب" },
+          { en: "Lecturer and Translator at the University of People", ar: "University of People محاضرة ومترجمة في " },
           { en: "My courses are not limited to: ( Cat tools, Internship, Economic translation, Professional Translation, Basics of Translation, Subtitling, Memoq etc..)", 
           
           ar: " أدوات الترجمة بمساعدة الحاسوب (CAT tools) والتدريب والترجمة الاقتصادية وأسس الترجمة وترجمة الأفلام وmemoQ، إلخ..." },
@@ -406,7 +428,7 @@ Cat tools, Internship, Economic translation, Professional Translation, Basics of
           { en: "Accredited by the American and Canadian Board",
            ar: "معتمدة من قبل البورد الأميركي الكندي" }
         ].map(i=>{
-            return <Typography key={i?.en} className=' ' sx={{py:.5,textAlign:text('left !important','end !important')}}>
+            return <Typography key={i?.en} className=' ' sx={{py:.5,direction:text('ltr','rtl')}}>
               <strong 
               style={{textAlign:'left'}}
               

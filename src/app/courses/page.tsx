@@ -3,7 +3,7 @@ import CoursesSection from '@/Components/CoursesSection/CoursesSection'
 import Title from '@/Components/Title'
 import { Box, Typography } from '@mui/material'
 import React, { useEffect, useState } from 'react'
-
+import res from '../../../courses.json'
 
 
 
@@ -40,9 +40,9 @@ const Index = () => {
   const fetcher =async () => {
     try {
 
-      const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-all`)
-      const res = await req.json(); 
-      console.log('res: ', res);
+      // const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-all`)
+      // const res = await req.json(); 
+      // console.log('res: ', res);
       if (res && res?.data?.products) {
         const newArray = categorizeCourses(res?.data?.products)
         setData(newArray)

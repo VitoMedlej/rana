@@ -7,7 +7,7 @@ import useLanguage from "@/Hooks/UseLanguage"
 import { Grid, Box, Typography, Divider } from "@mui/material"
 import { useParams, useRouter } from "next/navigation"
 import { useState, useEffect } from "react"
-
+import res from '../../../../courses.json'
 // const courses = [
 //   {
 //          name: "3D-MAX: (Live & Recorded)",
@@ -82,9 +82,9 @@ const Page = () => {
   
   const fetcher =async () => {
     try {
-      const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-all`)
+      // const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-all`)
       // const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-by-id?id=${id}`);
-      const res = await req.json(); 
+      // const res = await req.json(); 
       console.log('res: ', res);
       if (res && res?.data?.products) {
         let item = res?.data?.products.find((item:any) => item?._id === id);

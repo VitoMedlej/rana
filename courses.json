@@ -1,808 +1,197 @@
-[
-    {
-      "images": [
-        ""
-      ],
-      "img": "https://ucarecdn.com/972c6818-0439-4174-8f05-da60ca4c0acb/WhatsAppImage20230928at114028_72874c6a.jpg",
-      "id": "FK0941MCDMFFNF",
-      "name": "Etabs-Safe-Sconcrete: (Live & Recorded)",
-      "duration": "7.5 hours (5 sessions)",
-      "softwareVersionPreference": "2017 +",
-      "coursePrice": {
-        "1 person": "$60",
-        "3-5 persons": "$50",
-        "5 & plus": "$40"
-      },
-      "summaryContent": [
-        "Full building analysis",
-        "Wind study",
-        "Seismic simulations",
-        "Full design and result extraction",
-        "Rebar for all elements",
-        "Displacement and deflections",
-        "Foundation design",
-        "All types of slabs analysis (1 way / 2 ways / Waffle Slab / Hourdis, etc.)",
-        "Structural element detailing",
-        "Drawings extraction using Sconcrete"
-      ]
-    },
-    {
-      "images": [""],
-      "img": "https://ucarecdn.com/b58484c0-4ea8-4730-973c-d62da3b92174/8cf936dca7af4811af72636635f0cfb51.jfif",
-      "id": "2o4kPFfnbDMFFNF",
-      "name": "Solidworks: (Recorded)",
-      "duration": "7.5 hours (5 sessions)",
-      "softwareVersionPreference": "2017 +",
-      "coursePrice": {
-        "1 person": "$40",
-        "3-5 persons": "$40",
-        "5 & plus": "$40"
-      },
-      "summaryContent": [
-        "2D lesson lecture",
-        "Exercises",
-        "3D lesson lecture",
-        "3D exercises E&C",
-        "3D exercises Rev",
-        "Loft & Swept",
-        "Bolts and screws",
-        "Materials",
-        "Sheet metal",
-        "Assemblies mate",
-        "Samples assemblies",
-        "Samples assemblies",
-        "Animation",
-        "Animation Exercises"
-      ]
-    },
-    {
-      "images": [""],
-      "img": "https://ucarecdn.com/d20c219a-f9fb-4786-8bb8-260e7ac7b37c/maxresdefault.jpg",
-      "id": "MFM421KOP214NMDS",
-      "name": "Excel Fundamentals: (Recorded)",
-      "duration": "6 hours (36 videos)",
-      "softwareVersionPreference": "N/A",
-      "coursePrice": {
-        "1 person": "$40",
-        "3-5 persons": "$40",
-        "5 & plus": "$40"
-      },
-      "courseContent": [
-        "Table creation",
-        "Data validation",
-        "Conditional formatting",
-        "Calculation Launch",
-        "Logical Functions",
-        "Statistical Functions",
-        "Mathematical Functions",
-        "Special Paste",
-        "Chart Creation",
-        "Sparkline Chart",
-        "Print",
-        "Comments and Sheet Protection",
-        "V-LOOKUP & H-LOOKUP Functions",
-        "Index and Match Functions",
-        "Filtering and Sorting",
-        "Matrix Calculation",
-        "Equation System with Several Variables",
-        "SUM-IF, COUNT & COUNT-IF Functions",
-        "Goal Seek and Solver",
-        "Data Table",
-        "Scenario Manager",
-        "Pivot Table",
-        "Format and ActiveX Controls",
-        "Macros"
-      ]
-    }
-,     
-    {
-      "images": [""],
-      "img": "https://ucarecdn.com/8a18e862-4a6a-40f2-869a-be48358f64bb/f067d8068c434e5d92a5a1ef4a8a795b.jfif",
-      "id": "ijIHUIFU821",
-      "name": "Plaxis: (Live & Recorded)",
-      "duration": "7.5 hours (5 sessions)",
-      "softwareVersionPreference": "2017 +",
-      "coursePrice": {
-        "1 person": "$80",
-        "3-5 persons": "$60",
-        "5 & plus": "$50"
-      },
-      "summaryContent": [
-        "Introduction to Plaxis",
-        "Modes",
-        "Inputs and Outputs Analysis",
-        "Settlements of footings on Sands and different Soils (Rigid footings)",
-        "Excavation Procedures",
-        "Load combinations, Input (Eurocode and ACI)",
-        "Anchors",
-        "Piles Design, modeling, and verification",
-        "Slope Stability",
-        "Retaining walls design",
-        "Road Embankment",
-        "Many other Geotechnical features"
-      ]
-    },
-    {
-      "name": "Revit Architecture and Structural: (Live & Recorded)",
-      "duration": "11 hours (7 sessions)",
-      "softwareVersionPreference": "2018 +",
-      "coursePrice": {
-        "1 person": "$70",
-        "3-5 persons": "$55",
-        "5 & plus": "$45"
-      },
-      "summaryContent": [
-        "Getting familiar with the User Interface",
-        "Starting a Project",
-        "Working with Modeling Basics",
-        "Controlling the Views",
-        "Working with Sketch-Based Modeling Components",
-        "Controlling the Visibility & Graphics",
-        "Create levels and Grid",
-        "Add all structural elements (columns, walls, beams, slabs, stairs, footings, piles)",
-        "Prepare BOQ",
-        "Adding Schedules & Tags",
-        "Creating Annotation & Details",
-        "Rendering",
-        "Get familiar with Links and how to Import CAD files",
-        "Create a complete 3D Model including all elements",
-        "Landscaping Works",
-        "Structural Rebar for footings, columns, and Slabs",
-        "Creating and printing 'Cartouches'",
-        "Load cases and Combinations/Structural elements design"
-      ],
-      "img": "https://ucarecdn.com/f21026d4-299c-4d86-b070-a4bbc64ce0ff/WhatsAppImage20230928at114343_ba8ed910.jpg",
-      "id": "KMFK24NK512CKF"
-    },
-    {
-      "name": "3D-MAX: (Live & Recorded)",
-      "duration": "7.5 hours (15 sessions)",
-      "softwareVersionPreference": "2016 +",
-      "coursePrice": {
-        "1 person": "$40"
-      },
-      "img": "https://ucarecdn.com/2d9065d6-30ce-40cc-a36c-9ae90d7a025b/57eea15220194ac18a26b18f3000be4b.jfif",
-      "id": "515o2kpofIRL24fcD",
-      "summaryContent": [
-        {
-          "title": "Introduction to 3ds Max",
-          "content": [
-            "Overview of the 3ds Max interface",
-            "Navigating the workspace and setting up preferences"
-          ]
-        },
-        {
-          "title": "Modeling",
-          "content": [
-            "Creating 3D models using various techniques, including polygon modeling, spline modeling, and parametric modeling",
-            "Applying modifiers to modify and refine models",
-            "Working with basic 3D shapes and primitives"
-          ]
-        },
-        {
-          "title": "Texturing and Materials",
-          "content": [
-            "Applying textures and materials to 3D objects",
-            "Using UV mapping for precise texture placement",
-            "Creating custom materials and shaders"
-          ]
-        },
-        {
-          "title": "Lighting",
-          "content": [
-            "Understanding different types of lights, such as standard, photometric, and daylight systems",
-            "Setting up realistic lighting scenarios for interior and exterior scenes",
-            "Adjusting light parameters for desired effects"
-          ]
-        },
-        {
-          "title": "Rendering",
-          "content": [
-            "Configuring rendering settings for high-quality output",
-            "Rendering still images and animations",
-            "Post-processing rendered images for enhanced quality"
-          ]
-        },
-        {
-          "title": "Animation",
-          "content": [
-            "Creating keyframe animations for objects and cameras",
-            "Utilizing the timeline and curve editor for precise animation control",
-            "Working with character rigging and animation"
-          ]
-        },
-        {
-          "title": "Particle Systems and Dynamics",
-          "content": [
-            "Simulating realistic effects like smoke, fire, and water using particle systems",
-            "Setting up dynamic simulations for objects in motion"
-          ]
-        },
-        {
-          "title": "Architectural Visualization (Optional)",
-          "content": [
-            "Creating realistic architectural scenes, including interiors and exteriors.",
-            "Using real-world scale and units for accurate architectural modeling."
-          ]
-        },
-        {
-          "title": "Environment Creation",
-          "content": [
-            "Building 3D environments and landscapes.",
-            "Incorporating vegetation, terrains, and ecosystems."
-          ]
-        },
-        {
-          "title": "Character Modeling and Animation (Optional)",
-          "content": [
-            "Modeling and rigging characters for animation.",
-            "Creating character animations for games and film."
-          ]
-        },
-        {
-          "title": "Scripting and Automation (Optional)",
-          "content": [
-            "Introduction to MAXScript for custom tool creation and automation."
-          ]
-        },
-        {
-          "title": "Project Work",
-          "content": [
-            "Applying 3ds Max skills to real-world projects.",
-            "Creating 3D scenes, animations, and models from concept to completion."
-          ]
-        }
-      ]
-     
-    },
-    {
-      "name": "AutoCAD: (Live & Recorded)",
-      "duration": "6-8 hours (4-5 sessions)",
-      "softwareVersionPreference": "2017 +",
-      "coursePrice": {
-        "1 person": "$60",
-        "3-5 persons": "$50",
-        "5 & plus": "$40"
-      },
-      "summaryContent": [
-   
-            {
-              "title": "Introduction to AutoCAD",
-              "content": [
-                "Understanding the AutoCAD interface.",
-                "Navigating the workspace.",
-                "Basic drawing and editing commands."
-              ]
-            },
-            {
-              "title": "2D Drafting",
-              "content": [
-                "Creating and editing 2D geometric shapes.",
-                "Adding dimensions and annotations.",
-                "Working with layers and line types.",
-                "Using blocks and external references."
-              ]
-            },
-            {
-              "title": "Architectural Drawing",
-              "content": [
-                "Drawing floor plans, elevations, and sections.",
-                "Adding doors, windows, and furniture.",
-                "Applying dimensioning standards for architecture."
-              ]
-            },
-            {
-              "title": "Structural Design",
-              "content": [
-                "Creating structural components, like beams, columns, and walls.",
-                "Developing structural plans and details.",
-                "Applying load and analysis tools for structural engineering."
-              ]
-            },
-            {
-              "title": "3D Modeling",
-              "content": [
-                "Introducing 3D workspace in AutoCAD.",
-                "Extruding, revolving, and sweeping 2D shapes into 3D objects.",
-                "Working with meshes and surfaces."
-              ]
-            },
-            {
-              "title": "Architectural 3D Modeling",
-              "content": [
-                "Designing 3D architectural models.",
-                "Adding textures, materials, and lighting for realistic visualizations.",
-                "Exploring parametric design features."
-              ]
-            },
-            {
-              "title": "Collaboration and Printing",
-              "content": [
-                "Using layouts and viewports.",
-                "Preparing drawings for printing and plotting.",
-                "Sharing and collaborating on AutoCAD projects."
-              ]
-            },
-            {
-              "title": "Advanced Topics (Optional)",
-              "content": [
-                "Customizing AutoCAD with scripts and macros.",
-                "Incorporating AutoLISP for automation.",
-                "Integrating AutoCAD with other software (e.g., Revit)."
-              ]
-            },
-            {
-              "title": "Project Work",
-              "content": [
-                "Applying AutoCAD skills to real-world projects.",
-                "Solving design and drafting challenges.",
-                "Developing a portfolio of completed drawings."
-              ]
-            }
-          ],
-      "img": "https://ucarecdn.com/da5efc4e-c74a-41cd-8a71-2ee603ecada9/66a91bcd2d3244aab0da6f9744476f9f.jfif",
-      "id": "420infiovn1240FNIOdzza"
-    },
-    {
-      "name": "PT-ADAPT: (Recorded)",
-      "duration": "7.5 hours (5 sessions)",
-      "softwareVersionPreference": "N/A",
-      "coursePrice": {
-        "1 person": "$40"
-      },
-     
-      
-     
-      "img": "https://ucarecdn.com/7695dbcd-3e89-4bc2-adf3-0567d4ea5521/97abc9a3af884f64b7e33778f04b5566.jfif",
-      "id": "bvpasl0qwKIdl",
-      "summaryContent": [
-        {
-          "title": "Post tension Basic and Advanced Slab detailed design using the ACI Code (Two slabs examples)",
-          "content": [
-            "Pre-dimensioning",
-            "Applied loads inspection",
-            "Importing from AutoCad to Adapt Builder",
-            "Defining",
-            "Design section analysis",
-            "Tendon and strands analysis",
-            "Load balancing analysis",
-            "Stress analysis",
-            "Reinforcement calculation",
-            "Full result inspection and checking",
-            "Full result, shop drawing and report extraction",
-            "Economic optimization (using multiple solutions)"
-          ]
-        },
-        {
-          "title": "Post tension Beam and Step Beam design using the ACI Code (Two beams examples)",
-          "content": [
-            "Pre-dimensioning",
-            "Applied loads inspection",
-            "Direct modeling on Adapt Builder",
-            "Defining",
-            "Design section analysis",
-            "Tendon and strands analysis",
-            "Load balancing analysis",
-            "Stress analysis",
-            "Reinforcement calculation",
-            "Full result inspection and checking",
-            "Full result, shop drawing and report extraction",
-            "Economic optimization (using multiple solutions)"
-          ]
-        }
-      ]
-    },
-    
-      {
-        "name": "PT-ADAPT: (Recorded)",
-        "duration": "7.5 hours (5 sessions)",
-        "softwareVersionPreference": "N/A",
-        "coursePrice": {
-          "1 person": "$40"
-        },
-       
-        
-       
-        "img": "https://ucarecdn.com/080dbc58-a18e-430b-ab9a-9d0a42ddf078/02a6ed05dec848988ec1bab1dc697ee6.jfif",
-        "id": "124fVFvpasl0qwKIdl",
-        "summaryContent": [
+{
+  "success": true,
+  "data": {
+      "products": [
           {
-            "title": "Etabs, Safe, S-Concrete, CsiCol and S-Line introduction & Overview",
-            "content": [
-              "Fifteen story and one basement building design using ACI 318-14 & UBC 97 Codes:",
-              "1) Pre-dimensioning:",
-              "• Columns (using detailed excel sheet and AutoCad)",
-              "• Beams using code tables (hidden & drop)",
-              "• Slabs using code tables (solid, flat, waffle type 1 & 2 and ribbed slabs)",
-              "• Foundations (isolated, combined, strip and raft foundations)",
-              "• Determining loads on the stairs, slabs and beams using the code and detailed excel sheet",
-              "• Determining loads on basement walls according to the soil layers and water table level using detailed excel sheet and the code",
-              "• Determining all the static & dynamic seismic coefficients, wind coefficients and codes lateral limits using detailed & explained PowerPoint and Autocad"
-            ]
+              "_id": "659af11ee545e9ed42e478fe",
+              "title": "Internship",
+              "category": "Internships",
+              "description": "This opportunity will help you enhance your knowledge and experience to enter the job market of translation confidently.\n\n                PROGRAM OF THE INTERNSHIP:\n                - Introduction to the translation, types and qualities of a successful translator\n                - Steps of translation and fields\n                - Fields of translation texts Legal Translation, Technical Translation, Marketing Translation, Business translation, Financial Translation, Website Translation, Subtitle translation services\n                - A translator’s job description: Sworn translation, subtitling, transcription, content writing, copywriting, proofreading, editing, tutoring\n                - Improved your resume\n                - Find Your Future Employer (from prices to receipts)\n                - Freelancing terms, Time Zone and Types of Freelancers\n                - Learn Work Skills (including teamwork, office etiquette, timekeeping, customer service, using office equipment)\n                - Improve Your Communication Skills\n                - Understand the Challenges of Translation (translating idioms and expressions)\n                - Importance of Social Media accounts in your job\n                - Gained the leadership experience\n                - Team communication\n                - file types\n                - Typing\n                - Google drive sheets\n                - Google drive forms\n                - Email cc and Bcc\n                - conditions to be sworn translator\n                - Examples for websites providing online courses\n                - Platforms and agencies\n                - Samples\n                - ⁠Online dictionaries and Specialized",
+              "duration": "24 hours",
+              "method": "Online, offline and in person",
+              "certificate": [
+                  "A certificate issued by the sworn translator Me. Rana CHEHAB",
+                  "A certificate issued by IATT",
+                  "An internationally accredited certificate (if required)"
+              ],
+              "images": [
+                  "https://ucarecdn.com/4d1a2df0-617f-48d9-9603-2fae3e705845/WhatsAppImage20240108at121023.jpeg"
+              ],
+              "nameAr": "ترجمة الأفلام (ترجمة الشاشة)",
+              "descriptionAr": "ستساعدك هذه الفرصة على تعزيز معرفتك وخبرتك لدخول سوق العمل في الترجمة بثقة تامة.\n\n                        برنامج الدورة:\n                        - مقدمة عن الترجمة وأنواعها وصفات المترجم الناجح\n                        - خطوات الترجمة ومجالاتها\n                        - مجالات ترجمة النصوص: الترجمة القانونية، الترجمة التقنية، الترجمة التسويقية، الترجمة التجارية، الترجمة المالية، ترجمة المواقع الإلكترونية، ترجمة الأفلام\n                        - الوصف الوظيفي للمترجم: الترجمة المحلفة، ترجمة الأفلام، التفريغ الصوتي، كتابة المحتوى، كتابة المحتوى التسويقي، التدقيق اللغوي، التحرير، التدريس\n                         - إنشاء السيرة الذاتية الإحترافية\n                        - كيفية التواصل مع شركات الترجمة (بدءً من الأسعار وصولًا الى كتابة الإيصالات)\n                        - الاطلاع على مصطلحات العمل الحر والمنطقة الزمنية وأنواع المستقلين\n                        -تعلم مهارات العمل (بما في ذلك العمل الجماعي، آداب المكتب، ضبط الوقت، خدمة العملاء، استخدام المعدات المكتبية)\n                        -تحسين مهارات التواصل\n                        -فهم تحديات الترجمة (ترجمة التعابير الإصطلاحية والأقوال)\n                        - الاطلاع على أهمية حسابات وسائل التواصل الاجتماعي في العمل\n                        - كسب خبرة القيادة في العمل\n                        - كسب مهارة التواصل مع الفريق\n                        - التعرف على أنواع الملفات\n                        -كسب مهارة الطباعة على الكمبيوتر\n                        - تعلم كيفية انشاء المستندات على غوغل درايف Google drive\n                        - التعرف على طرق استخدام البريد الالكتروني CC وBCC\n                        - التعرف على شروط الترجمة المحلفة\n                        - الاطلاع على المواقع التي تقدم دورات عبر الإنترنت\n                        - منصات الترجمة والوكالات\n                        - تعلم كيفية انشاء عينات ترجمة\n                         - الحصول على قواميس أونلاين في كافة مجالات الترجمة\n                        ",
+              "durationAr": "5 محاضرات/لمدة شهر",
+              "methodsAr": "أونلاين وأوفلاين وحضوريًا"
           },
           {
-            "title": "Etabs, Safe, S-Concrete, CsiCol and S-Line introduction & Overview",
-            "content": [
-              "Fifteen story and one basement building design using ACI 318-14 & UBC 97 Codes:",
-              "1) Pre-dimensioning:",
-              "• Columns (using detailed excel sheet and AutoCad)",
-              "• Beams using code tables (hidden & drop)",
-              "• Slabs using code tables (solid, flat, waffle type 1 & 2 and ribbed slabs)",
-              "• Foundations (isolated, combined, strip and raft foundations)",
-              "• Determining loads on the stairs, slabs and beams using the code and detailed excel sheet",
-              "• Determining loads on basement walls according to the soil layers and water table level using detailed excel sheet and the code",
-              "• Determining all the static & dynamic seismic coefficients, wind coefficients and codes lateral limits using detailed & explained PowerPoint and Autocad",
-              "2) Importing from AutoCad to Etabs",
-              "3) Modeling, defining & assigning on Etabs:",
-              "• Defining the materials and sections",
-              "• Modeling basement walls, shear walls & slabs (shell modeling)",
-              "• Modeling columns & beams (frame modeling)",
-              "• Modeling the stairs",
-              "• Defining joints restraints for the foundations",
-              "• Frame and Shell meshing",
-              "• Assigning the Stiffness modifiers for frames and shells",
-              "• Defining the load patterns (dead, live, wind x & y direction, seismic x & y direction, soil pressures and surcharge)",
-              "• Defining the dynamic function & load cases (spectrum x & y direction)",
-              "• Defining diaphragms for seismic study",
-              "• Defining Pier labels to study the walls",
-              "• Defining the model cases",
-              "• Defining loads on shells and frames",
-              "• Checking the model in case of errors before the run"
-            ]
+              "_id": "659af11ee545e9ed42e478fd",
+              "title": "Subtitling",
+              "description": "The course teaches you how to use the softwares that will help you translating videos and films.\n\nSome of the commonly used softwares:\n#Subtitle_Edit\n#Aegisub\n#VLC\n#Handbrake",
+              "duration": "5 lectures for one month",
+              "fees": "$80 inside Lebanon, including Software\n$100 from outside Lebanon",
+              "method": "Online, offline and in person.",
+              "certificate": [
+                  "A certificate issued by IATT",
+                  "An internationally accredited certificate (if required)"
+              ],
+              "category": "Translation and Subtitling",
+              "images": [],
+              "descriptionAr": "وصف الدورة :\nتعلمك الدورة كيفية استخدام البرامج التي ستساعدك على ترجمة مقاطع الفيديو والأفلام من الألف الى الياء.\n\nبعض البرامج شائعة الاستخدام: \n•\t#Subtitle_Edit\n•\tAegisub#\n•\tVLC#\n•\tHandbrake#\n",
+              "durationAr": "المدة: 5 محاضرات/لمدة شهر",
+              "teachingMethodsAr": "طرق التعليم: أونلاين وأوفلاين وحضوريًا"
           },
           {
-            "title": "Results and Analysis",
-            "content": [
-              "a) Stability check:",
-              "• Base shear reactions check",
-              "• Center of mass and rigidity for torsional check (using detailed excel sheet)",
-              "• Checking the story response plot for story displacement & drift check",
-              "b) Columns design and check using multiple methods:",
-              "• Manual method using Etabs reports",
-              "• Importing columns from Etabs to S-Concrete",
-              "• Using detailed excel sheet",
-              "• Importing columns from Etabs to CsiCol",
-              "c) Beams design and check using multiple methods:",
-              "• Manual method using Etabs reports",
-              "• Importing from Etabs to Safe",
-              "• Importing from Etabs to S-Concrete",
-              "• Using detailed excel sheet",
-              "• Calculating manually the loads on beams to check the beams on S-Line"
-            ]
+              "_id": "6567a980ea126a4376719fbb",
+              "title": "Turkish Course",
+              "description": "Main Chapters :\n- Letters and vowel letters\n- Numbers and Pronouns\n- Demonstratives\n- Plural form\n- Numbers\n- Noun Phrase\n- Daily Conversations\n- Pronouncing",
+              "trainer": "Mamoun Ajaj",
+              "duration": "Each level is made up of 24 hours.",
+              "fees": "\n        A1\n            A1.1: in Lebanon: 75$, Out: 100$\n            A1.2: in Lebanon: 75$, Out: 100$\n        A2\n            A2.1 in Lebanon: 100$, Out: 125$\n            A2.2: in Lebanon: 100$, Out: 125$\n        B1\n            B1.1: in Lebanon: 125$, Out: 150$\n            B1.2: in Lebanon: 125$, Out: 150$\n        B2\n            B2.1: in Lebanon: 150$, Out: 175$\n            B2.2 in Lebanon: 150$, Out: 175$",
+              "method": "Online, offline and in person.",
+              "certificate": [
+                  "A certificate issued by IATT ",
+                  "An internationally accredited certificate (if required)"
+              ],
+              "category": "Language Learning",
+              "images": [
+                  "https://ucarecdn.com/9b160d62-e102-42f7-951f-7e98a7b746f9/WhatsAppImage20240103at132532.jpeg\n                    "
+              ]
           },
           {
-            "title": "Results and Analysis",
-            "content": [
-              "a) Stability check:",
-              "• Base shear reactions check",
-              "• Center of mass and rigidity for torsional check (using detailed excel sheet)",
-              "• Checking the story response plot for story displacement & drift check",
-              "b) Columns design and check using multiple methods:",
-              "• Manual method using Etabs reports",
-              "• Importing columns from Etabs to S-Concrete",
-              "• Using detailed excel sheet",
-              "• Importing columns from Etabs to CsiCol",
-              "c) Beams design and check using multiple methods:",
-              "• Manual method using Etabs reports",
-              "• Importing from Etabs to Safe",
-              "• Importing from Etabs to S-Concrete",
-              "• Using detailed excel sheet",
-              "• Calculating manually the loads on beams to check the beams on S-Line",
-              "d) Stair design and check using Etabs, Safe, and detailed excel sheet",
-              "e) Basement and Shear walls design using multiple methods:",
-              "• Manual method using Etabs reports",
-              "• Using detailed excel sheet",
-              "f) Slab design and check by importing from Etabs to Safe",
-              "g) Punching detailed check for slab using Safe",
-              "h) Foundation design by importing from Etabs to Safe (designing multiple foundation types to determine the optimal and economical type)",
-              "i) Shop drawings and reports extraction from all the softwares",
-              "Additional videos:",
-              "1) P-delta analysis",
-              "2) Transfer beams design",
-              "3) Moment release for secondary beams and section designer for shell and frames"
-           
-            ]
+              "_id": "6567a980ea126a4376719fb9",
+              "title": "Basics of Translation",
+              "description": "This course includes:\n- Raising the level of translation\n- Having a job opportunity\n- Identify the linguistic and syntax properties\n- Identify translation skills and rules\n- Knowing Translation methods and techniques\n- Acquisition of Techniques\n- Identify the translator's faults\n- Learning how to use the translation sources skill\n- Identify the best websites and programs for translation",
+              "trainer": "Sworn translator Dr. Rana Mahmoud Chehab",
+              "duration": "16 hours",
+              "fees": "Within Lebanon: 100$\nOut Lebanon: 200$",
+              "method": "Online, offline and in person.",
+              "certificate": "Internationally accredited certificate",
+              "category": "Translation and Linguistics",
+              "images": [
+                  "https://ucarecdn.com/ca0b2bf9-0ece-48a6-89c7-d380d281e006/WhatsAppImage20240108at121750.jpeg"
+              ]
+          },
+          {
+              "_id": "6567a980ea126a4376719fb8",
+              "title": "English Course",
+              "description": "If you'd like to start your journey in learning English or even you have a background and would like to speak English fluently in a short time, then this course is for you. Comprehensive and essential English courses in all levels from zero to professionalism.",
+              "trainer": "Nadine Al Hourani",
+              "duration": "Each part in a level is made up of 24 hours.",
+              "fees": "\n        A1\n            A1.1: in Lebanon: 50$, Out: 75$\n            A1.2: in Lebanon: 50$, Out: 75$\n        A2\n            A2.1 in Lebanon: 75$, Out: 100$\n            A2.2: in Lebanon: 75$, Out: 100$\n        B1\n            B1.1: in Lebanon: 100$, Out: 125$\n            B1.2: in Lebanon: 100$, Out: 125$\n        B2\n            B2.1: in Lebanon: 125$, Out: 150$\n            B2.2 in Lebanon: 125$, Out: 150$",
+              "method": "Online, offline and in person",
+              "certificate": "Internationally accredited certificate",
+              "category": "Language Learning",
+              "images": [
+                  "https://ucarecdn.com/747c6ae4-c1ba-45f3-adf6-011eb4e4a215/WhatsAppImage20240103at132617.jpeg\n                    "
+              ]
+          },
+          {
+              "_id": "6567a980ea126a4376719fb7",
+              "title": "Become a Certified Resume Writer",
+              "description": "This course includes:\n- Defining Resume and its importance.\n- Resume Types\n- Difference between the CV and Resume\n- Defining Motivation Letter\n- Writing a Resume based on ATS Standards\n- Effective and successful preparation for a job interview.\n- How to answer the expected questions\n- Practical Training",
+              "trainer": "Dr. Rana Mahmoud Chehab",
+              "duration": "10 hours",
+              "fees": "In Lebanon: 50$\nOutside Lebanon: 100$",
+              "method": "Online, offline and in presence",
+              "certificate": "Internationally accredited certificate",
+              "category": "Professional Development",
+              "images": []
+          },
+          {
+              "_id": "6567a980ea126a4376719fb6",
+              "title": "Spanish Course",
+              "description": "Comprehensive courses and essential lessons in a very simplified manner based on \"Cervantes\" curriculum that is certified from the Spanish Embassy.",
+              "trainer": "Nour Salliby",
+              "duration": "Each part in a level is made up of 24 hours.",
+              "fees": "\n        A1\n            A1.1: in Lebanon: 60$, out: 80$\n            A1.2: in Lebanon: 60$, out: 80$\n        A2\n            A2.1 in Lebanon: 80$, out: 120$\n            A2.2: in Lebanon: 80$, out: 120$\n        B1\n            B1.1: in Lebanon: 120$, out: 150$\n            B1.2: in Lebanon: 120$, out: 150$\n        B2\n            B2.1: in Lebanon: 150$, out: 175$\n            B2.2 in Lebanon: 150$, out: 175$",
+              "method": "Online, offline and in person.",
+              "certificate": "Internationally accredited certificate",
+              "category": "Language Learning",
+              "images": [
+                  "https://ucarecdn.com/ac7135db-3d83-4e99-affa-263f4399cf43/WhatsAppImage20240103at132338.jpeg\n                    "
+              ]
+          },
+          {
+              "_id": "6567a980ea126a4376719fb5",
+              "title": "Diploma in Preparing a Sworn Translator",
+              "description": "This course includes:\n1) Translation of civil documents.\n2) Translation of agencies.\n3) Recognizing the qualifications of being a sworn translator.\n4) Dealing with embassies files and filling applications.\n5) Translation of university files.",
+              "trainer": "Sworn Translator Dr. Rana Mahmoud Chehab",
+              "duration": "20 hours",
+              "fees": "In Lebanon: 150$\nOutside Lebanon: 250$",
+              "method": "Online, offline and in person.",
+              "certificate": "Internationally accredited certificate",
+              "category": "Translation and Linguistics",
+              "images": []
+          },
+          {
+              "_id": "6567a980ea126a4376719fb4",
+              "title": "CAT Tools",
+
+              "description":
+              "CAT Tools is used to accelerate the translator's work, increase his/her productivity and improve the quality of the work. It is the translation assisted with computer. It includes:\n* Memoq\n* Trados\n* Subtitle Edit\n* Transcription\n* SEO\n* Copywriting\n* Content Writing\n* Localization \n \n 1-\tFOXIT PHANTOM\n2-\tOnline Teaching Tools \n3-\tPASSOLO\n4-\tVoiceover\n5- Basics of computer\n6-\tBasics of Typing\n7-\tSpecialized Dictionaries\n8-\tMEMSOURCE\n9-\tMATECAT\n10-\tMEMOQ\n11-\tSDL TRADOS",              "trainer": "Sworn Translator Dr. Rana Mahmoud Chehab",
+              "duration": "24 hours",
+              "fees": "In Lebanon: 200$\nOutside Lebanon: 250$",
+              "method": "Online, offline and in person.",
+              "certificate": "Internationally accredited certificate",
+              "category": "Translation and Localization",
+              "images": [
+                  "https://ucarecdn.com/b9002163-7f95-4de6-942d-e9df80b2f48d/WhatsAppImage20240108at134240.jpeg"
+              ]
+          },
+          {
+              "_id": "6567a980ea126a4376719fb3",
+              "title": "Copywriting",
+              "description": "This course includes:\n- Introduction to copywriting\n- Examining the target people.\n- Structuring and organizing the content.\n- Strategies for copywriting.\n- Editing and Auditing the content.\n- Conditions for improving the search engines (SEO)\n- Marketing Strategies through content",
+              "trainer": "Sworn Translator Dr. Rana Mahmoud Chehab",
+              "duration": "16 hours",
+              "fees": "In Lebanon: 100$\nOutside Lebanon: 200$",
+              "method": "Online, offline and in person.",
+              "certificate": "Internationally accredited certificate",
+              "category": "Writing and Communication",
+              "images": []
+          },
+          {
+              "_id": "6567a980ea126a4376719fb2",
+              "title": "French Course",
+              "description": "Are you a beginner in French Language?\nOr Do you have a background?\nDo you want to speak fluently?\nDo you want incredible results in a short time?\nThen this course is for you.\nFull and intensive sessions in all levels from zero to professionalism.",
+              "trainer": "Instructor Nadine Al Hourani",
+              "duration": "Each part in a level is made up of 24 hours.",
+              "fees": "\n        A1\n            A1.1: in Lebanon: 50$, Out: 75$\n            A1.2: in Lebanon: 50$, Out: 75$\n        A2\n            A2.1 in Lebanon: 75$, Out: 100$\n            A2.2: in Lebanon: 75$, Out: 100$\n        B1\n            B1.1: in Lebanon: 100$, Out: 125$\n            B1.2: in Lebanon: 100$, Out: 125$\n        B2\n            B2.1: in Lebanon: 125$, Out: 150$\n            B2.2 in Lebanon: 125$, Out: 150$",
+              "method": "Online, offline and in person.",
+              "certificate": "Internationally accredited certificate",
+              "category": "Language Learning",
+              "images": [
+                  "https://ucarecdn.com/f2a0735d-bd5c-45e8-a5b6-59e81a5095eb/WhatsAppImage20240103at132229.jpeg"
+              ]
+          },
+          {
+              "_id": "6567a980ea126a4376719fb1",
+              "title": "Content Writing",
+              "images": [],
+              "description": "This course includes:\n- Introduction to content writing\n- Examining the target people.\n- Structuring and organizing the content.\n- Strategies for content writing\n- Editing and Auditing the content.\n- Conditions for improving the search engines (SEO)\n- Marketing Strategies through content",
+              "trainer": "Dr. Rana Mahmoud Chehab",
+              "duration": "20 hours",
+              "fees": "In Lebanon: 100$\nOutside Lebanon: 200$",
+              "method": "Online, offline and in person.",
+              "certificate": "Internationally accredited certificate",
+              "category": "Writing and Communication"
+          },
+          {
+              "_id": "6567a980ea126a4376719fb0",
+              "title": "German Course",
+              "description": "Full Courses and Important lessons \n in a simple way in learning German Language.\n It depends on its sessions on \"Goethe\" curriculum that is certified from the German Embassy.",
+              "trainer": "Instructor Huda Zayni",
+              "images": [
+                  "https://ucarecdn.com/676adc3b-fad4-455c-bd76-cb74f1396239/WhatsAppImage20240103at131954.jpeg\n                    "
+              ],
+              "duration": "Each part of each level is made up of 24 hours.",
+              "fees": "\n        A1\n            A1.1: in Lebanon: 75$, Out: 100$\n            A1.2: ib Lebanon: 75$ , Out: 100$\n        A2\n            A2.1 in Lebanon: 100$ , Out: 125$\n            A2.2: in Lebanon: 100$ , Out: 125$\n        B1\n            B1.1: in Lebanon: 125$ , Out: 150$\n            B1.2: in Lebanon: 125$ , Out: 150$\n        B2\n            B2.1: in Lebanon: 150$ , Out: 175$\n            B2.2 in Lebanon: 150$ , Out: 175$",
+              "method": "Online, offline and in person.",
+              "certificate": "Internationally accredited certificate",
+              "category": "Language Learning",
+              "nameAr": "اللغة التركية",
+              "durationAr": "يتكون كل مستوى من 24 ساعة.",
+              "methodsAr": "أونلاين وأوفلاين وحضوريًا"
           }
-        ]
-    },
-    {
-      "name": "Robot Structural (Recorded)",
-      "duration": "7.5 hours (5 sessions)",
-      "softwareVersionPreference": "2017",
-      "coursePrice": {
-        "1 person": "$80",
-        "3-5 persons": "$60",
-        "5 & plus": "$50"
-      },
-     
-      
-     
-      "img": "https://ucarecdn.com/108c7cd1-29f0-4799-9645-21153c5298e2/4990fc7aad1640bfaac1ebcf34204e2f.jfif",
-      "id": "124fVFvpasl0qwKIdl",
-      "summaryContent": [
-    
-            {
-              "title": "Introduction to Structural Analysis",
-              "content": [
-                "Understanding the fundamentals of structural analysis.",
-                "Overview of the Autodesk Robot Structural Analysis software interface."
-              ]
-            },
-            {
-              "title": "Modeling Structural Systems",
-              "content": [
-                "Creating and defining structural elements such as beams, columns, slabs, and walls.",
-                "Applying boundary conditions and supports."
-              ]
-            },
-            {
-              "title": "Loading and Analysis",
-              "content": [
-                "Defining loads, including dead loads, live loads, wind loads, and seismic loads.",
-                "Running structural analysis to determine stresses, deflections, and other performance indicators."
-              ]
-            },
-            {
-              "title": "Design Codes and Standards",
-              "content": [
-                "Introduction to international design codes and standards.",
-                "Configuring the software to comply with specific code requirements."
-              ]
-            },
-            {
-              "title": "Steel and Concrete Design",
-              "content": [
-                "Designing steel and concrete structures.",
-                "Optimizing member sizes and configurations.",
-                "Reviewing and verifying designs against code requirements."
-              ]
-            },
-            {
-              "title": "Dynamic Analysis",
-              "content": [
-                "Analyzing structures for dynamic response and stability.",
-                "Evaluating vibrations and resonance effects."
-              ]
-            },
-            {
-              "title": "Nonlinear Analysis (Optional)",
-              "content": [
-                "Understanding nonlinear behavior in structures.",
-                "Analyzing structures under extreme conditions and loads."
-              ]
-            },
-            {
-              "title": "Project Work and Case Studies",
-              "content": [
-                "Applying Autodesk Robot Structural Analysis to real-world engineering projects.",
-                "Solving complex structural design and analysis challenges."
-              ]
-            },
-            {
-              "title": "Reporting and Documentation",
-              "content": [
-                "Generating detailed structural analysis reports and documentation.",
-                "Presenting results and findings effectively to stakeholders."
-              ]
-            }
-    
       ]
-    },
-    {
-      "name": "Primavera P6: (Live & Recorded)",
-      "duration": "7.5 hours (5 sessions)",
-      "softwareVersionPreference": "2016 +",
-      "coursePrice": {
-        "1 person": "$60",
-        "3-5 persons": "$50 ",
-        "5 & plus": "$40"
-      },
-     
-      
-     
-      "img": "https://ucarecdn.com/a95589c2-f99d-4fd2-b8bd-f05da76da82a/598f443c26ca4743a86d7c608dcb4f4a.jfif",
-      "id": "JIJ2149FMVLHUn21fzcm",
-      "summaryContent": [
-     
-            {
-              "title": "Introduction to Primavera",
-              "content": [
-                "Overview of Primavera P6",
-                "Discuss the relationship between Primavera and Project Management"
-              ]
-            },
-            {
-              "title": "Data, Navigation & Layouts",
-              "content": [
-                "Create an EPS and OBS",
-                "Opening and creating a project",
-                "Navigate through windows",
-                "Opening and exiting custom layouts"
-              ]
-            },
-            {
-              "title": "Adding Activities",
-              "content": [
-                "Compare Activity and Project details",
-                "Add activities",
-                "Add a notebook topic to an activity",
-                "Add steps to an activity",
-                "Assign activity codes to activities"
-              ]
-            },
-            {
-              "title": "Relationships",
-              "content": [
-                "Logic diagram",
-                "Create relationships in the activity",
-                "Network",
-                "Comparing various relationship types and lags"
-              ]
-            },
-            {
-              "title": "Scheduling",
-              "content": [
-                "Perform a forward and backward pass",
-                "Float and Impacts",
-                "Identify loops and open ends",
-                "Calculate a schedule",
-                "Various scheduling options"
-              ]
-            },
-            {
-              "title": "Formatting Schedule Data",
-              "content": [
-                "Group activities",
-                "Sort activities",
-                "Apply and create filters",
-                "Explore UDF (User Defined Fields)"
-              ]
-            },
-            {
-              "title": "Adding Resources",
-              "content": [
-                "Various types of Resources",
-                "Assigning Resources to Activities",
-                "Leveling Resources",
-                "Analyzing Over-Allocated Resources"
-              ]
-            },
-            {
-              "title": "Baseline",
-              "content": [
-                "Maintaining Baselines",
-                "Assigning Baselines"
-              ]
-            },
-            {
-              "title": "Updating the Project",
-              "content": [
-                "Viewing S-curves",
-                "Viewing Progress Cash Flow"
-              ]
-            },
-            {
-              "title": "Print Options",
-              "content": [
-                "Printing the Gantt Chart",
-                "Various printing options"
-              ]
-            },
-            {
-              "title": "Primavera Visualizer",
-              "content": [
-                "Comparing schedules using P6 Visualizer",
-                "Creating P6 generated and custom Reports"
-              ]
-            },
-            {
-              "title": "Import / Export",
-              "content": [
-                "Exporting the project",
-                "Exporting data to Excel",
-                "Exporting the .plf file"
-              ]
-            }
-          ]
-        
-      
-    },
-    {
-      "name": "Photoshop: (Recorded)",
-      "duration": "4 hours (10 sessions)",
-      "softwareVersionPreference": "2018",
-      "coursePrice": {
-        "1 person": "$30"
-      },
-     
-      
-     
-      "img": "https://ucarecdn.com/69551104-f03b-4aeb-a05b-f94d7bea7752/c722d7c50bc04d34a3857c1274462bfa.jfif",
-      "id": "FJ124MC004129MLASF",
-      "summaryContent": [{
-        "title": "Introduction to Photoshop",
-        "content": [
-          "Overview of the Photoshop interface and tools.",
-          "Navigating the workspace and setting up preferences."
-        ]
-      },
-      {
-        "title": "Basic Image Editing",
-        "content": [
-          "Importing and opening images.",
-          "Cropping, resizing, and rotating images.",
-          "Adjusting brightness, contrast, and color levels."
-        ]
-      },
-      {
-        "title": "Selection and Masking",
-        "content": [
-          "Using selection tools to isolate parts of an image.",
-          "Creating and refining masks for precise editing."
-        ]
-      },
-      {
-        "title": "Layers and Layer Styles",
-        "content": [
-          "Understanding the concept of layers.",
-          "Applying layer styles, blending modes, and opacity adjustments.",
-          "Working with layer masks and adjustment layers."
-        ]
-      },
-      {
-        "title": "Retouching and Restoration",
-        "content": [
-          "Removing blemishes, wrinkles, and imperfections.",
-          "Restoring old or damaged photos.",
-          "Clone stamp, healing brush, and content-aware fill techniques."
-        ]
-      },
-      {
-        "title": "Text and Typography",
-        "content": [
-          "Adding text layers and working with fonts.",
-          "Applying text effects and styles.",
-          "Creating text-based graphics and posters."
-        ]
-      },
-      {
-        "title": "Filters and Effects",
-        "content": [
-          "Applying artistic and special effects.",
-          "Using filter gallery and smart filters.",
-          "Creating custom filter presets."
-        ]
-      },
-      {
-        "title": "Photo Manipulation and Compositing",
-        "content": [
-          "Combining multiple images to create composites.",
-          "Adjusting lighting and colors to achieve a cohesive look.",
-          "Blending modes and techniques for seamless integrations."
-        ]
-      },
-      {
-        "title": "Color Correction and Grading",
-        "content": [
-          "Color correction using adjustment layers.",
-          "Applying color grading for a desired mood or style."
-        ]
-      },
-      {
-        "title": "Design and Graphic Creation",
-        "content": [
-          "Designing graphics for web, print, and social media.",
-          "Using shapes, patterns, and custom brushes.",
-          "Creating logos and visual assets."
-        ]
-      },
-      {
-        "title": "Workflow and Export",
-        "content": [
-          "Organizing files using layers, groups, and folders.",
-          "Preparing images for print and web.",
-          "Understanding different file formats and their best uses."
-        ]
-      }]
-    }
-  ]
+  }
+}
