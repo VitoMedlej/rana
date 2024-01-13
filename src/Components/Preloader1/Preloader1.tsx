@@ -196,8 +196,8 @@ const Page = () => {
 
   const selector = () => {
     try {
-      if (!courses || !id) return
-      const crs = courses?.find(i=>`${i?.id}` == `${id}`)
+      if (!courses || !courses?.data?.products || !id) return
+    const crs = courses?.data?.products?.find((i:any)=>`${i?.id}` == `${id}`)
       if (crs) {
         setCourse(crs)
       }
