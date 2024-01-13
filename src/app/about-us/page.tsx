@@ -428,7 +428,7 @@ Cat tools, Internship, Economic translation, Professional Translation, Basics of
           { en: "Accredited by the American and Canadian Board",
            ar: "معتمدة من قبل البورد الأميركي الكندي" }
         ].map(i=>{
-            return <Typography key={i?.en} className=' ' sx={{py:.5,direction:text('ltr','rtl')}}>
+            return <Typography key={i?.en} className=' ' sx={{py:.5,textAlign:text('left !important','end !important')}}>
               <strong 
               style={{textAlign:'left'}}
               
