@@ -39,7 +39,9 @@ const Footer = () =>
           <Typography component='p' sx={{ fontWeight:300,fontSize: '1.2em' ,color:'white', direction: text('ltr','rtl') }}  className='footer-p  '>
 {
   text(`IATT is a professional translation company based in Lebanon, providing translation, interpretation, transcreation, transcription, subtitling, localization, writing/copywriting and editing/proofreading services in over 60 languages and all courses related to translation.`,
-   'IATT هي شركة ترجمة محترفة مقرها في لبنان، تقدم خدمات الترجمة التحريرية والفورية والترجمة الإبداعية والنسخ والترجمة والتعريب والكتابة/كتابة النصوص والتحرير/التدقيق اللغوي بأكثر من 60 لغة وجميع الدورات التدريبية المتعلقة بالترجمة.')
+   `
+   IATT هي شركة ترجمة محترفة مقرها في لبنان، تقدم خدمات الترجمة التحريرية والفورية والترجمة الإبداعية والتفريغ الصوتي وترجمة الأفلام والتوطين وكتابة المحتوى وكتابة المحتوى التسويقي والتحرير/التدقيق اللغوي بأكثر من 60 لغة وجميع الدورات التدريبية المتعلقة بمجال الترجمة.
+   `)
 }
 
           </Typography>
