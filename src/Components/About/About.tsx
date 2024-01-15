@@ -20,14 +20,20 @@ const About = () => {
          </Box>
        </Grid>
        <Grid  item xs={12} sm={6} md={5}>
-       <Typography component='h1' className='clr' sx={{pt:4,maxWidth:'600px',fontWeight:500,fontSize:'3em'}}>
+       <Typography component='h1' className='clr' sx={{pt:4,
+      direction:text(`ltr`,'rtl'),
+        
+        maxWidth:'600px',fontWeight:500,fontSize:'3em'}}>
           
        {
 text('Online Learning: Anytime, Anywhere.', 'كل طفل يستحق فرصة التعلم.')
 }
 
        </Typography>
-       <Typography component='p' sx={{py:2,maxWidth:'620px',color:'#4d4d4d'}}>
+       <Typography component='p' sx={{py:2,
+      direction:text(`ltr`,'rtl'),
+        
+        maxWidth:'620px',color:'#4d4d4d'}}>
        {
 text('Whether you prefer in-person classes or the flexibility of online learning, we have got you covered. Access our courses seamlessly through Zoom, connecting with a global community of learners.', 'نمكن المعلمين من دعم فصولهم الدراسية بأكملها. وجد 90٪ من المعلمين في الولايات المتحدة الذين استخدموا Khan Academy أننا فعالون.')
 }              
@@ -46,14 +52,20 @@ text('Start Now', 'ابدأ الآن')
 
             <Grid  sx={{py:8}} container className="flex justify-evenly space-evenly">
                 <Grid  item xs={12} sm={6} md={5}>
-                <Typography component='h1' className='clr' sx={{pt:4,maxWidth:'600px',fontWeight:500,fontSize:'3em'}}>
+                <Typography component='h1' className='clr' sx={{pt:4,
+      direction:text(`ltr`,'rtl'),
+                  
+                  maxWidth:'600px',fontWeight:500,fontSize:'3em'}}>
                    
                 {
   text('Elevate Your Skills with International Accreditation', 'يمكنك تعلم أي شيء.')
 }
 
                 </Typography>
-                <Typography component='p' sx={{py:2,maxWidth:'620px',color:'#4d4d4d'}}>
+                <Typography component='p' sx={{py:2,
+      direction:text(`ltr`,'rtl'),
+                  
+                  maxWidth:'620px',color:'#4d4d4d'}}>
                 {
   text('Participate in our courses, engage in hands-on practice, and witness your skills soar. ', 'بناء فهم عميق وراسخ في مجالات الرياضيات والعلوم وأكثر.')
 }
@@ -88,14 +100,21 @@ text('Start Now', 'ابدأ الآن')
                   </Box>
                 </Grid>
                 <Grid  item xs={12} sm={6} md={5}>
-                <Typography component='h1' className='clr' sx={{pt:4,maxWidth:'600px',fontWeight:500,fontSize:'3em'}}>
+                <Typography component='h1' className='clr' sx={{pt:4
+      ,direction:text(`ltr`,'rtl'),
+
+                  
+                  maxWidth:'600px',fontWeight:500,fontSize:'3em'}}>
                    
                 {
   text('Our Journey: When and Why We Started.', 'قم بتمييز صفك الدراسي وشارك كل طالب.')
 }
 
                 </Typography>
-                <Typography component='p' sx={{py:2,maxWidth:'620px',color:'#4d4d4d'}}>
+                <Typography component='p' sx={{py:2,maxWidth:'620px'
+      ,direction:text(`ltr`,'rtl'),
+                
+                color:'#4d4d4d'}}>
                 {
   text('Established in 2023, the International Academy for Translation and Training has proudly served as a beacon of knowledge for 17 years. Our journey began with a commitment to providing unparalleled education in translation and training, driven by passion and dedication.  .', 'نمكن المعلمين من دعم فصولهم الدراسية بأكملها. وجد 90٪ من المعلمين في الولايات المتحدة الذين استخدموا Khan Academy أننا فعالون.')
 }              

@@ -40,7 +40,10 @@ const Whyus = () => {
 
   return (
     <Box id='why-us' sx={{mt:12,py:5}}>
-            <Typography component='h1' sx={{fontWeight:500,fontSize:'2.5em',color:'black',textAlign:'center'}}>
+            <Typography component='h1' sx={{fontWeight:500,fontSize:'2.5em',
+            
+      direction:text(`ltr`,'rtl'),
+    color:'black',textAlign:'center'}}>
             {
   text('Why Choose Our Academy', 'لماذا تختار أكاديميتنا')
 }
@@ -59,10 +62,14 @@ const Whyus = () => {
                                 <img src={i.icon} alt="" className="img" />
                             </Box>
                         <Typography  component='h1' sx={{textAlign:'center',
+      direction:text(`ltr`,'rtl'),
                         fontSize:'1.5em',fontWeight:400,pt:1,color:'black'}}>
                             {i.title}
                         </Typography>
-                        <Typography className='clr' sx={{textAlign:'center',maxWidth:'350px',pt:1}}>
+                        <Typography className='clr' sx={{textAlign:'center',
+      direction:text(`ltr`,'rtl'),
+                        
+                        maxWidth:'350px',pt:1}}>
                         {i.desc}
                         </Typography>
                     </Box>
