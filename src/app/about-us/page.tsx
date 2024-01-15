@@ -8,7 +8,40 @@ import React from 'react'
 import {AiFillContacts} from 'react-icons/ai';
 
 
-
+const content = {
+  english: {
+    quality: "Quality: mature processes, six-sigma efficiencies and quality checkpoints result in world-class excellence",
+    expertise: "Expertise: a diverse group of linguists who are experts in their language set and subject matter. Many have been with us for over 10 years!",
+    pricing: "Pricing: competitive industry rates on all services. We utilize a proprietary pricing model which removes dependencies on CAT tools—meaning more savings for you!",
+    speedFlexibility: "Speed & Flexibility: we are nimble—we have a great track record of fast turnaround times. We can customize our processes and timelines to fit your needs."
+  },
+  arabic: {
+    quality: "تؤدي العمليات الناضجة وفعالية منهجية سيغما السداسية واختبارات الجودة إلى تحقيق التميّز العالمي.",
+    expertise: "مجموعة كبيرة من اللغويين الذين يتمتّعون بخبرة واسعة باللغة والمواضيع التي يترجمونها. فالكثير منهم يعمل معنا لأكثر من 10 سنوات.",
+    pricing: "أسعار خدماتنا تنافسية جدًا، إذ إنّنا نستعين بنموذج تسعير ملائم لا يعتمد على أدوات الترجمة بمساعدة الحاسوب (CAT tools)، ما يجعلك توفّر المزيد من المال!",
+    speedFlexibility: "نتمتّع بالذكاء والفطنة، فسجلنا حافل بأوقات التسليم السريعة. ويمكننا أن نخصص عملياتنا وجداولنا الزمنية لتلبية احتياجاتك، إذ نستعين بأداة خاصة لأتمتة تدفق العمل تحسّن عملياتنا وتقلل نفقاتنا."
+  }
+}
+ const translationInfoAR = [
+  "إجازة في الترجمة",
+  "ماجستير في الأدب الفرنسي",
+  "شهادة الدكتوراه الفخرية الصادرة عن جامعة وأكاديمية سمارت العالمية وجامعة سفانة الأكاديمية",
+  "شهادة الدكتوراه الفخرية الصادرة عن البورد الأميركي الكندي",
+  "شهادتي 'تدريب المدربين' و'المدرب الدولي'",
+  "مترجمة محلّفة ومعتمدة أمام المحاكم والدوائر الرسمية والسفارات والوزارات في لبنان لأكثر من 17 عامًا.",
+  "محاضرة ومترجمة في جامعة الشعب",
+  "الدورات التي تقدّمها الأكاديمية:",
+  "أدوات الترجمة بمساعدة الحاسوب (CAT tools) والتدريب والترجمة الاقتصادية وأسس الترجمة وترجمة الأفلام وmemoQ، إلخ...",
+  "معتمدة من 'مترجمون بلا حدود'",
+  "معتمدة من المنظمة العربية للمترجمين المحترفين",
+  "عضو في الاتحاد الدولي للغات والترجمة (رقم 648)",
+  "حاصلة على شهادة ISO 9001",
+  "معتمدة من قبل البورد الأميركي الكندي",
+];
+const renderBoldLabels = (text : any) => {
+  // Check if the text ends with a colon (":") and make it bold if true
+  return text.endsWith(":") ? <strong>{text}</strong> : text;
+};
 
 const reasons= [
     {
@@ -133,12 +166,62 @@ We recognize that translations can be a daunting or confusing industry. We are e
 
     <Box className='center ' sx={{width:{xs:'95%',sm:'60%'}}}>
                 <Title sx={{
+                  px: '0 !Important',
       direction:text(`ltr`,'rtl'),
                   
                   fontWeight:800,textAlign: text('left','right')}}>
-                {text('Top reasons to partner with us:', `:أهم الأسباب التي تشجّعك على التعاون معنا`)}
+                {text('Top reasons to partner with us:', `أهم الأسباب التي تشجّعك على التعاون معنا:`)}
 
                 </Title>
+
+                {/* {
+                    [  
+                    ].map(i=>{
+                      return  <Typography className=' clr' sx={{ 
+                        direction:text(`ltr`,'rtl'),
+                    
+                    color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: text('left','right') }}>
+                    
+                    {
+                      
+                      renderBoldLabels(content.english.expertise)
+                    }
+                  </Typography>
+                    })
+                } */}
+                <Box sx={{
+                  
+                  display:text(`block`,'none')}}>
+      <p>
+        <strong>Quality:</strong> mature processes, six-sigma efficiencies and quality checkpoints result in world-class excellence.
+      </p>
+      <p>
+        <strong>Expertise:</strong> a diverse group of linguists who are experts in their language set and subject matter. Many have been with us for over 10 years!
+      </p>
+      <p>
+        <strong>Pricing:</strong> competitive industry rates on all services. We utilize a proprietary pricing model which removes dependencies on CAT tools—meaning more savings for you!
+      </p>
+      <p>
+        <strong>Speed & Flexibility:</strong> we are nimble—we have a great track record of fast turnaround times. We can customize our processes and timelines to fit your needs.
+      </p>
+    </Box>
+    <Box sx={{
+      direction: 'rtl',
+      display:text(`none`,'block')}}>
+    <p>
+        <strong>الجودة:</strong> تؤدي العمليات الناضجة والكفاءة في منهجية السداسية ونقاط فحص الجودة إلى تحقيق التميّز العالمي.
+      </p>
+      <p>
+        <strong>الخبرة:</strong> مجموعة كبيرة من اللغويين الذين يتمتّعون بخبرة واسعة باللغة والمواضيع التي يترجمونها. فالكثير منهم يعمل معنا لأكثر من 10 سنوات.
+      </p>
+      <p>
+        <strong>السعر:</strong> أسعار خدماتنا تنافسية جدًا، إذ إنّنا نستعين بنموذج تسعير ملائم لا يعتمد على أدوات الترجمة بمساعدة الحاسوب (CAT tools)، ما يجعلك توفّر المزيد من المال!
+      </p>
+      <p>
+        <strong>السرعة والمرونة:</strong> نتمتّع بالذكاء والفطنة، فسجلنا حافل بأوقات التسليم السريعة. ويمكننا أن نخصص عملياتنا وجداولنا الزمنية لتلبية احتياجاتك، إذ نستعين بأداة خاصة لأتمتة تدفق العمل تحسّن عملياتنا وتقلل نفقاتنا.
+      </p>
+    </Box>
+                 
                 {/* <Typography className='auto pre' sx={{color:'black',px:1,maxWidth:'700px',mx:1,mt:1,textAlign:'center'}}>
                 {text(`Quality: mature processes, six-sigma efficiencies and quality checkpoints result in world-class excellence.
 •	Expertise: a diverse group of linguists who are experts in their language set and subject matter. Many have been with us for over 10 years!
@@ -154,7 +237,7 @@ We utilize a proprietary workflow automation tool which optimizes our processes 
 
                 </Typography> */}
 
-<Typography className=' clr' sx={{ 
+{/* <Typography className=' clr' sx={{ 
       direction:text(`ltr`,'rtl'),
   
   color: 'black', px: 1, maxWidth: '700px', mx: 1, mt: 1, textAlign: text('left','right') }}>
@@ -218,7 +301,9 @@ textAlign: text('left','right') }}>
   `, `
   نتمتّع بالذكاء والفطنة، فسجلنا حافل بأوقات التسليم السريعة. ويمكننا أن نخصص عملياتنا وجداولنا الزمنية لتلبية احتياجاتك، إذ نستعين بأداة خاصة لأتمتة تدفق العمل تحسّن عملياتنا وتقلل نفقاتنا 
   `)}
-</Typography>
+</Typography> */}
+    
+
     </Box>
     <Box sx={{ 
       display:text('flex','none'),
@@ -368,40 +453,8 @@ textAlign: text('left','right') }}>
           
         </Box>
         <Box sx={{maxWidth:'600px',px:1}}>
-          {/* <Typography className='pre clr' sx={{textAlign:text('left !important','end !important')}}>
-            {
-              text(` -	BA degree in Translation 
--	MA degree in French literature 
--	Higher Honorary Doctorate Certificate issued by the International University of Smart and Academic University of Safana 
--	Higher honorary doctorate issued by the American Canadian Board
--	“Training of Trainers” and “International Trainer” certificate.
--	Sworn translator, certified before courts, official departments, embassies and ministries in Lebanon for more than 17 years.
--	Lecturer and Translator at the University of People
--	My courses are not limited to:
-Cat tools, Internship, Economic translation, Professional Translation, Basics of Translation, Subtitling, Memoq ets..
--	Certified by Translators without Borders
--	Certified by the Arab Organization of Professional Translators
--	- Member of the International Union of Languages and Translation (No. 648)
--	ISO 9001 certified
--	Accredited by the American and Canadian Board
-
-              `,` درجة البكالوريوس في الترجمة
-               درجة الماجستير في الأدب الفرنسي
-               شهادة الدكتوراه الفخرية العليا صادرة عن الجامعة الدولية الذكية والأكاديمية بسافانا
-               الدكتوراه الفخرية العليا الصادرة عن البورد الأمريكي الكندي
-               شهادة "تدريب المدربين" و"المدرب الدولي".
-               مترجم محلف ومعتمد أمام المحاكم والدوائر الرسمية والسفارات والوزارات في لبنان منذ أكثر من 17 عاماً.
-               محاضر ومترجم في جامعة الشعب
-               دوراتي لا تقتصر على:
-              أدوات Cat، التدريب، الترجمة الاقتصادية، الترجمة الاحترافية، أساسيات الترجمة، الترجمة، Memoq وما إلى ذلك.
-               معتمد من مترجمين بلا حدود
-               معتمد من المنظمة العربية للمترجمين المحترفين
-                عضو الاتحاد الدولي للغات والترجمة (رقم 648)
-               حاصلة على شهادة الأيزو 9001
-               معتمدة من البورد الأمريكي والكندي`)
-            }
-          </Typography> */}
-        {
+       
+        {/* {
          [
           { en: "BA degree in Translation", ar: "إجازة في الترجمة"},
           { en: "MA degree in French literature", ar: "ماجستير في الأدب الفرنسي" },
@@ -418,7 +471,7 @@ Cat tools, Internship, Economic translation, Professional Translation, Basics of
           
           ar: " أدوات الترجمة بمساعدة الحاسوب (CAT tools) والتدريب والترجمة الاقتصادية وأسس الترجمة وترجمة الأفلام وmemoQ، إلخ..." },
           { en: "Certified by Translators without Borders",
-           ar: `معتمدة من "مترجمون بلا حدود" ` },
+           ar: `معتمدة من "مترجمون بلا حدود ` },
           { en: "Certified by the Arab Organization of Professional Translators",
            ar: "معتمدة من المنظمة العربية للمترجمين المحترفين  " },
           { en: "Member of the International Union of Languages and Translation (No. 648)",
@@ -451,7 +504,63 @@ Cat tools, Internship, Economic translation, Professional Translation, Basics of
 
 
           })
+        } */}
+  <Box sx={{
+                  
+                  display:text(`none`,'block')}}>
+
+        {
+          translationInfoAR.map(i=>{
+            return  <Typography key={i} className=' ' sx={{py:.5,direction:'rtl'}}>
+            <strong  >
+            •
+            {' '}
+            </strong>
+
+            <span>
+              {i}
+            </span>
+         
+</Typography>
+          })
         }
+                  </Box>
+
+                  <Box sx={{
+                  
+                  display:text(`block`,'none')}}>
+                    
+                
+{
+          [
+            "BA degree in Translation",
+            "MA degree in French literature",
+            "Higher Honorary Doctorate Certificate issued by the International University of Smart and Academic University of Safana",
+            "Higher honorary doctorate issued by the American Canadian Board",
+            "“Training of Trainers” and “International Trainer” certificate",
+            "Sworn translator, certified before courts, official departments, embassies and ministries in Lebanon for more than 17 years",
+            "Lecturer and Translator at the University of People",
+            "My courses are not limited to: Cat tools, Internship, Economic translation, Professional Translation, Basics of Translation, Subtitling, Memoq etc.",
+            "Certified by Translators without Borders",
+            "Certified by the Arab Organization of Professional Translators",
+            "Member of the International Union of Languages and Translation (No. 648)",
+            "ISO 9001 certified",
+            "Accredited by the American and Canadian Board",
+          ].map(i=>{
+            return  <Typography key={i} className=' ' sx={{py:.5,direction:'ltr'}}>
+            <strong  >
+            •
+            {' '}
+            </strong>
+
+            <span>
+              {i}
+            </span>
+         
+</Typography>
+          })
+        }
+          </Box>
         </Box>
 </Grid>
     </Grid>
