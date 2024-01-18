@@ -2,7 +2,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif !important;
+  font-family: "Noto Naskh Arabic", serif !important;
 }
 
 h1 {
@@ -10,7 +10,7 @@ h1 {
 }
 
 *, h2, h3, h4, h5, h6, p, button, input, select, textarea, a {
-  font-family: "Lato", sans-serif !important;
+  font-family: "Noto Naskh Arabic", serif !important;
 }
 
 .w100 {

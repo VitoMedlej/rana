@@ -66,7 +66,7 @@ const Home = () => {
   return (
     <>
     <Container  sx={{py:6}} className="center text-center auto flex" >
-    <Typography component='h1' sx={{
+    <Typography component='h2' sx={{
       direction:text(`ltr`,'rtl'),
       fontWeight:600,maxWidth:'700px'}}>
 
@@ -81,8 +81,8 @@ const Home = () => {
         <Typography component="h1" className='clr' sx={{
       direction:text(`ltr`,'rtl'),
           
-          fontWeight:600,maxWidth:'300px',fontSize:'2em'}}>
-       { text('Excellence in Translation and Training.', 'لكل طالب، في كل فصل دراسي. نتائج حقيقية.')}
+          fontWeight:600,fontSize:'2em'}}>
+       { text('Excellence in Translation and Training', 'التميّز العالمي في الترجمة والتدريب')}
         </Typography>
         <Typography  className='' sx={{py:2,
       direction:text(`ltr`,'rtl'),
@@ -93,7 +93,9 @@ const Home = () => {
   text('Unlock your potential and chart a course to linguistic excellence with the International Academy for Translation and Training.', 'تفوق في الترجمة والتدريب. حرّر إمكانياتك وارسم مسارًا نحو التفوق اللغوي مع الأكاديمية الدولية للترجمة والتدريب.')
 }
         </Typography>
-        <Box className="flex gap gap2">
+        <Box
+        sx={{justifyContent:text(`start`,'end')}}
+        className="flex gap gap2">
 
         <Btn
          onClick={()=>router.push(`/about-us`)}

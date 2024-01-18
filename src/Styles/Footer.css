@@ -29,7 +29,6 @@ footer .site-footer__links {
 footer .site-footer__links ul {
   list-style-type: none;
   margin: 0;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   min-width: 200px;
