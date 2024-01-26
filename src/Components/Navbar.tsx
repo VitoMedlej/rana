@@ -59,7 +59,6 @@ export default function Navbar() {
     className='center  flex w100  auto'
 
                 sx={{
-                    py:2,
                     // border : `1px solid #00000012`,
                 background:'white',
             boxShadow:'none',
@@ -67,10 +66,32 @@ export default function Navbar() {
                     justifyCotntent:'space-between !important',
                     maxWidth:'lg',
             position:'relative',
-
+                    py:0,
                 px:'0 !important',
                 flexWrap: 'wrap'
             }}> 
+                     <Link 
+                className='flex center  cursor pointer   aling-center '
+                 style={{zIndex:12354, justifyContent:'flex-start !important'}}  href='/' 
+                 color='inherit'>
+
+<Box
+className='cursor pointer'
+    sx={{
+    zIndex:134124,        
+    mx: {
+        sm: '1em'
+    },
+    width:{xs:'100px',sm: '120px',md:'140px'}
+    ,height:{xs:'100px',sm: '120px',md:'140px'}
+}}>
+    <img
+    style={{zIndex:134124}}
+        className='img contain'
+        src={`https://ucarecdn.com/cd42fd12-91e8-4fdb-ba51-d5a68865e578/logorana.png`}
+        alt="IATT logo"/>
+</Box>
+</Link>
             <Box sx={{
                     justifyCotntent:'space-between  !important',
 
@@ -87,7 +108,7 @@ export default function Navbar() {
                     component='p' sx={{width:'max-content',
                     
                     color:'#1865f2 !important',
-                    fontWeight:700,ml:1,fontSize:{xs:'.75em',sm:'.885em'}}}>
+                    fontWeight:700,ml:{xs:1,sm:0},fontSize:{xs:'.75em',sm:'.885em'}}}>
                    
                    {
                     text('العربية','English')
@@ -97,29 +118,7 @@ export default function Navbar() {
                
             {/* <SearchModal openModal={openModal} setOpenModal={setOpenModal} /> */}
                
-                <Link 
-                className='flex center absolute cursor pointer   aling-center '
-                 style={{zIndex:12354, justifyContent:'flex-start !important'}}  href='/' 
-                 color='inherit'>
-
-<Box
-// className='cursor pointer'
-    sx={{
-        opacity:0,
-    zIndex:134124,        
-    mx: {
-        sm: '1em'
-    },
-    width:{xs:'100px',sm: '100px'}
-    ,height:{xs:'100px',sm: '100px'}
-}}>
-    <img
-    style={{zIndex:134124}}
-        className='img contain'
-        src={`https://ucarecdn.com/cd42fd12-91e8-4fdb-ba51-d5a68865e578/logorana.png`}
-        alt="IATT logo"/>
-</Box>
-</Link>
+       
 <Box sx={{  flex:1,   justifyContent:'flex-end',
                                 display:{xs:'flex',md:'none'},}}>
 

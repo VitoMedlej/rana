@@ -442,7 +442,7 @@ textAlign: text('left','right') }}>
         <Box sx={{maxWidth:'600px',px:1,pt:{xs:2,sm:5}}}>
           <Typography component={'h1'} 
           sx={{textAlign:text('left !important','end !important'),fontWeight:800,fontSize:'2.65em'}}>
-            {text(`Founder of the Academy:`,`مؤسسة الأكاديمية`)}
+            {text(`Founder of the Academy:`,`مؤسس الأكاديمية`)}
           </Typography>
           <Typography component={'h1'} sx={{textAlign:text('left !important',
           

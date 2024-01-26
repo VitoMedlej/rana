@@ -75,7 +75,10 @@ const Home = () => {
     </Container>
     <Container sx={{my:5,mx:'auto',maxWidth:'lg'}} className='flex wrap space-evenly justify-evenly items-center'>
       <Box sx={{width:'450px'}}>
-        <img src="https://ucarecdn.com/cd42fd12-91e8-4fdb-ba51-d5a68865e578/logorana.png" alt="" className="img" />
+        {/* <img src="https://ucarecdn.com/cd42fd12-91e8-4fdb-ba51-d5a68865e578/logorana.png" alt="" className="img" /> */}
+        <img src="https://ucarecdn.com/cccc0c30-62ff-43c5-a594-e8781dff470e/WhatsAppImage20240126at111630.jpeg" alt="" className="img" />
+      
+        
       </Box>
       <Box>
         <Typography component="h1" className='clr' sx={{

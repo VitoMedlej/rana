@@ -216,7 +216,7 @@ const Page = () => {
                         color:'black'}}>
                  <strong>
 
-                 {text(`Duration:`,`المدة`)}
+                 {text(`Duration:`,`المدة:`)}
                  </strong>
 
                  {' '}
@@ -237,7 +237,7 @@ const Page = () => {
                   
                   pt:1,color:'black'}}>
                  <strong>
-                  {text(`Certificates:`,`الشهادات`)}
+                  {text(`Certificates:`,`الشهادات:`)}
                   </strong>
                  {' '}
                  <li >

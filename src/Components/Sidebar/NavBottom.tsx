@@ -32,30 +32,30 @@ const NavBottom = () => {
           
         }}>
 {/* <Link className=' decor-none ' href={`/collection/products`}>
-                    <Typography  component='p' sx={{width:'max-content',fontWeight:400,fontSize:{xs:'.7em',sm:'.85em'}}}>
+                    <Typography  component='h2' sx={{width:'max-content',fontWeight:400,fontSize:{xs:'.7em',sm:'.85em'}}}>
                     Sale
                     </Typography>
                 </Link> */}
                 <Link  style={{color:'#1865f2 !important'}}
                 
                 className=' decor-none #1865f2 !important '  href={`/`}>
-                    <Typography  component='p' sx={{width:'max-content',
+                    <Typography  component='h2' sx={{width:'max-content',
                     fontWeight:700,fontSize:{xs:'.75em',sm:'.95em'}}}>
                    Home
                     </Typography>
                 </Link>
-                <Link  style={{ margin:'0 .25em',color:'#1865f2 !important'}}
+                <Link  style={{ margin:'0 .15em',color:'#1865f2 !important'}}
                 
                 className=' decor-none #1865f2 !important '  href={`/services`}>
-                    <Typography  component='p' sx={{width:'max-content',
+                    <Typography  component='h2' sx={{width:'max-content',
                     fontWeight:700,fontSize:{xs:'.75em',sm:'.95em'}}}>
                    Services
                     </Typography>
                 </Link>
-                <Link  style={{ margin:'0 .25em',color:'#1865f2 !important'}}
+                <Link  style={{ margin:'0 .15em',color:'#1865f2 !important'}}
                 
                 className=' decor-none #1865f2 !important '  href={`/about-us`}>
-                    <Typography  component='p' sx={{width:'max-content',
+                    <Typography  component='h2' sx={{width:'max-content',
                     fontWeight:700,fontSize:{xs:'.75em',sm:'.95em'}}}>
                    About Us
                     </Typography>
@@ -63,7 +63,7 @@ const NavBottom = () => {
                 <Link  style={{color:'#1865f2 !important'}}
                 
                 className=' decor-none #1865f2 !important '  href={`/courses`}>
-                    <Typography  component='p' sx={{width:'max-content',
+                    <Typography  component='h2' sx={{width:'max-content',
                     fontWeight:700,fontSize:{xs:'.75em',sm:'.95em'}}}>
                   Courses
                     </Typography>
