@@ -19,7 +19,9 @@ export default function RootLayout({children} : {
     return (
         <html id='body' lang="en">
             <head>
-            <link rel="preconnect" href="https://fonts.googleapis.com"/>
+            <link href="https://fonts.cdnfonts.com/css/times-new-roman" rel="stylesheet"/>
+            <link href="https://db.onlinewebfonts.com/c/dd1e2ecd17620c6c80cdc79f20aa1bde?family=Simplified+Arabic" rel="stylesheet"/>
+            {/* <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -27,7 +29,7 @@ export default function RootLayout({children} : {
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,200;8..60,300;8..60,400;8..60,500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,200;8..60,300;8..60,400;8..60,500&display=swap" rel="stylesheet"/> */}
             </head>
 
             <body className='relative'>

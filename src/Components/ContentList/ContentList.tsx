@@ -85,7 +85,7 @@ export default function BasicList({method,summaryContent,  trainer,secondaryTitl
     }
         </List> */}
 
-<Typography className='' sx={{
+{/* <Typography className='' sx={{
                       direction:text('ltr','rtl'),
 
   
@@ -95,7 +95,16 @@ export default function BasicList({method,summaryContent,  trainer,secondaryTitl
                }</>
     
             
-              </Typography>
+              </Typography> */}
+              <Typography className='' sx={{
+  direction:text('ltr','rtl'),
+  whiteSpace:'pre-line',px:2,py:3,fontWeight:'400'}} >
+  <> {
+    text(summaryContent.en,summaryContent?.ar).split('\n').map((line, index) => 
+      line.includes('Program of the course:') ? <u key={index}>{`${line}`?.toUpperCase()}</u> : line
+    )
+  }</>
+</Typography>
       </Paper>
     {/* <Box sx={{my:8}}>
 
