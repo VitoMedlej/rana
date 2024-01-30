@@ -16,7 +16,7 @@ const About = () => {
        <Grid item xs={12} sm={6} md={7}>
          <Box sx={{height:'400px'}} className="w100 ">
 
-           <img src="https://www.isasa.org/wp-content/uploads/2021/07/matific-image-585x585.jpg" alt="" className="img contain" />
+           <img src="https://ucarecdn.com/fd4aae48-154d-412c-9cc2-fa068e52261d/WhatsAppImage20240130at110632.jpeg" alt="" className="img contain" />
          </Box>
        </Grid>
        <Grid  item xs={12} sm={6} md={5}>
@@ -84,7 +84,7 @@ text('Start Now', 'ابدأ الآن')
                 <Grid item xs={12} sm={6} md={5}>
                   <Box sx={{height:'400px'}} className="w100 ">
 
-                    <img src="https://cdn.kastatic.org/images/lohp/laptop_collage@2x.png" alt="" className="img contain" />
+                    <img src="https://ucarecdn.com/b9be31dd-bdb9-4856-88af-7deecc8b0f45/WhatsAppImage20240130at111434.jpeg" alt="" className="img contain" />
                   </Box>
                 </Grid>
             </Grid>
@@ -96,7 +96,7 @@ text('Start Now', 'ابدأ الآن')
                 <Grid item xs={12} sm={6} md={7}>
                   <Box sx={{height:'400px'}} className="w100 ">
 
-                    <img src="https://cdn.kastatic.org/images/lohp/faces_collage_2@2x.png" alt="" className="img contain" />
+                    <img src="https://ucarecdn.com/12e12243-003a-466f-9134-ef455ff8689a/WhatsAppImage20240130at111746.jpeg" alt="" className="img contain" />
                   </Box>
                 </Grid>
                 <Grid  item xs={12} sm={6} md={5}>

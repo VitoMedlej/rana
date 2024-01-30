@@ -7,7 +7,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton'
 import { Paper, Typography } from '@mui/material';
 import useLanguage from '@/Hooks/UseLanguage';
-
+import ReactMarkdown from 'react-markdown';
 
 
 
@@ -19,7 +19,7 @@ export default function BasicList({method,summaryContent,  trainer,secondaryTitl
   summaryContent :{en:string,ar?:string},
   secondaryTitle: {en:string,ar?:string}}) {
   const {text} = useLanguage()
-
+  
   return (
     <Box sx={{ mt:4,mx:1,  maxWidth: '900px', bgcolor: 'background.paper' }}>
    <Typography  sx={{mx:1
@@ -96,15 +96,28 @@ export default function BasicList({method,summaryContent,  trainer,secondaryTitl
     
             
               </Typography> */}
-              <Typography className='' sx={{
+       <Typography className='' sx={{
   direction:text('ltr','rtl'),
   whiteSpace:'pre-line',px:2,py:3,fontWeight:'400'}} >
   <> {
     text(summaryContent.en,summaryContent?.ar).split('\n').map((line, index) => 
-      line.includes('Program of the course:') ? <u key={index}>{`${line}`?.toUpperCase()}</u> : line
+      line.includes('My line here') ? <span key={index} style={{ textDecoration: 'underline' }}>{line}</span> : <span key={index}>{line}</span>
     )
   }</>
 </Typography>
+              {/* <Typography className='' sx={{
+  direction:text('ltr','rtl'),
+  whiteSpace:'pre-line',px:2,py:3,fontWeight:'400'}} >
+  <ReactMarkdown>
+    {
+      text(summaryContent.en,summaryContent?.ar).split('\n').map((line, index) => 
+      line.includes('Program of the course:')   ? `<u>${line}</u>` : line
+      ).join('\n')
+    }
+  </ReactMarkdown>
+</Typography> */}
+
+
       </Paper>
     {/* <Box sx={{my:8}}>
 

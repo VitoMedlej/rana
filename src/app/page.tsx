@@ -70,7 +70,7 @@ const Home = () => {
       direction:text(`ltr`,'rtl'),
       fontWeight:600,maxWidth:'700px'}}>
 
-      {text(`The International Academy for Translation & Training, its abbreviation is IATT, established in Lebanon in the year 2023, a licensed company in translation and training (financial number 3859264) located in Sarafand, Akbieh, Noureddine Center, 1st floor.`,`الأكاديمية الدولية للترجمة والتدريب، اختصارها IATT، تأسست في لبنان في عام 2023، شركة مرخصة في مجال الترجمة والتدريب (الرقم المالي 3859264) ، مقرها الرئيسي في منطقة الصرفند، العاقبية، مركز نور الدين، الطابق الأول.`)}
+      {text(`The International Academy for Translation & Training, its abbreviation is IATT, established in Lebanon in the year 2023, a licensed company in translation and training (financial number 3859264) located in Sarafand, Akbieh, Noureddine Center, 1st floor.`,`الأكاديمية الدولية للترجمة والتدريب، اختصارها IATT، تأسست في لبنان في العام 2023، شركة مرخصة في مجال الترجمة والتدريب (الرقم المالي 3859264) ، مقرها الرئيسي في منطقة الصرفند، العاقبية، مركز نور الدين، الطابق الأول.`)}
     </Typography>
     </Container>
     <Container sx={{my:5,mx:'auto',maxWidth:'lg'}} className='flex wrap space-evenly justify-evenly items-center'>
