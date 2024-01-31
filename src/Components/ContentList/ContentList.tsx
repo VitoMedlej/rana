@@ -8,6 +8,7 @@ import ListItemButton from '@mui/material/ListItemButton'
 import { Paper, Typography } from '@mui/material';
 import useLanguage from '@/Hooks/UseLanguage';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 
 
 
@@ -85,6 +86,7 @@ export default function BasicList({method,summaryContent,  trainer,secondaryTitl
     }
         </List> */}
 
+{/* <Test/> */}
 {/* <Typography className='' sx={{
                       direction:text('ltr','rtl'),
 
@@ -96,15 +98,29 @@ export default function BasicList({method,summaryContent,  trainer,secondaryTitl
     
             
               </Typography> */}
-       <Typography className='' sx={{
-  direction:text('ltr','rtl'),
-  whiteSpace:'pre-line',px:2,py:3,fontWeight:'400'}} >
-  <> {
-    text(summaryContent.en,summaryContent?.ar).split('\n').map((line, index) => 
-      line.includes('My line here') ? <span key={index} style={{ textDecoration: 'underline' }}>{line}</span> : <span key={index}>{line}</span>
-    )
-  }</>
-</Typography>
+
+<Box className='' sx={{
+                      direction:text('ltr','rtl'),
+
+  
+  whiteSpace:'pre-line !important',px:2,py:3,fontWeight:'400'}} >
+             <> 
+      <ReactMarkdown className="markdown "  rehypePlugins={[rehypeRaw]}>{`${text(summaryContent.en,summaryContent?.ar)}`}</ReactMarkdown>
+      <style jsx>{`
+      .markdown {
+        white-space: pre-line;
+      }
+      .markdown u {
+        text-decoration: underline;
+      }
+    `}
+              
+                </style>
+               </>
+    
+            
+              </Box>
+     
               {/* <Typography className='' sx={{
   direction:text('ltr','rtl'),
   whiteSpace:'pre-line',px:2,py:3,fontWeight:'400'}} >

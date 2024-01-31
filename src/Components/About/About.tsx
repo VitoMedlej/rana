@@ -84,7 +84,7 @@ text('Start Now', 'ابدأ الآن')
                 <Grid item xs={12} sm={6} md={5}>
                   <Box sx={{height:'400px'}} className="w100 ">
 
-                    <img src="https://ucarecdn.com/b9be31dd-bdb9-4856-88af-7deecc8b0f45/WhatsAppImage20240130at111434.jpeg" alt="" className="img contain" />
+                    <img src="https://ucarecdn.com/1e74b1f5-70bf-44b0-9831-2e538e38c497/WhatsAppImage20240131at114912.jpeg" alt="" className="img contain" />
                   </Box>
                 </Grid>
             </Grid>
