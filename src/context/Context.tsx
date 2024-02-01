@@ -1,6 +1,7 @@
 "use client"
 import { createContext, useContext, useEffect, useState } from "react";
 import { loadState, saveState } from "@/Utilts/LocalstorageFn";
+import { ThemeProvider, createTheme } from "@mui/material";
 
 
 export const DrawerContext = createContext < any > ({});
@@ -34,8 +35,17 @@ export const LangContext = createContext < any > ('en');
     useEffect(() => {
         saveState('Savedlanguage', lang);
     }, [lang]);
+    const theme = createTheme({
+        typography: {
+          allVariants: {
+            fontFamily: lang === 'en' ? "'Times New Roman', sans-serif" : "'Simplified Arabic'",
+          },
+        },
+      });
+    
             return (
-                
+                <ThemeProvider theme={theme}>
+
                 <DrawerContext.Provider value={{open,setOpen}}>
         <Categories.Provider value={{cates, setCates}}>
             
@@ -51,6 +61,8 @@ export const LangContext = createContext < any > ('en');
         </CartContext.Provider>
         </Categories.Provider>
     </DrawerContext.Provider>
+    </ThemeProvider>
+
             )
         }
 

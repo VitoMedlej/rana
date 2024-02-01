@@ -26,7 +26,7 @@ const About = () => {
         maxWidth:'600px',fontWeight:500,fontSize:'3em'}}>
           
        {
-text('Online Learning: Anytime, Anywhere.', 'كل طفل يستحق فرصة التعلم.')
+text('Online Learning: Anytime, Anywhere.', 'التعلم عبر الإنترنت: في أي زمان، وفي أي مكان.')
 }
 
        </Typography>
@@ -35,7 +35,8 @@ text('Online Learning: Anytime, Anywhere.', 'كل طفل يستحق فرصة ا�
         
         maxWidth:'620px',color:'#4d4d4d'}}>
        {
-text('Whether you prefer in-person classes or the flexibility of online learning, we have got you covered. Access our courses seamlessly through Zoom, connecting with a global community of learners.', 'نمكن المعلمين من دعم فصولهم الدراسية بأكملها. وجد 90٪ من المعلمين في الولايات المتحدة الذين استخدموا Khan Academy أننا فعالون.')
+text(`Whether you prefer in-person classes or the flexibility of online learning, we have got you covered. Access our courses seamlessly through Zoom, connecting with a global community of learners.`
+,`سواء كنت تفضل الصفوف حضوريًا أو مرونة التعلم عبر الإنترنت، فإننا نقدم لك كل الدعم. يمكنك الوصول إلى دوراتنا بسلاسلة من خلال تطبيق زووم، والتواصل مع مجتمع عالمي من المتعلمين.`)
 }              
        </Typography>
 
@@ -67,7 +68,8 @@ text('Start Now', 'ابدأ الآن')
                   
                   maxWidth:'620px',color:'#4d4d4d'}}>
                 {
-  text('Participate in our courses, engage in hands-on practice, and witness your skills soar. ', 'بناء فهم عميق وراسخ في مجالات الرياضيات والعلوم وأكثر.')
+  text(`Participate in our courses, engage in hands-on practice, and witness your skills soar.`,
+  `شارك في دوراتنا، وشارك في التدريب العملي، ولاحظ تطور مهاراتك بشكل ملحوظ.`)
 }
               
                 </Typography>
@@ -107,7 +109,7 @@ text('Start Now', 'ابدأ الآن')
                   maxWidth:'600px',fontWeight:500,fontSize:'3em'}}>
                    
                 {
-  text('Our Journey: When and Why We Started.', 'قم بتمييز صفك الدراسي وشارك كل طالب.')
+  text('Our Journey: When and Why We Started.', 'رحلتنا: متى ولماذا ')
 }
 
                 </Typography>
@@ -116,7 +118,8 @@ text('Start Now', 'ابدأ الآن')
                 
                 color:'#4d4d4d'}}>
                 {
-  text('Established in 2023, the International Academy for Translation and Training has proudly served as a beacon of knowledge for 17 years. Our journey began with a commitment to providing unparalleled education in translation and training, driven by passion and dedication.  .', 'نمكن المعلمين من دعم فصولهم الدراسية بأكملها. وجد 90٪ من المعلمين في الولايات المتحدة الذين استخدموا Khan Academy أننا فعالون.')
+  text(`Established in 2023, the International Academy for Translation and Training has proudly served as a beacon of knowledge for 17 years. Our journey began with a commitment to providing unparalleled education in translation and training, driven by passion and dedication.`
+  ,`تأسست الأكاديمية الدولية للترجمة والتدريب عام 2023، وكانت بمثابة منارة للمعرفة لمدة 17 عامًا. بدأت رحلتنا بالتزام بتقديم تعليم لا مثيل له في مجال الترجمة والتدريب، مدفوعة بالشغف والتفاني.`)
 }              
                 </Typography>
       
