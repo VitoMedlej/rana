@@ -59,7 +59,7 @@ text('Start Now', 'ابدأ الآن')
                   maxWidth:'600px',fontWeight:500,fontSize:'3em'}}>
                    
                 {
-  text('Elevate Your Skills with International Accreditation', 'يمكنك تعلم أي شيء.')
+  text('Elevate Your Skills with International Accreditation', 'طور مهاراتك مع الاعتماد الدولي')
 }
 
                 </Typography>

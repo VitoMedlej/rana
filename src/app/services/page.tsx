@@ -148,15 +148,21 @@ const Page = () => {
     <>
     <Container maxWidth='lg' className='auto'>
       <Box className='auto' sx={{py:4,width:{xs:'99%',sm:'450px'}}}>
-        <img src="https://cdn.kastatic.org/images/careers/careers-hero.png" alt="" className="img" />
+        <img src={text("https://ucarecdn.com/c773e905-3f5b-4f9e-8dd3-9730d4de98b0/WhatsAppImage20240202at125659.jpeg",'https://ucarecdn.com/d1832239-aeda-4779-b02a-cec1bba38e4c/WhatsAppImage20240202at125742.jpeg')} alt="" className="img" />
       </Box>
       <Box>
       <Box>
         <Typography component="h1" className='clr auto center text-center' 
-        sx={{fontWeight:400,maxWidth:'500px',fontSize:'2.5em'}}>
+        sx={{fontWeight:400,maxWidth:'500px',
+      direction:text(`ltr`,'rtl'),
+        
+        fontSize:'2.5em'}}>
        { text('Professional translation services are available in all major languages.', 'تتوفر خدمات الترجمة الاحترافية بجميع اللغات الرئيسية.')}
         </Typography>
-        <Typography  className=' auto center text-center' sx={{py:2,color:'#4b4e55',maxWidth:'600px'}}>
+        <Typography  className=' auto center text-center' sx={{
+      direction:text(`ltr`,'rtl'),
+          
+          py:2,color:'#4b4e55',maxWidth:'600px'}}>
 
         {
   text('we work on marketing, media, video, and E-commerce translation.', 'نحن نعمل على ترجمة التسويق والإعلام والفيديو والتجارة الإلكترونية')
@@ -188,7 +194,10 @@ const Page = () => {
     </Container>
     <Box sx={{mt:8,background:'#f5f5f5',px:{xs:2},py:6}}>
       <Typography component="h1" className='clr auto center text-center' 
-        sx={{fontWeight:400,maxWidth:'500px',fontSize:'2em'}}>
+        sx={{
+      direction:text(`ltr`,'rtl'),
+          
+          fontWeight:400,maxWidth:'500px',fontSize:'2em'}}>
        { text('Our Services.', 'لكل طالب، في كل فصل دراسي. نتائج حقيقية.')}
         </Typography>
       <Box
@@ -201,6 +210,8 @@ const Page = () => {
             {
                 reasons.map(i=>{
                     return <Box key={i.title} className='flex  col' sx={{
+      direction:text(`ltr`,'rtl'),
+
                       boxShadow: `rgba(100, 100, 111, 0.2) 0px 7px 29px 0px`,
                       mx:.7,
                       height:'320px',
@@ -208,7 +219,8 @@ const Page = () => {
                       py:{xs:3,sm:4},
                       px:{xs:2,sm:2},
                     
-                      minWidth:{xs:'95%',md:'350px'},width:{xs:'95%',sm:'32%',md:'22%'},mt:6,flex:1}}>
+                      minWidth:{xs:'95%',md:'350px'},
+                      width:{xs:'95%',sm:'32%',md:'22%'},mt:6,flex:1}}>
                             {/* <Box sx={{width:'90px'}}>
                                 <img src={i.icon} alt="" className="img" />
                             </Box> */}
@@ -224,7 +236,10 @@ const Page = () => {
             }
             </Box>
             <Box className='auto center flex text-center' sx={{py:8}}>
-              <Typography sx={{fontSize:'1.2em',maxWidth:'700px',py:8}}>
+              <Typography sx={{
+      direction:text(`ltr`,'rtl'),
+                
+                fontSize:'1.2em',maxWidth:'700px',py:8}}>
               Our quotations, no matter how complex,
                are free of charge, and we aim to respond to
                 you promptly with a word count, price, and schedule for completion to your 
@@ -235,24 +250,28 @@ const Page = () => {
               <Divider></Divider>
             <Box className='auto col center flex' sx={{maxWidth:'800px',gap:2,py:4}}>
            
-            <Typography >
+            <Typography sx={{
+      direction:text(`ltr`,'rtl'),
+
+
+            }} >
             <b>
 
               {text('Languages covered', 'اللغات المشمولة')}
             </b>
               </Typography>
-      <Typography>{text('IATT language specialists and strong global presence mean your project is developed at any time, for any industry, in any languages.', 'تعني اختصاصيو اللغات في IATT والوجود العالمي القوي أن مشروعك يمكن تطويره في أي وقت، لأي صناعة، بأي لغة.')}</Typography>
-      <Typography>{text('Every major language', 'كل لغة رئيسية')}</Typography>
-      <Typography>{text('For your writing, editing, and translation projects in the following languages:', 'لمشاريع الكتابة والتحرير والترجمة الخاصة بك في اللغات التالية:')}</Typography>
-      <Typography><b>{text('European languages', 'اللغات الأوروبية')}</b></Typography>
-      <Typography>{text('Bulgarian, Catalan, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungarian, Irish, Italian, Icelandic, Latvian, Lithuanian, Maltese, Norwegian, Polish, Portuguese, Romanian, Russian, Slovak, Slovene, Spanish, Swedish', 'البلغارية، الكتالونية، التشيكية، الدنماركية، الهولندية، الإنجليزية، الإستونية، الفنلندية، الفرنسية، الألمانية، اليونانية، الهنغارية، الأيرلندية، الإيطالية، الأيسلندية، اللاتفية، الليتوانية، المالطية، النرويجية، البولندية، البرتغالية، الرومانية، الروسية، السلوفاكية، السلوفينية، الإسبانية، السويدية')}</Typography>
-      <Typography><b>{text('Asian languages', 'اللغات الآسيوية')}</b></Typography>
-      <Typography>{text('Bahasa Melayu, Bahasa Indonesia, Bengali, Burmese, Chinese, Hindi, Japanese, Khmer, Korean, Lao, Punjabi, Urdu, Tagalog, Tamil, Thai, Vietnamese', 'باهاسا ملايو، باهاسا إندونيسيا، البنغالية، البورمية، الصينية، الهندية، اليابانية، الخميرية، الكورية، اللاوسية، البنجابية، الأردية، التاغالوغية، التاميلية، التايلاندية، الفيتنامية')}</Typography>
-      <Typography><b>{text('Middle Eastern languages', 'اللغات الشرقية الأوسط')}</b></Typography>
-      <Typography>{text('Arabic, Turkish', 'العربية، التركية')}</Typography>
-      <Typography>{text('.... and many more', '.... وغيرها الكثير')}</Typography>
-      <Typography>{text('IATT has experience in all major business sectors and languages – we’ll make sure your message is heard.', 'IATT لديها خبرة في جميع القطاعات الرئيسية للأعمال واللغات - سنتأكد من سماع رسالتك.')}</Typography>
-      <Typography>{text('Please contact us with your specific language requirements and combinations.', 'الرجاء الاتصال بنا للحصول على متطلبات وتركيبات لغتك المحددة.')}</Typography>
+     <Typography sx={{      direction:text(`ltr`,'rtl')}}>{text('IATT language specialists and strong global presence mean your project is developed at any time, for any industry, in any languages.', 'تعني اختصاصيو اللغات في IATT والوجود العالمي القوي أن مشروعك يمكن تطويره في أي وقت، لأي صناعة، بأي لغة.')}</Typography>
+     <Typography sx={{      direction:text(`ltr`,'rtl')}}>{text('Every major language', 'كل لغة رئيسية')}</Typography>
+     <Typography sx={{      direction:text(`ltr`,'rtl')}}>{text('For your writing, editing, and translation projects in the following languages:', 'لمشاريع الكتابة والتحرير والترجمة الخاصة بك في اللغات التالية:')}</Typography>
+     <Typography sx={{      direction:text(`ltr`,'rtl')}}><b>{text('European languages', 'اللغات الأوروبية')}</b></Typography>
+     <Typography sx={{      direction:text(`ltr`,'rtl')}}>{text('Bulgarian, Catalan, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungarian, Irish, Italian, Icelandic, Latvian, Lithuanian, Maltese, Norwegian, Polish, Portuguese, Romanian, Russian, Slovak, Slovene, Spanish, Swedish', 'البلغارية، الكتالونية، التشيكية، الدنماركية، الهولندية، الإنجليزية، الإستونية، الفنلندية، الفرنسية، الألمانية، اليونانية، الهنغارية، الأيرلندية، الإيطالية، الأيسلندية، اللاتفية، الليتوانية، المالطية، النرويجية، البولندية، البرتغالية، الرومانية، الروسية، السلوفاكية، السلوفينية، الإسبانية، السويدية')}</Typography>
+     <Typography sx={{      direction:text(`ltr`,'rtl')}}><b>{text('Asian languages', 'اللغات الآسيوية')}</b></Typography>
+     <Typography sx={{      direction:text(`ltr`,'rtl')}}>{text('Bahasa Melayu, Bahasa Indonesia, Bengali, Burmese, Chinese, Hindi, Japanese, Khmer, Korean, Lao, Punjabi, Urdu, Tagalog, Tamil, Thai, Vietnamese', 'باهاسا ملايو، باهاسا إندونيسيا، البنغالية، البورمية، الصينية، الهندية، اليابانية، الخميرية، الكورية، اللاوسية، البنجابية، الأردية، التاغالوغية، التاميلية، التايلاندية، الفيتنامية')}</Typography>
+     <Typography sx={{      direction:text(`ltr`,'rtl')}}><b>{text('Middle Eastern languages', 'اللغات الشرقية الأوسط')}</b></Typography>
+     <Typography sx={{      direction:text(`ltr`,'rtl')}}>{text('Arabic, Turkish', 'العربية، التركية')}</Typography>
+     <Typography sx={{      direction:text(`ltr`,'rtl')}}>{text('.... and many more', '.... وغيرها الكثير')}</Typography>
+     <Typography sx={{      direction:text(`ltr`,'rtl')}}>{text('IATT has experience in all major business sectors and languages – we’ll make sure your message is heard.', 'IATT لديها خبرة في جميع القطاعات الرئيسية للأعمال واللغات - سنتأكد من سماع رسالتك.')}</Typography>
+     <Typography sx={{      direction:text(`ltr`,'rtl')}}>{text('Please contact us with your specific language requirements and combinations.', 'الرجاء الاتصال بنا للحصول على متطلبات وتركيبات لغتك المحددة.')}</Typography>
             </Box>
       </Box>
     </>

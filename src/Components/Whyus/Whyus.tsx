@@ -17,7 +17,7 @@ const Whyus = () => {
     const {text} = useLanguage()
     const reasons= [
         {
-            title: text('Unmatched Expertise', 'أسعار معقولة'),
+            title: text('Unmatched Expertise', 'خبرة واسعة'),
             desc:  text(`17 years of excellence. Specialized programs. Practical learning. 
             Choose us for unparalleled expertise in translation and training.
             `,
@@ -27,7 +27,7 @@ const Whyus = () => {
             icon: 'https://cdn.kastatic.org/images/lohp/personalized_learning_icon.png',
         },
             {
-            title:  text('Personalized Guidance', 'محتوى موثوق به'),
+            title:  text('Personalized Guidance', 'إرشادات شخصية'),
             desc:
                 text(`Led by Dr. Rana CHEHAB, our elite team provides personalized education. Join us for hands-on courses tailored to your success.`
                 
@@ -39,7 +39,7 @@ const Whyus = () => {
     
         },    {
             title:
-                text('Your Success, Our Focus', 'مدرسون معتمدون')
+                text('Your Success, Our Focus', 'نجاحك، من أولوياتنا')
               ,
             desc: text('Your success matters. Explore specialized courses, learn from industry experts, and earn international accreditation. Enroll now for a successful journey.', 'نجاحك يهمنا. استكشف الدورات المتخصصة، وتعلم من خبراء العمل، واحصل على الاعتماد الدولي. سجل الآن لبدء رحلة ناجحة.'),
             icon: 'https://cdn.kastatic.org/images/lohp/empower_teachers_icon.png',

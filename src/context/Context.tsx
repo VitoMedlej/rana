@@ -41,6 +41,7 @@ export const LangContext = createContext < any > ('en');
             fontFamily: lang === 'en' ? "'Times New Roman', sans-serif" : "'Simplified Arabic'",
           },
         },
+        
       });
     
             return (
