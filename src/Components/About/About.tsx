@@ -26,7 +26,7 @@ const About = () => {
         maxWidth:'600px',fontWeight:500,fontSize:'3em'}}>
           
        {
-text('Online Learning: Anytime, Anywhere.', 'التعلم عبر الإنترنت: في أي زمان، وفي أي مكان.')
+text('Online Learning: Anytime, Anywhere', 'التعلم عبر الإنترنت: في أي زمان، وفي أي مكان')
 }
 
        </Typography>
