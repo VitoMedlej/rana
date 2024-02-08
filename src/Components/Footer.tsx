@@ -15,6 +15,7 @@ const Footer = () =>
   const router= useRouter()
   return (
   <Box component='footer' className="site-footer  relative " sx={{backgroundRepeat:'no-repeat',
+  direction:text(`ltr`,'rtl'),
  backgroundPosition: {xs:'center !important',md:'center !important'},
     background:'#0b2149 !important',
   backgroundSize:{xs:'cover !important',md:'cover !important'}
@@ -63,7 +64,7 @@ const Footer = () =>
           <ul className='white ul-white'>
             <li className='white link-title'>
               <Typography sx={{fontSize:'1.45em',fontWeight:600}} component='h1'>
-              Site links
+              {text(`Site links`,`روابط الموقع`)}
               </Typography>
               </li>
             <li><Link  href="/">Home</Link></li>
@@ -81,7 +82,7 @@ const Footer = () =>
               <Typography 
               onClick={()=>router.push('#contact')}
               sx={{fontSize:'1.45em',fontWeight:600}} component='h1'>
-              Contact
+              {text('Contact','التواصل')}
               </Typography>
               </li>
             {/* <li><Link href="#"> Lebanon</Link></li> */}
