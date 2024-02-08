@@ -333,6 +333,7 @@ const Page = () => {
             <Box className='auto center flex text-center' sx={{py:8}}>
               <Typography sx={{
       direction:text(`ltr`,'rtl'),
+      whiteSpace:'pre-line',
                 
                 fontSize:'1.2em',maxWidth:'700px',py:8}}>
             {text(`Our quotations, no matter how complex, are free of charge, and we aim to respond to you promptly with a word count, price, and schedule for completion to your specified deadline. For all enquiries or for a quote, please email Chehab.translation@gmail.com or call 
@@ -342,7 +343,7 @@ const Page = () => {
 لمعرفة المزيد، يرجى إرسال بريد إلكتروني على البريد الوارد أدناه
 Chehab.translation@gmail.com
 أو الاتصال على هذا الرقم
-+ 961 79192959
++961 79192959
 `
 )}
               </Typography>
