@@ -97,7 +97,7 @@ className='cursor pointer'
 
             }} className="flex items-center align-center">
 
-            <SearchInput/>
+            {/* <SearchInput/> */}
                 
                 
                 
