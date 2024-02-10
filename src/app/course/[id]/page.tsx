@@ -83,14 +83,14 @@ const Page = () => {
   const fetcher =async () => {
     try {
       // const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-all`)
-      // const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-by-id?id=${id}`);
-      // const res = await req.json(); 
+      const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-by-id?id=${id}`,{next:{revalidate:0}});
+      const res = await req.json(); 
       console.log('res: ', res);
-      if (res && res?.data?.products) {
-        let item = res?.data?.products.find((item:any) => item?._id === id);
+      if (res && res?.product) {
+        // let item = res?.product.find((item:any) => item?._id === id);
 
 
-        setCourse(item)
+        setCourse(res?.product)
       }
     }
     catch(e){
@@ -220,7 +220,7 @@ const Page = () => {
                  </strong>
 
                  {' '}
-               {text(`${course?.duration}`,course?.durationAR || course?.durationAr)}  
+               {text(`${course?.duration}`,`${course?.durationAr}`)}  
            
                
                </Typography>

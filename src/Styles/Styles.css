@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-a, pre {
+a, pre, p, code {
   font-family: "Times New Roman", sans-serif !important;
 }
 

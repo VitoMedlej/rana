@@ -5,7 +5,7 @@ import Title from '@/Components/Title'
 import { Box, Divider, Grid, Typography } from '@mui/material'
 import { useParams, useRouter } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
-import courses from '../../../courses.json'
+// import courses from '../../../courses.json'
 
 
 
@@ -192,27 +192,48 @@ const Page = () => {
  const {id} : any= useParams()
   const router = useRouter() 
   const [course,setCourse] = useState<any>(null)
- 
-
-  const selector = () => {
+  const fetcher =async () => {
     try {
-      if (!courses || !courses?.data?.products || !id) return
-    const crs = courses?.data?.products?.find((i:any)=>`${i?.id}` == `${id}`)
-      if (crs) {
-        setCourse(crs)
-      }
+
+      const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-by-id?id=${id}`,{next:{revalidate:0}});
+      const res = await req.json(); 
+      console.log('res: ', res);
+      // if (res && res?.data?.products) {
+        // const newArray = categorizeCourses(res?.data?.products)
+        setCourse(res)
+      // }
     }
-    catch(e) {
+    catch(e){
       console.log('e: ', e);
-      
+
     }
   }
   useEffect(() => {
-    if (courses && id){
+    
+  
+    fetcher()
 
-      selector()
-    }
   }, [])
+
+  // const selector = () => {
+  //   try {
+  //     if (!course || !course?.data?.products || !id) return
+  //   const crs = course?.data?.products?.find((i:any)=>`${i?.id}` == `${id}`)
+  //     if (crs) {
+  //       setCourse(crs)
+  //     }
+  //   }
+  //   catch(e) {
+  //     console.log('e: ', e);
+      
+  //   }
+  // }
+  // useEffect(() => {
+  //   if (courses && id){
+
+  //     selector()
+  //   }
+  // }, [])
   
 
   return (
