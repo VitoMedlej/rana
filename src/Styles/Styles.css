@@ -4,6 +4,10 @@ body {
   padding: 0;
 }
 
+a, pre {
+  font-family: "Times New Roman", sans-serif !important;
+}
+
 .w100 {
   width: 100%;
 }

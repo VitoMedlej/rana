@@ -1,7 +1,7 @@
 "use client"
 import { createContext, useContext, useEffect, useState } from "react";
 import { loadState, saveState } from "@/Utilts/LocalstorageFn";
-import { ThemeProvider, createTheme } from "@mui/material";
+import { CssBaseline, GlobalStyles, ThemeProvider, createTheme } from "@mui/material";
 
 
 export const DrawerContext = createContext < any > ({});
@@ -41,12 +41,19 @@ export const LangContext = createContext < any > ('en');
             fontFamily: lang === 'en' ? "'Times New Roman', sans-serif" : "'Simplified Arabic'",
           },
         },
+      
         
       });
     
             return (
                 <ThemeProvider theme={theme}>
-
+  <CssBaseline />
+  <GlobalStyles styles={{
+        'body, button, a , pre, code': {
+          fontFamily: theme.typography.fontFamily,
+        },
+      }}/>
+      
                 <DrawerContext.Provider value={{open,setOpen}}>
         <Categories.Provider value={{cates, setCates}}>
             

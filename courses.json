@@ -31,13 +31,16 @@
           },
           {
             "category": "Language Courses",
-            "title": "Arabic Courses"
+            "title": "Arabic Course"
 
           },
           {
             "category": "Translation",
             "title": "Legal Translation"
-
+          },
+          {
+            "category": "Professional Development",
+            "title": "Training of Trainers"
           },
           {
               "_id": "659af11ee545e9ed42e478fd",

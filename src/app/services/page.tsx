@@ -165,6 +165,7 @@ const Page = () => {
       ),
       desc: text(
        `• Internship
+       • Computer Courses
        • Diploma in preparing a sworn translator
        • Basics of Translation
        • Cat Tools
@@ -175,7 +176,8 @@ const Page = () => {
        • Legal Translation
        • Professional Translation
        `,
-       `•	التدريب العملي
+       `•  دورات الكمبيوتر
+       •	التدريب العملي
        •	دبلوم إعداد مترجم محلف
        •	أسس الترجمة
        •	الكات تولز
@@ -185,6 +187,7 @@ const Page = () => {
        •	كتابة المحتوى
        •	الترجمة القانونية
        •	الترجمة الاحترافية
+       •  دورات أخرى مثل TOT
        `
     )},
     {
@@ -343,7 +346,7 @@ const Page = () => {
 لمعرفة المزيد، يرجى إرسال بريد إلكتروني على البريد الوارد أدناه
 Chehab.translation@gmail.com
 أو الاتصال على هذا الرقم
-+961 79192959
+79192959 961+ 
 `
 )}
               </Typography>
