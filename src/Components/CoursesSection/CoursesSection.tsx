@@ -5,7 +5,7 @@ import Title from '../Title'
 import { Box, Container, Typography } from '@mui/material'
 import Btn from '../Btn/Btn'
 import { useRouter } from 'next/navigation'
-import courses from '../../../courses.json'
+// import courses from '../../../courses.json'
 import Link from 'next/link'
 import useLanguage from '@/Hooks/UseLanguage'
 

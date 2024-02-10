@@ -11,7 +11,7 @@ import Btn from '@/Components/Btn/Btn'
 import Contact from '@/Components/Contact/Contact'
 import useLanguage from '@/Hooks/UseLanguage'
 import { useRouter } from 'next/navigation'
-import res from '../../courses.json'
+// import res from '../../courses.json'
 // import Contact from '@/Components/Contact/Contact'
 function categorizeCourses(courseArray : any) : any {
   const categorizedArrays : any = {};
@@ -45,8 +45,8 @@ const Home = () => {
   const fetcher =async () => {
     try {
 
-      // const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-all`)
-      // const res = await req.json(); 
+      const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-all`,{next:{revalidate:0}})
+      const res = await req.json(); 
       if (res && res?.data?.products) {
         const newArray = categorizeCourses(res?.data?.products)
         setData(newArray)
