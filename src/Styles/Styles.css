@@ -4,8 +4,12 @@ body {
   padding: 0;
 }
 
-a, pre, p, code {
+.en {
   font-family: "Times New Roman", sans-serif !important;
+}
+
+.ar {
+  font-family: "Simplified Arabic" !important;
 }
 
 .w100 {

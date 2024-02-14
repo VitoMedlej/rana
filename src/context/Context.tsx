@@ -34,13 +34,23 @@ export const LangContext = createContext < any > ('en');
     // Save language to localStorage whenever it changes
     useEffect(() => {
         saveState('Savedlanguage', lang);
-    }, [lang]);
+        const elements = document.querySelectorAll('h1, h2, h3, h4, h5, h6, p , a , code , pre, button');
+        elements.forEach((element) => {
+          element.classList.remove('en', 'ar'); // remove both classes first
+          element.classList.add(lang); // then add the selected language class
+        });
+      }, [lang]);
+
+
+  
+
+
     const theme = createTheme({
-        typography: {
-          allVariants: {
-            fontFamily: lang === 'en' ? "'Times New Roman', sans-serif" : "'Simplified Arabic'",
-          },
-        },
+        // typography: {
+        //   allVariants: {
+        //     fontFamily: lang === 'en' ? "'Times New Roman', sans-serif" : "'Simplified Arabic'",
+        //   },
+        // },
       
         
       });
@@ -49,9 +59,9 @@ export const LangContext = createContext < any > ('en');
                 <ThemeProvider theme={theme}>
   <CssBaseline />
   <GlobalStyles styles={{
-        'body, button, a , pre, code': {
-          fontFamily: theme.typography.fontFamily,
-        },
+        // 'body, button, a , pre, code': {
+        //   fontFamily: theme.typography.fontFamily,
+        // },
       }}/>
       
                 <DrawerContext.Provider value={{open,setOpen}}>
