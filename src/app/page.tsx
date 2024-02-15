@@ -67,8 +67,9 @@ const Home = () => {
     <>
     <Container  sx={{py:6}} className="center text-center auto flex" >
     <Typography component='h2' sx={{
+      fontSize:'1.4em',
       direction:text(`ltr`,'rtl'),
-      fontWeight:600,maxWidth:'700px'}}>
+      fontWeight:600,maxWidth:'750px'}}>
 
       {text(`The International Academy for Translation & Training, its abbreviation is IATT, established in Lebanon in the year 2023, a licensed company in translation and training (financial number 3859264) located in Sarafand, Akbieh, Noureddine Center, 1st floor.`,`الأكاديمية الدولية للترجمة والتدريب، اختصارها IATT، تأسست في لبنان في العام 2023، شركة مرخصة في مجال الترجمة والتدريب (الرقم المالي 3859264) ، مقرها الرئيسي في منطقة الصرفند، العاقبية، مركز نور الدين، الطابق الأول.`)}
     </Typography>
@@ -117,7 +118,7 @@ const Home = () => {
         </Box>
       </Box>
     </Container>
-    <CoursesSection data={data} limit={0} />
+    {/* <CoursesSection data={data} limit={0} /> */}
     <Whyus/>
     <About/>
     {/* <MainCarousel res={null}/> */}
