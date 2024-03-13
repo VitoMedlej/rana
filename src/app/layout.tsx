@@ -3,6 +3,7 @@ import '../Styles/Styles.css'
 import Sidebar from '@/Components/Sidebar/Sidebar'
 import Footer from '@/Components/Footer'
 import Navbar from '@/Components/Navbar'
+import ScrollToTop from '@/Components/ScrollToTop/ScrollToTop'
 // import ScrollToTop from '@/Components/ScrollToTop/ScrollToTop'
 
 export const metadata = {
@@ -37,7 +38,7 @@ export default function RootLayout({children} : {
                 <ContextWrapper>
                     <Navbar/>
                     <Sidebar cates={undefined}/>
-                    {/* <ScrollToTop/> */}
+                    <ScrollToTop/>
 
                      {children}
                 <Footer/>

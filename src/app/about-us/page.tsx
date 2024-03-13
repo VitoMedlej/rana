@@ -432,6 +432,79 @@ textAlign: text('left','right') }}>
                 </Btn>
             </Box>
         </Grid> */}
+
+        <Grid className=' items-center justify-evenly space-evenly' 
+        sx={{
+  
+          
+          
+          py:8,background:'#0000000a'}} container>
+            <Grid sx={{
+                  direction:text(`ltr`,'rtl'),
+              mx:1}} item xs={12} sm={6}>
+              <Box>
+                <Typography sx={{pb:.1,fontSize:'2em',fontWeight:600}}>
+                 {text(`Our Vision`,`الرؤية`)}
+                </Typography>
+                <Typography sx={{fontSize:'.87em'}}>
+                  {
+                    text(`
+                The International Academy for Translation and Training IATT would envision a future where language barriers are broken and communication flourishes across cultures. By offering comprehensive training programs and fostering collaboration between professionals, such an academy would aim to equip translators with the skills and knowledge to navigate the ever-evolving translation landscape. This would ensure high-quality translations that bridge cultural nuances and serve as effective tools for international cooperation.
+                    
+                    `,
+                    
+                    `تسعى الأكاديمية الدولية للترجمة والتدريب (IATT) إلى استشراف مستقبل تُكسر فيه الحواجز اللغوية ويزدهر فيه التواصل بين الثقافات. ومن خلال تقديم برامج تدريبية شاملة وتعزيز التعاون بين المهنيين، فإن مثل هذه الأكاديمية تهدف إلى تزويد المترجمين بالمهارات والمعارف اللازمة للتنقل في مجال الترجمة الذي يتطور باستمرار. وهذا من شأنه ضمان جودة الترجمات التي تردم الفجوات الثقافية وتعمل كأدوات فعالة للتعاون الدولي.`
+                    )
+                  }
+                </Typography>
+              </Box>
+            </Grid>
+            <Grid sx={{mx:1}} item xs={12} sm={5}>
+              <Box sx={{width:'100%',height:'100%'}}>
+              <img style={{borderRadius:'7px'}} src="https://img.freepik.com/free-photo/business-strategy-success-target-goals_1421-33.jpg?t=st=1710333039~exp=1710336639~hmac=515bac9f9170ef2f557b7da7d434a76cee609b4b08e821ff587dd0dcac381d28&w=740" alt="" className="img" />
+              </Box>
+            </Grid>
+        </Grid>
+
+
+
+        <Grid className=' items-center justify-evenly space-evenly'
+         sx={{
+          mb:4,py:8,background:'#0000000a'}} container>
+          
+            <Grid sx={{mx:1}} item xs={12} sm={5}>
+              <Box sx={{width:'100%',height:'100%'}}>
+              <img style={{borderRadius:'7px'}} src="https://st3.depositphotos.com/14431644/34729/i/450/depositphotos_347298024-stock-photo-conceptual-hand-writing-showing-our.jpg" alt="" className="img" />
+              </Box>
+            </Grid>
+
+            <Grid sx={{mx:1,  direction:text(`ltr`,'rtl'),}} item xs={12} sm={6}>
+              <Box>
+                <Typography sx={{pb:.1,fontSize:'2em',fontWeight:600}}>
+                {text(`Our Mission`,`الرسالة`)}
+
+                </Typography>
+                <Typography component='h1' sx={{fontSize:'.87em'}}>
+
+                {
+                    text(`
+                    The International Academy for Translation and Training strives to be a global hub for fostering excellence in translation and promoting intercultural understanding.  Through innovative training programs, resource development, and professional exchange, their mission is to empower a new generation of translators and equip them with the skills to bridge linguistic and cultural divides.  The Academy is dedicated to setting the highest standards in the field and ensuring effective communication in an increasingly interconnected world.
+                    
+                    `,
+                    
+                    `
+                    تسعى الأكاديمية الدولية للترجمة والتدريب (IATT) إلى أن تكون مركزًا عالميًا لتعزيز التميز في الترجمة وتعزيز التفاهم بين الثقافات.
+من خلال برامج التدريب المبتكرة وتطوير الموارد والتبادل المهني، تتمثل مهمتها في تمكين جيل جديد من المترجمين وتزويدهم بالمهارات اللازمة لسد الفجوة اللغوية والثقافية.
+تلتزم الأكاديمية بوضع أعلى المعايير في هذا المجال وضمان فعالية الاتصال في عالم مترابط بشكل متزايد.
+                    `
+                    )
+                  }
+                </Typography>
+              </Box>
+            </Grid>
+        </Grid>
+
+
     <Grid sx={{pt:2}} container>
 <Grid item xs={12} sm={6}>
   <Box className='auto flex' sx={{pt:{xs:0,sm:5},maxWidth:'400px'}}>
