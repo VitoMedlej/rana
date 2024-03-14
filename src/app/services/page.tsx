@@ -389,7 +389,8 @@ Every major language
 
 For your writing, editing, and translation projects in the following languages:
 `,
-` والحضور العالمي الفعال يعني أن مشروعك سيتم ترجمته في أي وقت، في أيIATTإن متخصصي اللغات 
+`
+والحضور العالمي الفعال يعني أن مشروعك سيتم ترجمته في أي وقت، في أيIATTإن متخصصي اللغات 
 مجال عمل ولأي لغة تختارها.
 `
 
