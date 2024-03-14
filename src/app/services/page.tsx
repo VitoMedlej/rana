@@ -384,7 +384,7 @@ Chehab.translation@gmail.com
 
      <Typography sx={{   
       textAlign:text('start',`end`),
-      direction:text(`rtl`,'ltr')}}>
+      direction:text(`ltr`,'ltr')}}>
       
       {text(
 `IATT language specialists and strong global presence mean your project is developed at any time, for any industry, in any languages.
