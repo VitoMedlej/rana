@@ -317,7 +317,7 @@ useEffect(() => {
 
                       boxShadow: `rgba(100, 100, 111, 0.2) 0px 7px 29px 0px`,
                       mx:.7,
-                      height:{xs:'320px',sm:'350px',md:'440px'},
+                      height:{xs:'100%',sm:'350px',md:'440px'},
                       borderRadius:'5px',
                       py:{xs:3,sm:4},
                       px:{xs:2,sm:2},
@@ -347,7 +347,8 @@ useEffect(() => {
       whiteSpace:'pre-line',
                 
                 fontSize:'1.2em',maxWidth:'700px',py:8}}>
-            {text(`Our quotations, no matter how complex, are free of charge, and we aim to respond to you promptly with a word count, price, and schedule for completion to your specified deadline. For all enquiries or for a quote, please email Chehab.translation@gmail.com or call 
+            {text(`
+            Our quotations, no matter how complex, are free of charge, and we aim to respond to you promptly with a word count, price, and schedule for completion to your specified deadline. For all enquiries or for a quote, please email Chehab.translation@gmail.com or call 
 + 961 79192959
 `,
 `نقدم عرض الأسعار بغض النظر عن صعوبة الملف وتعقيده بشكل مجاني ونسعى للرد بشكل سريع بعدد الكلمات والسعر والجدول الزمني للانتهاء ضمن المهلة المحددة.
