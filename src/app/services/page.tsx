@@ -317,7 +317,7 @@ useEffect(() => {
 
                       boxShadow: `rgba(100, 100, 111, 0.2) 0px 7px 29px 0px`,
                       mx:.7,
-                      height:{xs:'100%',sm:'350px',md:'440px'},
+                      height:{xs:'100%',sm:'100%',md:'450px'},
                       borderRadius:'5px',
                       py:{xs:3,sm:4},
                       px:{xs:2,sm:2},
