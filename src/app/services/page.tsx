@@ -382,7 +382,9 @@ Chehab.translation@gmail.com
             </b>
               </Typography>
 
-     <Typography sx={{      direction:text(`ltr`,'rtl')}}>
+     <Typography sx={{   
+      textAlign:text('start',`end`),
+      direction:text(`rtl`,'ltr')}}>
       
       {text(
 `IATT language specialists and strong global presence mean your project is developed at any time, for any industry, in any languages.
@@ -391,8 +393,9 @@ Every major language
 For your writing, editing, and translation projects in the following languages:
 `,
 `
-والحضور العالمي الفعال يعني أن مشروعك سيتم ترجمته في أي وقت، في أيIATTإن متخصصي اللغات 
+والحضور العالمي الفعال يعني أن مشروعك سيتم ترجمته في أي وقت، في أي IATT إن متخصصي اللغات 
 مجال عمل ولأي لغة تختارها.
+
 `
 
       )}</Typography>
